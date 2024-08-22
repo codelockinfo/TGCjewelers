@@ -3902,6 +3902,32 @@
               "lb_cl": ""
             }
           },
+          "simple_aP4waE": {
+            "type": "simple",
+            "settings": {
+              "title": "Gold chains",
+              "url": "\/",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "simple_HE4ncp": {
+            "type": "simple",
+            "settings": {
+              "title": "ENGAGEMENT",
+              "url": "\/",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
           "header_2-1": {
             "type": "logo",
             "settings": {
@@ -3910,7 +3936,7 @@
           "header_2-2": {
             "type": "simple",
             "settings": {
-              "title": "Heading 2",
+              "title": "WATCHES",
               "url": "#",
               "open_link": "_self",
               "icon": "",
@@ -3925,6 +3951,8 @@
           "header_2-0",
           "simple_QgEiKQ",
           "simple_FxLhEf",
+          "simple_aP4waE",
+          "simple_HE4ncp",
           "header_2-1",
           "header_2-2"
         ],
