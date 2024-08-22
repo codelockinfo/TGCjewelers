@@ -431,6 +431,7 @@
         "blocks": {
           "1595994733101": {
             "type": "social",
+            "disabled": true,
             "settings": {
               "social": "2",
               "border_bl": true,
@@ -446,11 +447,12 @@
               "effect": "1",
               "au_time": 2.5,
               "hide": false,
-              "col": "4"
+              "col": "12"
             }
           },
           "header_top-2": {
             "type": "cur",
+            "disabled": true,
             "settings": {
               "hide": true,
               "col": "4"
