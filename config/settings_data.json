@@ -93,7 +93,7 @@
     "clnav_hover": "#ffffff",
     "bgnavst": "#000000",
     "opnavst": 100,
-    "clnavst": "#222222",
+    "clnavst": "#ffffff",
     "bgnavtr": "#000000",
     "opnavtr": 40,
     "clnavtr": "#ffffff",
@@ -3904,7 +3904,7 @@
           "height": 62,
           "arrow": false,
           "source": "1",
-          "txt": "Welcome to our store!",
+          "txt": "",
           "social": "2",
           "align": "tc",
           "hover": "hover_side_up"
