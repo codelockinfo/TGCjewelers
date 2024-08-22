@@ -15,6 +15,8 @@
   <link rel="preconnect" href="https://monorail-edge.shopifysvc.com">
   <link rel="preload" as="style" href="{{ 'pre_theme.min.css' | asset_url }}">
   <link rel="preload" as="style" href="{%- render 'enable_minify' with 'css' ,nameFile:'theme.css' -%}">
+  {{ 'tgcstyle.css' | asset_url | stylesheet_tag: preload: true }}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   {%- capture seo_title -%}
     {%- if template == 'search' and search.performed == true -%}{{ 'general.search.heading' | t: count: search.results_count }}: {{ 'general.search.results_with_count' | t: terms: search.terms, count: search.results_count }}{%- elsif template == 'search.wish' %}{{ 'general.meta.wishlist' | t }}{%- elsif template == 'search.compe' %}{{ 'general.meta.compare' | t }}{%- else -%}{{ page_title }}{%- endif -%}
     {%- if current_tags -%}{%- assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags -}}{%- endif -%}

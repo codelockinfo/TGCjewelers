@@ -40,7 +40,7 @@
 	      {%- elsif ck_external -%}
 	         <a href="{{ link }}" class="pr_atc pa l__0 r__0 b__0 op__0 pe_none tc dib external {{tooltip}} truncate" rel="nofollow"><span class="tt_txt">{{title}}</span><i class="iccl iccl-link2"></i><span>{{ title }}</span></a>
 	      {%- elsif stt_qs -%}
-	         <a href="{{ url_last }}" data-id="{{product.id}}" class="pr_atc pa l__0 r__0 b__0 op__0 pe_none tc dib js__qs {{tooltip}} truncate" rel="nofollow"><span class="tt_txt">{{ 'products.grid_items.quick_shop' | t }}</span><i class="iccl iccl-cart"></i><span>{{ 'products.grid_items.quick_shop' | t }}</span></a>
+	         <a href="{{ url_last }}" data-id="{{product.id}}" class="pr_atc pa l__0 r__0 b__0 op__0 pe_none tc dib js__qs {{tooltip}} truncate" rel="nofollow"><span class="tt_txt">{{ 'products.grid_items.quick_shop' | t }}</span><i class="fa-solid fa-cart-shopping"></i><span>{{ 'products.grid_items.quick_shop' | t }}</span></a>
 	      {%- else -%}
 	         <a href="{{ url_last }}" class="pr_atc pa l__0 r__0 b__0 op__0 pe_none tc dib {{tooltip}} truncate" rel="nofollow"><span class="tt_txt">{{'products.grid_items.select_option'|t}}</span><i class="iccl iccl-moreh"></i><span>{{ 'products.grid_items.select_option' | t }}</span></a>
 	      {%- endif -%}
@@ -62,10 +62,10 @@
 	                  <button type="button" class="plus db cb pa pd__0 pr__15 tr r__0"><i class="facl facl-plus"></i></button><button type="button" class="minus db cb pa pd__0 pl__15 tl l__0"><i class="facl facl-minus"></i></button>
 	               </div>
 	            </div>
-	            <a href="{{ url_last }}" class="pr_atc_ tc dib js_addtc {{tooltip}} truncate" data-id="{{ variant.id }}" rel="nofollow"><span class="tt_txt">{{txt}}</span><i class="iccl iccl-cart"></i><span>{{txt}}</span></a>
+	            <a href="{{ url_last }}" class="pr_atc_ tc dib js_addtc {{tooltip}} truncate" data-id="{{ variant.id }}" rel="nofollow"><span class="tt_txt">{{txt}}</span><i class="fa-solid fa-cart-shopping"></i><span>{{txt}}</span></a>
 	         </div>
 	         {%- else -%}
-	            <a href="{{ url_last }}" class="pr_atc pa l__0 r__0 b__0 op__0 pe_none tc dib js_addtc {{tooltip}} truncate" data-id="{{ variant.id }}" rel="nofollow"><span class="tt_txt">{{txt}}</span><i class="iccl iccl-cart"></i><span>{{txt}}</span></a>
+	            <a href="{{ url_last }}" class="pr_atc pa l__0 r__0 b__0 op__0 pe_none tc dib js_addtc {{tooltip}} truncate" data-id="{{ variant.id }}" rel="nofollow"><span class="tt_txt">{{txt}}</span><i class="fa-solid fa-cart-shopping"></i><span>{{txt}}</span></a>
 	         {%- endif -%}
 	      {%- endif -%}
 	   {%- endif -%} 
