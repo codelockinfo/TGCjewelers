@@ -3866,7 +3866,7 @@
           "header_2-0": {
             "type": "simple",
             "settings": {
-              "title": "Home",
+              "title": "HOME",
               "url": "shopify:\/\/collections\/frontpage",
               "open_link": "_self",
               "icon": "",
