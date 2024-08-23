@@ -1691,6 +1691,7 @@
           "1585640518653",
           "1585640524232"
         ],
+        "disabled": true,
         "settings": {
           "se_height": "cus_h",
           "use_custom_h": "1",
@@ -3993,9 +3994,15 @@
           "align": "tr",
           "hover": "hover_side_up"
         }
+      },
+      "custom_banner_phtfjm": {
+        "type": "custom_banner",
+        "settings": {
+        }
       }
     },
     "content_for_index": [
+      "custom_banner_phtfjm",
       "1581505806578",
       "1581505821233",
       "1581505838591",
