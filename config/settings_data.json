@@ -762,7 +762,7 @@
               "svg": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa",
               "height": 30,
               "order": "1",
-              "cl": "3",
+              "cl": "4",
               "cl_tb": "6",
               "cl_mb": "12"
             }
@@ -771,17 +771,6 @@
             "type": "menu",
             "settings": {
               "title": "INFORMATION",
-              "menu": "",
-              "order": "1",
-              "cl": "2",
-              "cl_tb": "6",
-              "cl_mb": "12"
-            }
-          },
-          "1581507824602": {
-            "type": "menu",
-            "settings": {
-              "title": "CATEGORIES",
               "menu": "",
               "order": "1",
               "cl": "2",
@@ -805,7 +794,6 @@
           "1581507819652",
           "1581507835369",
           "1581507828337",
-          "1581507824602",
           "1581507840818"
         ],
         "settings": {
