@@ -3066,7 +3066,7 @@
           "1596624928746-0": {
             "type": "1",
             "settings": {
-              "title": "@ FOLLOW US ON INSTAGRAM",
+              "title": "Instagram feed",
               "sub_title": "",
               "sub_font": "2",
               "style_title": "title_1",
@@ -3162,7 +3162,6 @@
           "1596625121506",
           "1596625107692"
         ],
-        "disabled": true,
         "settings": {
           "open_link": "_self",
           "layout_des": "2",
