@@ -3142,7 +3142,7 @@
           "image_position": "8",
           "layout": "nt_full",
           "cl_bg": "#ffffff",
-          "mg": "80px,,,",
+          "mg": "80px,0,100px,0",
           "pd": "",
           "mg_mb": "60px,,,",
           "pd_mb": ""
