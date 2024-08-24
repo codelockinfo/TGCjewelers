@@ -741,45 +741,13 @@
           "1581507819652": {
             "type": "logo",
             "settings": {
-              "logo_width": 200,
+              "image": "shopify:\/\/shop_images\/1919ab976139553064ce06b053a0c286.png",
+              "logo_width": 80,
               "title": "GET IN TOUCH",
-              "content": "<p><i class=\"pegk pe-7s-map-marker\"> <\/i><span>184 Main Rd E, St Albans <br> <span class=\"pl__30\">VIC 3021, Australia<\/span><\/span><\/p><p><i class=\"pegk pe-7s-mail\"><\/i><span> <a href=\"mailto:contact@company.com\">contact@company.com<\/a><\/span><\/p><p><i class=\"pegk pe-7s-call\"><\/i> <span>+001 2233 456 <\/span><\/p>",
+              "content": "<p>Lorem ipsum dolor sit amet, conse elit, sedid do eiusmod tempor incidi ut labore et dolore magna aliqua. Quis ipsum usendi laboris mollit\n<\/p><p>Office: 12 Fake Street,New York<\/p><p><span> <a href=\"mailto:support.goaltheme.com\">Mail: support.goaltheme.com<\/a><\/span><\/p><p><a href=\"tel:(123)456789\">Mail: Phone: (123)456789<\/a><\/p>",
               "social_mode": "3",
               "order": "1",
               "cl": "3",
-              "cl_tb": "6",
-              "cl_mb": "12"
-            }
-          },
-          "1581507824602": {
-            "type": "menu",
-            "settings": {
-              "title": "CATEGORIES",
-              "menu": "",
-              "order": "1",
-              "cl": "2",
-              "cl_tb": "6",
-              "cl_mb": "12"
-            }
-          },
-          "1581507828337": {
-            "type": "menu",
-            "settings": {
-              "title": "INFORMATION",
-              "menu": "",
-              "order": "1",
-              "cl": "2",
-              "cl_tb": "6",
-              "cl_mb": "12"
-            }
-          },
-          "1581507840818": {
-            "type": "menu",
-            "settings": {
-              "title": "USEFUL LINKS",
-              "menu": "",
-              "order": "1",
-              "cl": "2",
               "cl_tb": "6",
               "cl_mb": "12"
             }
@@ -795,7 +763,29 @@
               "svg": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa",
               "height": 30,
               "order": "1",
-              "cl": "3",
+              "cl": "4",
+              "cl_tb": "6",
+              "cl_mb": "12"
+            }
+          },
+          "1581507828337": {
+            "type": "menu",
+            "settings": {
+              "title": "INFORMATION",
+              "menu": "",
+              "order": "1",
+              "cl": "15",
+              "cl_tb": "6",
+              "cl_mb": "12"
+            }
+          },
+          "1581507840818": {
+            "type": "menu",
+            "settings": {
+              "title": "USEFUL LINKS",
+              "menu": "",
+              "order": "1",
+              "cl": "15",
               "cl_tb": "6",
               "cl_mb": "12"
             }
@@ -803,10 +793,9 @@
         },
         "block_order": [
           "1581507819652",
-          "1581507824602",
+          "1581507835369",
           "1581507828337",
-          "1581507840818",
-          "1581507835369"
+          "1581507840818"
         ],
         "settings": {
           "sticky": false,
