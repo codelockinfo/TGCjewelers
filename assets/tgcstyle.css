@@ -4,6 +4,23 @@
     margin: 0 auto;
 }
 
+.custom_title_design {
+    position: relative;
+}
+
+.collection_logos {
+    width: 84px;
+    margin-top: 35px;
+    position: absolute;
+    top: 50%;
+}
+
+.instafeed_custom {
+    margin: 0 10px;
+}
+
+
+
 /* HEADER CSS  */
 
 .login_button {
@@ -71,7 +88,8 @@
     position: relative;
     /* z-index: ; */
 }
-.banner_box_main .men_img{
+
+.banner_box_main .men_img {
     position: absolute;
     z-index: 1;
     top: 0;
@@ -80,28 +98,31 @@
     object-fit: cover;
 }
 
-.banner-box  .heading-h1{
+.banner-box .heading-h1 {
     font-family: Sorts Mill Goudy;
     font-size: 96px;
     font-weight: 400;
     line-height: 110px;
-    color: #FFFFFF; 
+    color: #FFFFFF;
 }
-.banner-box  .banner-p{
+
+.banner-box .banner-p {
     font-family: Lato;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
-    color: #FFFFFF;  
+    color: #FFFFFF;
     margin: 20px 0;
     margin-bottom: 40px;
 }
-.banner-box  .banner-button{
+
+.banner-box .banner-button {
     background: #FFFFFF;
     padding: 10px 20px;
     border: 0;
 }
-.banner-box  .banner-button .button-a{
+
+.banner-box .banner-button .button-a {
     font-family: IBM Plex Sans;
     font-size: 18px;
     font-weight: 600;
@@ -110,80 +131,452 @@
     text-align: center;
     color: #000000;
 }
- .button-arrow {
+
+.button-arrow {
     width: 50px;
     height: 80px;
-    background-color:transparent;
+    background-color: transparent;
     border-radius: 100px;
     text-align: center;
     line-height: 80px;
     margin-top: 30px;
     border: 1px solid #D0A570;
-  }
- .button-arrow .arrow{
-   color:#D0A570 ;
-  }
+}
 
-   .custom_banner_carousel .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
-     display: none;
-   }
-   .custom_banner_carousel .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
-     display: none;
-   }
-   .custom_banner_carousel .swiper-button-next{
-    rotate: 90deg;
+.button-arrow .arrow {
+    color: #D0A570;
+}
+
+.custom_banner_carousel .swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+    display: none;
+}
+
+.custom_banner_carousel .swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+    display: none;
+}
+
+.custom_banner_carousel .swiper-button-next {
     font-size: 26px;
     color: #ffffff;
-   }
-   .custom_banner_carousel .swiper-button-prev{
-    rotate: -90deg;
+}
+
+.custom_banner_carousel .swiper-button-prev {
     font-size: 26px;
     color: #ffffff;
-   }
+}
 
-  /* MEDIA QUERY  */
 
-  @media (max-width:1440px) {
+/* INSTA FEED SECTION  */
+
+.type_instagram_feed .section-title {
+    font-family: Sorts Mill Goudy !important;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 110px;
+    text-align: center;
+    color: #000000;
+}
+
+
+.type_instagram_feed .flickity-viewport {
+    overflow: visible !important;
+}
+
+.insta_mini_img_box {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 3px solid #FFFFFF;
+    position: absolute;
+    bottom: -5vw;
+    left: 4.4vw;
+}
+
+
+/* ABOUT US SECTION  */
+.cabout_section {
+    padding: 100px 0;
+}
+
+/* about upbox css  */
+.about_up_mainbox {
+    /* padding-top: 80px; */
+    position: absolute;
+    margin: 0 auto;
+}
+
+.about_up_box {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: -51%;
+}
+
+.about_us_video {
+    width: 60%;
+    /* padding: 15px; */
+}
+
+.about_us_info1 {
+    width: 20%;
+    padding: 15px;
+
+}
+.about_us_info2 {
+    width: 20%;
+    padding: 15px;
+
+}
+
+.about_info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_video {
+    width: 100%;
+}
+
+.about_video_box {
+    border: 6px solid #ffffff;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.about_info_box {
+    margin-top: 50px;
+}
+
+/* .collection_slider_main .image_section{
+    max-width: 100%;
+    padding: 0px 100px;
+    background-color: #F6F4F2;
+  }
+
+  .collection_slider_main  .collection_slider_heading{
+    font-family: "Sorts Mill Goudy", serif !important;
+    font-size: 45px;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+  }
+
+  .collection_slider_main  .collection_image{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 132.48px;
+    align-items: center;
+    justify-content: center;
+  } 
+
+  .collection_slider_main  .collection_logo{
+    width: 84px;
+    margin-top: 20px;
+  }
+
+  .collection_slider_main  .product_name{
+    padding: 20px 0px 30px;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;    
+    font-family: "Lato", sans-serif !important;
+  }
+
+  .collection_slider_main  .heading_icons{
+    margin-bottom: 8px;
+    text-align: center;
+  }
+    
+  .collection_slider_main  .swiper-container {
+    width: 100%;
+    height: 100%;
+    padding: 80px 0px 100px;
+  }
+    
+  .collection_slider_main  .swiper-slide a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+  }
+
+  .collection_slider_main  .collection_img{
+    width: 100%;
+    border-radius: 50% 50% 0% 0%;
+    height: 50%;
+  }
+
+  .collection_slider_main  .button-next, .button-prev{
+    width: 32px;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin: 4px;
+    padding: 5px;
+  }
+
+  .collection_slider_main  .next-prev-icons{
+    display: flex;
+    width: 95%;
+    margin-top: -34px;
+    justify-content: end;
+    margin-bottom: 40px;
+  }
+
+  .collection_slider_main  .btn-next, .collection_slider_main  .btn-prev{
+    width: 32px;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin: 4px;
+    padding: 5px;
+  }
+
+  .collection_slider_main  .next-prev-btn{
+    display: flex;
+    justify-content: center;
+  }
+
+  @media (max-width:1440px){    
+    .collection_slider_main   .image_section{
+      padding: 0px 20px;
+    }
+
+    .collection_slider_main   .swiper-container{
+      padding: 30px 0px;
+    }
+
+    .collection_slider_main .product_name{
+      font-size: 22px;
+    }
+  }
+
+  @media (max-width: 1024px){
+    .collection_slider_main  .product_name{
+      font-size: 20px;
+    }
+    
+  }
+
+  @media (min-width:769px){
+    .next-prev-btn{
+      display: none;
+    }
+  }
+
+  @media (max-width:768px){
+    .collection_logo{
+      width: 15%;
+      margin-bottom: 20px;
+    }
+    
+    .next-prev-icons{
+      display: none;
+    }
+  }
+
+  @media (max-width:425px){
+    .collection_logo{
+      width: 20%;
+    }
+
+    .product_name{
+      width: 100%;
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width:320px){
+    .collection_slider_heading{
+      font-size: 38px;
+    }
+  } */
+
+
+/* about down box css */
+.about_down_box {
+    background-image: url('https://cdn.shopify.com/s/files/1/0697/1621/3987/files/Group_1000004466.png?v=1724485005');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 16%;
+    /* background-color: #C48F40; */
+}
+
+.about_content_box {
+    display: flex;
+    /* padding: 100px 0; */
+    flex-wrap: wrap;
+     padding-top: 12%;
+     padding-bottom: 3%;
+}
+
+.about_content {
+    width: 80%;
+    padding: 15px;
+}
+
+.about_button_box {
+    width: 20%;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 96px;
+}
+
+.about_content .about_heading {
+    font-family: Sorts Mill Goudy;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 110px;
+    text-align: left;
+    color: #fff;
+}
+
+.about_content .about_p {
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.about_button_box .about_button {
+    padding: 10px 20px;
+    background: white;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23.46px;
+    letter-spacing: 0.09em;
+    text-align: center;
+}
+
+/* MEDIA QUERY  */
+
+@media (max-width:1440px) {
     .banner-box .banner-content {
         padding-left: 40px;
     }
+
     .banner-box .banner-content {
         width: 60%;
     }
-  }
-  @media (max-width:1250px) {
+}
+
+@media (max-width:1250px) {
     .banner-box .banner-content {
         width: 70%;
     }
-  }
-  @media (max-width:1024px) {
+}
+
+@media (max-width:1024px) {
     .banner-box .heading-h1 {
         font-size: 80px;
         line-height: 87px;
     }
+    .corder-1{
+        order: 1;
+    }
+    .corder-2{
+        order: 2;
+    }
     .banner-box .banner-content {
         width: 75%;
     }
-  }
-  
-  @media (max-width:768px) {
-    .banner_box_main::after{
-       position: absolute;
-       content: "";
-       width: 100%;
-       height: 100%;
-       z-index: 2;
-       bottom: 0;
-       background:linear-gradient(180deg, #5b544a00, #000 97.43%);
+
+    .insta_mini_img_box {
+        left: 6.5vw;
     }
-  }
-  
-  @media (max-width:699px) {
-    .banner-box  .heading-h1{
+    .about_us_info1 {
+        width: 50%;
+    }
+    .about_us_info2 {
+        width: 50%;
+    }
+    .about_us_video {
+        width: 80%;
+        order: 3;
+    }
+    .about_up_box {
+        justify-content: center;
+        top: -100%;
+    }
+    .about_down_box {
+        margin-top: 40%;
+    }
+    
+}
+
+
+@media (max-width:959px) {
+    .about_up_box {
+        top: -82%;
+    }
+    .about_down_box {
+        margin-top: 42%;
+    }
+    .cabout_section{
+        padding-top: 150px;
+    }
+    .about_content {
+        width: 100%;
+    }
+    .about_button_box {
+        width: 100%;
+        margin: 15px;
+    }
+}
+@media (max-width:768px) {
+    .about_up_box {
+        top: -72%;
+    }
+    .about_down_box {
+        margin-top: 42%;
+    }
+}
+@media (max-width:767px) {
+    .banner_box_main::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        bottom: 0;
+        background: linear-gradient(180deg, #5b544a00, #000 97.43%);
+    }
+
+    .insta_mini_img_box {
+        left: 13.5vw;
+        width: 20vw;
+        height: 20vw;
+        bottom: -10vw;
+    }
+}
+@media (max-width:699px) {
+    .banner-box .heading-h1 {
         font-size: 64px;
         line-height: 70px;
     }
-    .banner-box .banner-content{
+
+    .banner-box .banner-content {
         width: 100%;
         padding-left: 15px;
         padding-right: 15px;
@@ -191,37 +584,95 @@
         padding-top: 250px;
         padding-bottom: 0;
     }
-    .button-arrow{
+
+    .button-arrow {
         display: none;
     }
-    .custom_banner_carousel .swiper-button-next{
+
+    .custom_banner_carousel .swiper-button-next {
         display: none;
-       }
-       .custom_banner_carousel .swiper-button-prev{
+    }
+
+    .custom_banner_carousel .swiper-button-prev {
         display: none;
-       }
-  }
-  @media (max-width:599px) {
-    .banner-box  .heading-h1{
+    }
+    .about_up_box {
+        top: -65%;
+    }
+}
+
+@media (max-width:599px) {
+    .banner-box .heading-h1 {
         font-size: 48px;
         line-height: 50px;
     }
-  }
-  @media (max-width:529px) {
+}
+@media (max-width:629px) {
+    .about_us_info1{
+        width: 100%;
+        padding-bottom: 0;
+    }
+    .about_us_info2{
+        width: 100%;
+        padding-top: 0;
+    }
+    .about_info_box {
+        margin-top: 0;
+    }
+    .about_down_box {
+        margin-top: 50%;
+        background-color: #C48F40;
+    }
+    .about_up_box {
+        top: -65%;
+    }
+    .about_content .about_heading {
+        font-size: 42px;
+    }
+
+}
+
+
+@media (max-width:576px) {
+    .about_content_box{
+        padding-top: 20%;
+    }
+    .about_up_box {
+        top: -57%;
+    }
+}
+@media (max-width:529px) {
     .banner-box .heading-h1 {
         font-size: 42px;
         line-height: 50px;
-    }   
+    }
+
     .banner-box .banner-p {
         font-size: 16px;
         line-height: 20px;
         margin-bottom: 20px;
-    }   
-  }
-  @media (max-width:375px) {
+    }
+}
+@media (max-width:500px) {
+    .insta_mini_img_box {
+        left: 12.6vw;
+    }
+}
+@media (max-width:430px) {
+    .insta_mini_img_box {
+        left: 12.6vw;
+    }
+    .about_up_box {
+        top: -48%;
+    }
+}
+
+@media (max-width:375px) {
     .banner-box .heading-h1 {
         font-size: 36px;
         line-height: 40px;
-    } 
-  }
-  
+    }
+    .about_up_box {
+        top: -42%;
+    }
+}

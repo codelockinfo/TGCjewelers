@@ -1,109 +1,125 @@
 <div class="custom_banner_carousel">
-    <div class="swiper bannerSlider">
-        <div class="swiper-wrapper">
-            {%- for block in section.blocks -%}
-            <div class="swiper-slide">
+  <div class="swiper bannerSlider">
+    <div class="swiper-wrapper">
+      {%- for block in section.blocks -%}
+        <div class="swiper-slide">
           {% if block.settings.bgimg != blank %}
-                <div class="custom_banner_section"
-                    style="background-image:url('{{ block.settings.bgimg | img_url:'master' }} '); ">
-                    <div class="banner_box_main">
-                        <div class="width-container">
-                            <div class="banner-box">
-                                <div class="width-row">
-                                    <div class="banner-content">
-                                        <h1 class="heading-h1">{{block.settings.heading}}</h1>
-                                        <p class="banner-p">{{block.settings.paragraph}}</p>
-                                        {% if block.settings.btntext != blank %}
-                                        <button class="banner-button">
-                                            <a href="{{block.settings.btnurl}}" class="button-a">
-                                                <i class="fa-sharp fa-solid fa-minus"></i>{{block.settings.btntext}}</a>
-                                        </button>
-                                    {% endif %}
-                                    {% if block.settings.fontawsome != blank %}
-                                        <div class="button-arrow">
-                                            <a href="#" class="Button-arrow">
-                                                {{block.settings.fontawsome}}
-                                            </a>
-                                        </div>
-                                    {% endif %}
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <img src="{{block.settings.bannerimg | img_url:'master'  }}_"
-                            class="men_img lazyload lazypreload" alt="" loading="lazy">
+            <div
+              class="custom_banner_section"
+              style="background-image:url('{{ block.settings.bgimg | img_url:'master' }} '); "
+            >
+              <div class="banner_box_main">
+                <div class="width-container">
+                  <div class="banner-box">
+                    <div class="width-row">
+                      <div class="banner-content">
+                        <h1 class="heading-h1">{{ block.settings.heading }}</h1>
+                        <p class="banner-p">{{ block.settings.paragraph }}</p>
+                        {% if block.settings.btntext != blank %}
+                          <button class="banner-button">
+                            <a href="{{block.settings.btnurl}}" class="button-a">
+                              <i class="fa-sharp fa-solid fa-minus"></i>{{ block.settings.btntext -}}
+                            </a>
+                          </button>
+                        {% endif %}
+                        {% if block.settings.fontawsome != blank %}
+                          <div class="button-arrow">
+                            <a href="#" class="Button-arrow">
+                              {{ block.settings.fontawsome }}
+                            </a>
+                          </div>
+                        {% endif %}
+                      </div>
                     </div>
+                  </div>
                 </div>
-        {% endif %}
+                <img
+                  src="{{block.settings.bannerimg | img_url:'master'  }}_"
+                  class="men_img lazyload lazypreload"
+                  alt=""
+                  loading="lazy"
+                >
+              </div>
             </div>
-            {% endfor %}
+          {% endif %}
         </div>
-        <div class="swiper-button-next">&#10177;</div>
-        <div class="swiper-button-prev">&#10177;</div>
+      {% endfor %}
     </div>
+
+    <div class="swiper-button-prev">
+      <svg xmlns="http://www.w3.org/2000/svg" width="33" height="34" viewBox="0 0 33 34" fill="none">
+        <path d="M23.9795 3.90797L1.28906 17.0083L23.9795 30.1086L23.9795 3.90797Z" stroke="white"/>
+        <path d="M19.9641 10.8628L9.31982 17.0083L19.9641 23.1538L19.9641 10.8628Z" fill="white" stroke="white"/>
+      </svg>
+    </div>
+    <div class="swiper-button-next"><svg xmlns="http://www.w3.org/2000/svg" width="33" height="34" viewBox="0 0 33 34" fill="none">
+    <path d="M9.02051 3.90797L31.7109 17.0083L9.02051 30.1086L9.02051 3.90797Z" stroke="white"/>
+    <path d="M13.0354 10.8628L23.6797 17.0083L13.0354 23.1538L13.0354 10.8628Z" fill="white" stroke="white"/>
+    </svg></div>
+  </div>
 </div>
 
 {% schema %}
 {
-"name": "custom banner section",
-"settings": [],
-"blocks": [
-{
-"name": "Slideshow",
-"type": "img",
-"settings": [
-{
-"type": "image_picker",
-"id": "bgimg",
-"label": "Background image"
-},
-{
-"type": "image_picker",
-"id": "bannerimg",
-"label": "Banner image"
-},
-{
-"type": "text",
-"id": "heading",
-"label": "Heading text"
-},
-{
-"type": "text",
-"id": "paragraph",
-"label": "Content text"
-},
-{
-"type": "text",
-"id": "btntext",
-"label": "Button text"
-},
-{
-"type": "url",
-"id": "btnurl",
-"label": "Button url"
-},
-{
-"type": "html",
-"id": "fontawsome",
-"label": "fontawsome code"
-}
-]
-}
-],
-"presets": [
-{
-"name": "custom banner section",
-"settings": {}
-}
-]
+  "name": "custom banner section",
+  "settings": [],
+  "blocks": [
+    {
+      "name": "Slideshow",
+      "type": "img",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "bgimg",
+          "label": "Background image"
+        },
+        {
+          "type": "image_picker",
+          "id": "bannerimg",
+          "label": "Banner image"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading text"
+        },
+        {
+          "type": "text",
+          "id": "paragraph",
+          "label": "Content text"
+        },
+        {
+          "type": "text",
+          "id": "btntext",
+          "label": "Button text"
+        },
+        {
+          "type": "url",
+          "id": "btnurl",
+          "label": "Button url"
+        },
+        {
+          "type": "html",
+          "id": "fontawsome",
+          "label": "fontawsome code"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "custom banner section",
+      "settings": {}
+    }
+  ]
 }
 {% endschema %}
 
 <script>
-    var swiper = new Swiper('.bannerSlider', {
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-    });
+  var swiper = new Swiper('.bannerSlider', {
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
 </script>

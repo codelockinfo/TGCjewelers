@@ -2,7 +2,9 @@
 {%- assign style_title = block.settings.style_title -%}
 {%- if sett_title != blank -%}
 <div class="wrap_title {{block_title}} des_{{style_title}} sub_title_size_{{block.settings.sub_title | size}}" {{ block.shopify_attributes }}>
-<h3 class="section-title tc pr flex fl_center al_center fs__24 {{style_title}}"><span class="mr__10 ml__10">{{sett_title}}</span></h3>
+<h3 class="custom_title_design section-title tc pr flex fl_center al_center fs__24 {{style_title}}"><span class="mr__10 ml__10">{{sett_title}}</span>
+<img src="https://s3-alpha-sig.figma.com/img/67fb/3def/6b7221cf8966784b3d4ddded1688d7dc?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WR0V35vGXbh0DRt4jNaLb~yMRQA2un8e6p5Ob80PkAEytorypfOZ2ACZcyItt9x08E7YI3ZDc2FibqP9lw97uUH6GUlui~Bqsw6c6lmqquONDrpjb-LS0tGSVF6EcgqVVGRunnC-Kh6dnAl4HiiVBxdgfMuD9xt6-LZj~BdArrmgZy5R0-xRDyHckWdIcG75DUYIvPinHiNtnbKwhvkHiNav9r9~Nma1lnDVK8uw24ifGE4OVt101NC6wwjfDkkpqZakEM81NDKMf0wuP9rhG0h7R5154Rmp1nrpZpCL~QUCeBSc4Zvw4NxqgwiOrRlEV36DgkJFfVxEJbZ5K7WW8w__" alt="Our Collection" class="collection_logos"> 
+</h3>
 <span class="dn tt_divider"><span></span><i class="dn clpr{{block.settings.show_clpr}} {{style_title |split:'+' | last }} la-{{block.settings.ic_tt}}"></i><span></span></span><span class="section-subtitle db tc{% if block.settings.sub_font == '2' %} sub-title{% endif %}">{{block.settings.sub_title}}</span>
 </div>
 {%- endif -%}

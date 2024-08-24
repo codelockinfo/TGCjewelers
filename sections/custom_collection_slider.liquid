@@ -1,0 +1,246 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+<body>
+<section class="image_section"> 
+  <div class="swiper-container">
+      <div class="heading_icons">
+        <div class="collection_image">
+          {%- render 'custom_section_title',section:section -%}
+          <img src="https://s3-alpha-sig.figma.com/img/67fb/3def/6b7221cf8966784b3d4ddded1688d7dc?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WR0V35vGXbh0DRt4jNaLb~yMRQA2un8e6p5Ob80PkAEytorypfOZ2ACZcyItt9x08E7YI3ZDc2FibqP9lw97uUH6GUlui~Bqsw6c6lmqquONDrpjb-LS0tGSVF6EcgqVVGRunnC-Kh6dnAl4HiiVBxdgfMuD9xt6-LZj~BdArrmgZy5R0-xRDyHckWdIcG75DUYIvPinHiNtnbKwhvkHiNav9r9~Nma1lnDVK8uw24ifGE4OVt101NC6wwjfDkkpqZakEM81NDKMf0wuP9rhG0h7R5154Rmp1nrpZpCL~QUCeBSc4Zvw4NxqgwiOrRlEV36DgkJFfVxEJbZ5K7WW8w__" alt="Our Collection" class="collection_logo">
+        </div>
+      <div class="next-prev-icons">
+        <img src="https://img.icons8.com/?size=30&id=99996&format=png" class="button-prev">
+        <img src="https://img.icons8.com/?size=30&id=99982&format=png" class="button-next">
+      </div>
+    </div>
+    <div class="swiper-wrapper">
+      {% for block in section.blocks %}
+            <div class="swiper-slide">
+                <a href="{{ block.settings.imglink }}">
+                  <img src="{{ block.settings.image | img_url: 'master' }}" alt="Rudraksh Mala" class="collection_img">
+                </a>
+                <a href="{{  block.settings.imglink }}">
+                  <span class="product_name">{{ block.settings.heading }}</span>
+                </a>
+            </div>
+      {%  endfor %}
+    </div>
+    <div class="next-prev-btn">
+      <img src="https://img.icons8.com/?size=30&id=99996&format=png" class="btn-prev">
+      <img src="https://img.icons8.com/?size=30&id=99982&format=png" class="btn-next">
+    </div>
+  </div>
+</section>   
+</body>
+
+{% schema %}
+  {
+    "name": "Golden_Image Slider",
+    "class": "collection_slider_main",
+       "settings": [
+        {
+        "type": "header",
+        "content": "== Title Settings"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Collection list Manual"
+      },
+      {
+        "type": "textarea",
+        "id": "sub_title",
+        "label": "Sub Text",
+        "default": "Sub Text"
+      },
+      {
+        "type": "select",
+        "id": "sub_font",
+        "default": "2",
+        "options": [
+         {
+            "value": "1",
+            "label": "Body font"
+         },
+         {
+            "value": "2",
+            "label": "Sub title font"
+          }
+        ],
+        "label": "Sub Text use font:"
+      },
+      {
+        "type": "select",
+        "id": "style_title",
+        "options": [
+         {
+            "value": "title_1",
+            "label": "Design 1"
+         },
+         {
+            "value": "title_2",
+            "label": "Design 2"
+          },
+         {
+            "value": "title_3",
+            "label": "Design 3"
+          },
+         {
+            "value": "title_4",
+            "label": "Design 4"
+          },
+         {
+            "value": "title_5 lazyload",
+            "label": "Design 5"
+          },
+         {
+            "value": "title_6",
+            "label": "Design 6"
+          },
+         {
+            "value": "title_7 +la",
+            "label": "Design 7 (with line-awesome)"
+          },
+         {
+            "value": "title_8",
+            "label": "Design 8"
+          },
+         {
+            "value": "title_9",
+            "label": "Design 9"
+          },
+         {
+            "value": "title_10",
+            "label": "Design 10"
+          },
+         {
+            "value": "title_11",
+            "label": "Design 11"
+          },
+         {
+            "value": "title_12",
+            "label": "Design 12"
+          },
+         {
+            "value": "title_13",
+            "label": "Design 13"
+          },
+         {
+            "value": "title_14",
+            "label": "Design 14"
+          }
+        ],
+        "label": "Design Title:"
+      },
+      {
+        "type": "text",
+        "id": "ic_tt",
+        "label": "Style 7 icon line-awesome",
+        "default": "gem"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_clpr",
+        "label": "Use icon color primary?",
+        "default": false
+      },
+      {
+        "type": "paragraph",
+        "content": "https://icons8.com/line-awesome"
+      }
+    ],
+    "blocks" : [
+      {
+      	"name" : "block",
+      	"type" : "text",
+      	"settings" : [
+      	   {
+            "id" : "image",
+            "type" : "image_picker",
+            "label" : "Image"
+            },
+            {
+            "id" : "heading",
+            "type" : "text",
+            "label" : "Heading"
+            },
+            {
+            "id" : "imglink",
+            "type" : "url",
+            "label" : "Collection link"
+            }
+      	]
+        }
+    ],
+    "presets": [
+      {
+        "name": "Golden_Image Slider"
+      }
+    ]
+  }
+{% endschema %}
+
+
+
+<script>
+$(document).ready(function() {
+    new Swiper('.swiper-container', {
+        loop: true,
+        nextButton: '.button-next',
+        prevButton: '.button-prev',
+        slidesPerView: 5.2,
+        paginationClickable: true,
+        spaceBetween: 15,
+        breakpoints: {
+            1920: {
+                slidesPerView: 5.2,
+                spaceBetween: 15
+            },
+            1028: {
+                slidesPerView: 4,
+                spaceBetween: 15
+            },
+            768: {
+              slidesPerView: 3,
+                spaceBetween: 15
+            },
+            425: {
+                slidesPerView: 2.2,
+                spaceBetween: 15
+            }
+        }
+    });
+});
+
+$(document).ready(function() {
+    new Swiper('.swiper-container', {
+        loop: true,
+        nextButton: '.btn-next',
+        prevButton: '.btn-prev',
+        slidesPerView: 5.2,
+        paginationClickable: true,
+        spaceBetween: 15,
+        breakpoints: {
+            1920: {
+                slidesPerView: 5.2,
+                spaceBetween: 15
+            },
+            1028: {
+                slidesPerView: 4,
+                spaceBetween: 15
+            },
+            768: {
+              slidesPerView: 3,
+                spaceBetween: 15
+            },
+            425: {
+                slidesPerView: 2.2,
+                spaceBetween: 15
+            }
+        }
+    });
+});
+</script>

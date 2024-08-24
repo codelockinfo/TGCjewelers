@@ -14,6 +14,7 @@
 <div class="nt_se_{{sid}} {{section.settings.layout}} pr ins_loaded">
   {%- if b_type == '1' -%}
     {%- render 'block_title',block:block,block_title:'mb__20' -%}
+    {% comment %} {% endcomment %}
   {%- elsif b_type != blank -%}
     <div class="ins_content {{block.settings.pos}} t__0 l__0 r__0 b__0 flex fl_center al_center pe_none op__0 b_type_{{b_type}}">
       <div class="ins_content_wrap style_{{block.settings.des}} tc">
@@ -43,14 +44,19 @@
         {%- assign image = bl.settings.image %}{% assign ratio = image.aspect_ratio |default:1.0 %}{% assign url = bl.settings.url -%}
          <div id="pin_{{bl.id}}" class="pin__wr_js col_ins col-lg-{{col}} col-md-{{col_tb}} col-{{col_mb}} item pr oh" {{ bl.shopify_attributes }}>
             {%- if url != blank -%}
-              <a data-no-instant rel="nofollow" class="wrap_ins_img db pr oh" href="{{url}}" target="{{open_link}}">
+              <a data-no-instant rel="nofollow" class="  wrap_ins_img db pr oh" href="{{url}}" target="{{open_link}}">
                 <div class="lazyload nt_bg_lz pr_lazy_img" data-bgset="{% if image != blank %}{{ image | img_url: '1x1' }}{% else %}https://placehold.jp/80/f5f5f5/999/1080x1080.png{% endif %}" data-ratio="{{ratio}}" data-sizes="auto"></div>
                 <div class="info pa tc flex ts__03 fl_center al_center op__0 t__0 l__0 r__0 b__0 h__100 pe_none"><span class="pr cw mr__5 ml__5"><i class="facl facl-instagram"></i></span></div>
               </a>
             {%- else -%}
-              <div class="wrap_ins_img db pr oh"><div class="lazyload nt_bg_lz pr_lazy_img" data-bgset="{% if image != blank %}{{ image | img_url: '1x1' }}{% else %}https://placehold.jp/80/f5f5f5/999/1080x1080.png{% endif %}" data-ratio="{{ratio}}" data-sizes="auto"></div></div>
+              <div class="instafeed_custom wrap_ins_img db pr oh"><div class="lazyload nt_bg_lz pr_lazy_img" data-bgset="{% if image != blank %}{{ image | img_url: '1x1' }}{% else %}https://placehold.jp/80/f5f5f5/999/1080x1080.png{% endif %}" data-ratio="{{ratio}}" data-sizes="auto"></div>
+              </div>
             {%- endif -%}
+            <div class="insta_mini_img_box">
+              <img src="https://s3-alpha-sig.figma.com/img/a5a0/447b/945a91f96ea2f5894de8f18913dc5cb2?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XtddVFY19faEDlUf92kqmViyLCWExKfWzCDHc2moXIsHeu05Uh6GRvMPpbHIWl6glL4xyUyUAIgyVUFbaZ2JJ~0ZdiMnhq19YRBUuZtvZ-R-XDhsEgjS4hKce~myKMWSFxFQskHilMfzopnYOr7Ec-0D37noR0ocCoQJnOOWhJChZDuPup~1bdEO67FpsigTLH9C-AKkV-fWqp9l-Z4gPT~XNBwrWGwR547UoIOPUjOYTR3T~SsPfli3j0Mj-OjW60L7vxlBHTCOtM-Kwzp~IHIiNd23pYikcxPgCwKB9alI1XcybeJIELQ~C65Q8xCA2O1DyQ5LQRSGEJSNEShAGw__" class="insta_mini_img" alt="">
+            </div>
          </div>
+         
          {%- endfor -%}
       {%- endif -%}
   </div>
