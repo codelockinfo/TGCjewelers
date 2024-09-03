@@ -3974,6 +3974,12 @@
         ],
         "settings": {
         }
+      },
+      "about_us_section_qqHtLH": {
+        "type": "about_us_section",
+        "disabled": true,
+        "settings": {
+        }
       }
     },
     "content_for_index": [
@@ -3985,7 +3991,8 @@
       "1595988840822",
       "1597120285267",
       "1581508031759",
-      "1597058003104"
+      "1597058003104",
+      "about_us_section_qqHtLH"
     ]
   }
 }
