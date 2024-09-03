@@ -3985,7 +3985,7 @@
         "type": "custom_collection_slider",
         "settings": {
           "title": "Collection list Manual",
-          "sub_title": "Sub Text",
+          "sub_title": "",
           "sub_font": "2",
           "style_title": "title_1",
           "ic_tt": "gem",
