@@ -3983,6 +3983,50 @@
       },
       "custom_collection_slider_BBRfYw": {
         "type": "custom_collection_slider",
+        "blocks": {
+          "text_NHNAMa": {
+            "type": "text",
+            "settings": {
+              "heading": "",
+              "imglink": ""
+            }
+          },
+          "text_j8MaH6": {
+            "type": "text",
+            "settings": {
+              "heading": "",
+              "imglink": ""
+            }
+          },
+          "text_LTjq6J": {
+            "type": "text",
+            "settings": {
+              "heading": "",
+              "imglink": ""
+            }
+          },
+          "text_AkwzfU": {
+            "type": "text",
+            "settings": {
+              "heading": "",
+              "imglink": ""
+            }
+          },
+          "text_8ymcPz": {
+            "type": "text",
+            "settings": {
+              "heading": "",
+              "imglink": ""
+            }
+          }
+        },
+        "block_order": [
+          "text_NHNAMa",
+          "text_j8MaH6",
+          "text_LTjq6J",
+          "text_AkwzfU",
+          "text_8ymcPz"
+        ],
         "settings": {
           "title": "Collection list Manual",
           "sub_title": "",
