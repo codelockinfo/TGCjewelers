@@ -3987,6 +3987,7 @@
           "text_NHNAMa": {
             "type": "text",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Rectangle_24_1.png",
               "heading": "",
               "imglink": ""
             }
