@@ -3980,6 +3980,17 @@
         "disabled": true,
         "settings": {
         }
+      },
+      "custom_collection_slider_BBRfYw": {
+        "type": "custom_collection_slider",
+        "settings": {
+          "title": "Collection list Manual",
+          "sub_title": "Sub Text",
+          "sub_font": "2",
+          "style_title": "title_1",
+          "ic_tt": "gem",
+          "show_clpr": false
+        }
       }
     },
     "content_for_index": [
@@ -3992,7 +4003,8 @@
       "1597120285267",
       "1581508031759",
       "1597058003104",
-      "about_us_section_qqHtLH"
+      "about_us_section_qqHtLH",
+      "custom_collection_slider_BBRfYw"
     ]
   }
 }
