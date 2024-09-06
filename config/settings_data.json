@@ -3161,14 +3161,6 @@
       "custom_collection_slider_BLdNEm": {
         "type": "custom_collection_slider",
         "blocks": {
-          "collection_fCLnRt": {
-            "type": "collection",
-            "settings": {
-              "slide_image": "shopify:\/\/shop_images\/Rectangle_24.png",
-              "heading": "Bracelets",
-              "img_heading_url": "shopify:\/\/collections"
-            }
-          },
           "collection_ztcxiB": {
             "type": "collection",
             "settings": {
@@ -3185,6 +3177,22 @@
               "img_heading_url": "shopify:\/\/collections"
             }
           },
+          "collection_WDygU3": {
+            "type": "collection",
+            "settings": {
+              "slide_image": "shopify:\/\/shop_images\/Rectangle_27.png",
+              "heading": "Rudraksh Mala",
+              "img_heading_url": "shopify:\/\/collections"
+            }
+          },
+          "collection_dFeTTx": {
+            "type": "collection",
+            "settings": {
+              "slide_image": "shopify:\/\/shop_images\/Rectangle_25.png",
+              "heading": "Ring",
+              "img_heading_url": "shopify:\/\/collections\/moissanite-rings"
+            }
+          },
           "collection_dqQ37a": {
             "type": "collection",
             "settings": {
@@ -3193,21 +3201,22 @@
               "img_heading_url": "shopify:\/\/collections"
             }
           },
-          "collection_WEBQ3i": {
+          "collection_mUrJJm": {
             "type": "collection",
             "settings": {
-              "slide_image": "shopify:\/\/shop_images\/Rectangle_24_1.png",
-              "heading": "Bracelets",
+              "slide_image": "shopify:\/\/shop_images\/Rectangle_26.png",
+              "heading": "Rudraksh Bracelets",
               "img_heading_url": "shopify:\/\/collections"
             }
           }
         },
         "block_order": [
-          "collection_fCLnRt",
           "collection_ztcxiB",
           "collection_bYz7gg",
+          "collection_WDygU3",
+          "collection_dFeTTx",
           "collection_dqQ37a",
-          "collection_WEBQ3i"
+          "collection_mUrJJm"
         ],
         "settings": {
           "main_title": "Our Collection",
