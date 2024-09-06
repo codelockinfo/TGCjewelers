@@ -3110,6 +3110,7 @@
       },
       "featured_collection_owl_XEKcYg": {
         "type": "featured_collection_owl",
+        "disabled": true,
         "settings": {
           "title": "Best Seller",
           "sub_title": "",
@@ -3280,9 +3281,51 @@
           "sub_title": "",
           "sub_font": "2",
           "btn_title": "See all products",
+          "titleimg": "shopify:\/\/shop_images\/6b7221cf8966784b3d4ddded1688d7dc_1_8a135a0d-b95a-4a93-b0d6-ff4237a29778.png",
           "style_title": "title_1",
           "ic_tt": "gem",
           "show_clpr": false
+        }
+      },
+      "featured_collection_mFBE6T": {
+        "type": "featured_collection",
+        "settings": {
+          "title": "Diamond Hip Hop Jewelry",
+          "sub_title": "",
+          "sub_font": "2",
+          "btn_title": "See all products",
+          "titleimg": "shopify:\/\/shop_images\/6b7221cf8966784b3d4ddded1688d7dc_1_8a135a0d-b95a-4a93-b0d6-ff4237a29778.png",
+          "style_title": "title_1",
+          "ic_tt": "gem",
+          "show_clpr": false,
+          "collection": "delicate-bands",
+          "limit": 4,
+          "space": 30,
+          "use_pagination": "none",
+          "use_bar_lm": true,
+          "btn_rd": true,
+          "btn_icon": false,
+          "btn_style": "default",
+          "col_pr": "3",
+          "col_pr_tb": "4",
+          "col_pr_mb": "6",
+          "pr_des": "1 tc",
+          "show_vendor": false,
+          "use_cdt": false,
+          "round_cd": false,
+          "cdt_des": "1",
+          "use_eq_height": false,
+          "image_ratio": "ratio_nt",
+          "image_size": "nt_cover",
+          "image_position": "8",
+          "hidden": false,
+          "cp_code": false,
+          "layout": "wrap",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
         }
       }
     },
@@ -3290,6 +3333,7 @@
       "custom_banner_phtfjm",
       "custom_collection_slider_BLdNEm",
       "featured_collection_JEbDzE",
+      "featured_collection_mFBE6T",
       "featured_collection_owl_XEKcYg",
       "custom_insta_slider_yHUrrQ"
     ]
