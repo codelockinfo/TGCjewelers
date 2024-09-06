@@ -70,7 +70,7 @@
         {%- endif -%}
         <a class="se_cat_lm pr nt_cat_lm button button_{{se_stts.btn_style}} br_rd_{{se_stts.btn_rd}} btn_icon_{{se_stts.btn_icon}}" data-id={{sid}} data-get='{{ collection.url }}{{ paginate.next.url }}' href="{{ collection.url }}">{{ 'products.grid_items.load_more' | t }}</a>
         {%- else -%}
-        <a class="pr button view_more js_add_loading button_{{se_stts.btn_style}} br_rd_{{se_stts.btn_rd}} btn_icon_{{se_stts.btn_icon}}" href="{{ collection.url }}">{{ 'products.grid_items.view_more' | t }}</a>
+        <a class="pr button view_more js_add_loading button_{{se_stts.btn_style}} br_rd_{{se_stts.btn_rd}} btn_icon_{{se_stts.btn_icon}}" href="{{ collection.url }}">{{ 'products.grid_items.view_more' | t }}<i class="fa-sharp fa-solid fa-minus"></i></a>
         {%- endif -%}
     </div>
     {%- endif -%}

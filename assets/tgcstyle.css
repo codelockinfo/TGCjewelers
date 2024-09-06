@@ -14,18 +14,32 @@
     position: absolute;
     top: 50%;
 }
-
+.margin_section{
+    margin-bottom: 30px;
+}
+.product-info  .product-title{
+    font-family: Lato !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+}
+.product-info  .product-title a{
+    color: #000000 !important; 
+}
+.view_more{
+    border: 0 !important;
+    background-color: #D0A570 !important;
+}
 .instafeed_custom {
     margin: 0 10px;
 }
 
-.section-title{
+.section-title {
     font-family: Sorts Mill Goudy !important;
-font-size: 60px !important;
-font-weight: 400 !important;
-line-height: 110px;
-color: #000 !important;
-letter-spacing: normal !important;
+    font-size: 60px !important;
+    font-weight: 400 !important;
+    line-height: 110px;
+    color: #000 !important;
+    letter-spacing: normal !important;
 }
 
 /* HEADER CSS  */
@@ -155,13 +169,16 @@ letter-spacing: normal !important;
 }
 
 
-.Custom_banner_class .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+.Custom_banner_class .swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
     background: none;
 }
 
-.Custom_banner_class .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
-   background: none;
+.Custom_banner_class .swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+    background: none;
 }
+
 .Custom_banner_class .custom_banner_carousel .swiper-button-next::after,
 .swiper-rtl .swiper-button-prev::after {
     display: none !important;
@@ -173,6 +190,7 @@ letter-spacing: normal !important;
     display: none !important;
     font-size: 0 !important;
 }
+
 .Custom_banner_class .custom_banner_carousel .swiper-button-next {
     font-size: 26px;
     color: #ffffff;
@@ -214,6 +232,7 @@ letter-spacing: normal !important;
     padding: 15px;
 
 }
+
 .about_us_info2 {
     width: 20%;
     padding: 15px;
@@ -255,8 +274,8 @@ letter-spacing: normal !important;
     display: flex;
     /* padding: 100px 0; */
     flex-wrap: wrap;
-     padding-top: 12%;
-     padding-bottom: 3%;
+    padding-top: 12%;
+    padding-bottom: 3%;
 }
 
 .about_content {
@@ -305,7 +324,7 @@ letter-spacing: normal !important;
 /* MEDIA QUERY  */
 
 @media (max-width:1440px) {
-    .Custom_banner_class  .banner-box .banner-content {
+    .Custom_banner_class .banner-box .banner-content {
         padding-left: 40px;
     }
 
@@ -325,12 +344,15 @@ letter-spacing: normal !important;
         font-size: 80px;
         line-height: 87px;
     }
-    .corder-1{
+
+    .corder-1 {
         order: 1;
     }
-    .corder-2{
+
+    .corder-2 {
         order: 2;
     }
+
     .Custom_banner_class .banner-box .banner-content {
         width: 75%;
     }
@@ -338,24 +360,29 @@ letter-spacing: normal !important;
     .insta_mini_img_box {
         left: 6.5vw;
     }
+
     .about_us_info1 {
         width: 50%;
     }
+
     .about_us_info2 {
         width: 50%;
     }
+
     .about_us_video {
         width: 80%;
         order: 3;
     }
+
     .about_up_box {
         justify-content: center;
         top: -100%;
     }
+
     .about_down_box {
         margin-top: 40%;
     }
-    
+
 }
 
 
@@ -363,28 +390,35 @@ letter-spacing: normal !important;
     .about_up_box {
         top: -82%;
     }
+
     .about_down_box {
         margin-top: 42%;
     }
-    .cabout_section{
+
+    .cabout_section {
         padding-top: 150px;
     }
+
     .about_content {
         width: 100%;
     }
+
     .about_button_box {
         width: 100%;
         margin: 15px;
     }
 }
+
 @media (max-width:768px) {
     .about_up_box {
         top: -72%;
     }
+
     .about_down_box {
         margin-top: 42%;
     }
 }
+
 @media (max-width:767px) {
     .Custom_banner_class .banner_box_main::after {
         position: absolute;
@@ -403,6 +437,7 @@ letter-spacing: normal !important;
         bottom: -10vw;
     }
 }
+
 @media (max-width:699px) {
     .Custom_banner_class .banner-box .heading-h1 {
         font-size: 64px;
@@ -429,6 +464,7 @@ letter-spacing: normal !important;
     .Custom_banner_class .custom_banner_carousel .swiper-button-prev {
         display: none;
     }
+
     .about_up_box {
         top: -65%;
     }
@@ -440,25 +476,31 @@ letter-spacing: normal !important;
         line-height: 50px;
     }
 }
+
 @media (max-width:629px) {
-    .about_us_info1{
+    .about_us_info1 {
         width: 100%;
         padding-bottom: 0;
     }
-    .about_us_info2{
+
+    .about_us_info2 {
         width: 100%;
         padding-top: 0;
     }
+
     .about_info_box {
         margin-top: 0;
     }
+
     .about_down_box {
         margin-top: 50%;
         background-color: #C48F40;
     }
+
     .about_up_box {
         top: -65%;
     }
+
     .about_content .about_heading {
         font-size: 42px;
     }
@@ -467,13 +509,15 @@ letter-spacing: normal !important;
 
 
 @media (max-width:576px) {
-    .about_content_box{
+    .about_content_box {
         padding-top: 20%;
     }
+
     .about_up_box {
         top: -57%;
     }
 }
+
 @media (max-width:529px) {
     .Custom_banner_class .banner-box .heading-h1 {
         font-size: 42px;
@@ -486,15 +530,18 @@ letter-spacing: normal !important;
         margin-bottom: 20px;
     }
 }
+
 @media (max-width:500px) {
     .insta_mini_img_box {
         left: 12.6vw;
     }
 }
+
 @media (max-width:430px) {
     .insta_mini_img_box {
         left: 12.6vw;
     }
+
     .about_up_box {
         top: -48%;
     }
@@ -505,6 +552,7 @@ letter-spacing: normal !important;
         font-size: 36px;
         line-height: 40px;
     }
+
     .about_up_box {
         top: -42%;
     }

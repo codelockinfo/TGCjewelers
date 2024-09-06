@@ -71,7 +71,7 @@
           {%- endif -%}
           <a class="se_cat_lm pr nt_cat_lm button button_{{se_stts.btn_style}} br_rd_{{se_stts.btn_rd}} btn_icon_{{se_stts.btn_icon}}" data-id={{sid}} data-get='{{ blog.url }}{{ paginate.next.url }}' href="{{ blog.url }}">{{ 'blogs.section.load_more' | t }}</a>
           {%- else -%}
-          <a class="pr button view_more js_add_loading button_{{se_stts.btn_style}} br_rd_{{se_stts.btn_rd}} btn_icon_{{se_stts.btn_icon}}" href="{{ blog.url }}">{{ 'blogs.section.view_all' | t }}</a>
+          <a class="pr button view_more js_add_loading button_{{se_stts.btn_style}} br_rd_{{se_stts.btn_rd}} btn_icon_{{se_stts.btn_icon}}" href="{{ blog.url }}"><i class="fa-sharp fa-solid fa-minus"></i>&nbsp{{ 'blogs.section.view_all' | t }}</a>
           {%- endif -%}
       </div>
       {%- endif -%}

@@ -55,7 +55,7 @@
         {%- endif -%}
         <a class="se_cat_lm pr nt_cat_lm button bid_lm button_{{block.settings.btn_style}} br_rd_{{block.settings.btn_rd}} btn_icon_{{block.settings.btn_icon}}" data-id={{sid}} data-get='{% if ck_q %}{{ collection.url }}{% endif %}{{ paginate.next.url }}{% if ck_q %}&q={{forloop.index0}}_bid{% endif %}' href="{{ collection.url }}">{{ 'products.grid_items.load_more' | t }}</a>
         {%- else -%}
-        <a class="pr button view_more js_add_loading button_{{block.settings.btn_style}} br_rd_{{block.settings.btn_rd}} btn_icon_{{block.settings.btn_icon}}" href="{{ collection.url }}">{{ 'products.grid_items.view_more' | t }}</a>
+        <a class="pr button view_more js_add_loading button_{{block.settings.btn_style}} br_rd_{{block.settings.btn_rd}} btn_icon_{{block.settings.btn_icon}}" href="{{ collection.url }}"><i class="fa-sharp fa-solid fa-minus"></i>&nbsp{{ 'products.grid_items.view_more' | t }}</a>
         {%- endif -%}
     </div>
     {%- endif -%}
