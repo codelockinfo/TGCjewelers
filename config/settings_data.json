@@ -3320,7 +3320,7 @@
           "image_position": "8",
           "hidden": false,
           "cp_code": false,
-          "layout": "wrap",
+          "layout": "container",
           "cl_bg": "",
           "mg": "50px,,50px,",
           "pd": "",
