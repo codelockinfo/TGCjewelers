@@ -7543,7 +7543,7 @@ background-position: 50% 50%;
   .atc-slide:not(.btn_full_true) .single_add_to_cart_button, 
   .atc-slide:not(.btn_full_true) .variations_button {
      width: auto;
-     min-width: 160px;
+     min-width: 185px;
      max-width: 100%;
   }
   .footer__bot .col-lg-6.col_2 {margin-top: 0}
