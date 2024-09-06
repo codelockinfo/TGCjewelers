@@ -3160,6 +3160,55 @@
       },
       "custom_collection_slider_BLdNEm": {
         "type": "custom_collection_slider",
+        "blocks": {
+          "collection_fCLnRt": {
+            "type": "collection",
+            "settings": {
+              "slide_image": "shopify:\/\/shop_images\/Rectangle_24.png",
+              "heading": "",
+              "img_heading_url": ""
+            }
+          },
+          "collection_ztcxiB": {
+            "type": "collection",
+            "settings": {
+              "slide_image": "shopify:\/\/shop_images\/Rectangle_25.png",
+              "heading": "",
+              "img_heading_url": ""
+            }
+          },
+          "collection_bYz7gg": {
+            "type": "collection",
+            "settings": {
+              "slide_image": "shopify:\/\/shop_images\/Rectangle_26.png",
+              "heading": "",
+              "img_heading_url": ""
+            }
+          },
+          "collection_dqQ37a": {
+            "type": "collection",
+            "settings": {
+              "slide_image": "shopify:\/\/shop_images\/Rectangle_27.png",
+              "heading": "",
+              "img_heading_url": ""
+            }
+          },
+          "collection_WEBQ3i": {
+            "type": "collection",
+            "settings": {
+              "slide_image": "shopify:\/\/shop_images\/Rectangle_24_1.png",
+              "heading": "",
+              "img_heading_url": ""
+            }
+          }
+        },
+        "block_order": [
+          "collection_fCLnRt",
+          "collection_ztcxiB",
+          "collection_bYz7gg",
+          "collection_dqQ37a",
+          "collection_WEBQ3i"
+        ],
         "settings": {
           "main_title": "Our Collection",
           "collection_logo": "shopify:\/\/shop_images\/6b7221cf8966784b3d4ddded1688d7dc_1_8a135a0d-b95a-4a93-b0d6-ff4237a29778.png",
