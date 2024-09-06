@@ -1657,13 +1657,19 @@
               "btn_atc_full": false,
               "enable_payment_btn": true
             }
+          },
+          "tab_MMqXyM": {
+            "type": "tab",
+            "settings": {
+            }
           }
         },
         "block_order": [
           "pr_summary-0",
           "pr_summary-1",
           "pr_summary-2",
-          "pr_summary-3"
+          "pr_summary-3",
+          "tab_MMqXyM"
         ],
         "settings": {
         }
