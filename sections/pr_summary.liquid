@@ -106,6 +106,19 @@ assign locale_url = product.url | split:'/products/' | first -%}
                    {%- elsif block.settings.price == '2' -%}<span class="cb fwn">{{ 'products.product.from' | t }}</span> {{ product.price_min | money }}
                    {%- else -%}
                      {%- if on_sale -%}<span class="price_varies current_price"><del>{{ current_variant.compare_at_price | money }}</del> <ins>{{ current_variant.price | money }}</ins></span><style>.nt_cart_form .price {display: none}</style>
+                      {% if product.compare_at_price > product.price %}
+                        <span class="priceoff">
+                          (
+                          {{-
+                            product.compare_at_price
+                            | minus: product.price
+                            | times: 100
+                            | divided_by: product.compare_at_price
+                            | round
+                          -}}
+                          % OFF)</span
+                        >
+                      {% endif %}
                    {%- else -%}<span class="price_varies current_price">{{ current_variant.price | money }}</span><style type="text/css">.nt_cart_form .price {display: none}</style>{%- endif -%}
                      {%- endif -%}
                {%- elsif on_sale -%}<del>{{ current_variant.compare_at_price | money }}</del> <ins>{{ current_variant.price | money }}</ins>
@@ -194,6 +207,142 @@ assign locale_url = product.url | split:'/products/' | first -%}
                     {{ form | payment_terms }}
                     {%- if no_sold_out and settings.enable_sub_reCharge %}{% include 'subscription-product' %}{% endif -%} 
                     {%- if settings.enable_infiniteoptions %}<div id="infiniteoptions-container"></div>{% endif -%} 
+                      {% comment %} Diamond Shape {% endcomment %}
+                      {% if product.metafields.custom.diamond_shape != blank %}
+                        {% assign diamond_shapes = product.metafields.custom.diamond_shape | remove: '["' | remove: '"]' %}
+                        {% if diamond_shapes != blank %}
+                          <div class="customproperties">
+                            <h4 class="swatch__title">Diamond Shape</h4>
+                            <div class="flex main-box-properties">
+                              {% assign diamond_shape = diamond_shapes | split: '","' %}
+                              {% for diamond_shape_value in diamond_shape %}
+                                {% if diamond_shape_value == 'Round' %}
+                                  <div class="diamond-box radio-toolbar selected">
+                                    <div class="diamond-img-box">
+                                      <img
+                                        src="https://cdn.shopify.com/s/files/1/0697/1621/3987/files/Round.webp?v=1725606939"
+                                        class="diamond-img"
+                                      >
+                                    </div>
+                                    <h2 class="diamondshape-name">
+                                      <input
+                                        type="radio"
+                                        name="properties[Diamond Shape]"
+                                        value="{{ diamond_shape_value }}"
+                                        checked
+                                      >
+                                      <label>{{ diamond_shape_value }}</label>
+                                    </h2>
+                                  </div>
+                                {% endif %}
+                                {% if diamond_shape_value == 'Oval' %}
+                                  <div class="diamond-box radio-toolbar">
+                                    <div class="diamond-img-box">
+                                      <img
+                                        src="https://cdn.shopify.com/s/files/1/0697/1621/3987/files/Oval.webp?v=1725606938"
+                                        class="diamond-img"
+                                      >
+                                    </div>
+                                    <h2 class="diamondshape-name">
+                                      <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}">
+                                      <label>{{ diamond_shape_value }}</label>
+                                    </h2>
+                                  </div>
+                                {% endif %}
+                                {% if diamond_shape_value == 'Radiant' %}
+                                  <div class="diamond-box radio-toolbar">
+                                    <div class="diamond-img-box">
+                                      <img
+                                        src="https://cdn.shopify.com/s/files/1/0697/1621/3987/files/Radiant.webp?v=1725606939"
+                                        class="diamond-img"
+                                      >
+                                    </div>
+                                    <h2 class="diamondshape-name">
+                                      <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}">
+                                      <label>{{ diamond_shape_value }}</label>
+                                    </h2>
+                                  </div>
+                                {% endif %}
+                                {% if diamond_shape_value == 'Asscher' %}
+                                  <div class="diamond-box radio-toolbar">
+                                    <div class="diamond-img-box">
+                                      <img
+                                        src="https://cdn.shopify.com/s/files/1/0697/1621/3987/files/Asscher.webp?v=1725606939"
+                                        class="diamond-img"
+                                      >
+                                    </div>
+                                    <h2 class="diamondshape-name">
+                                      <input type="radio" name="properties[Diamond Shape]" value="{{ diamond_shape_value }}">
+                                      <label>{{ diamond_shape_value }}</label>
+                                    </h2>
+                                  </div>
+                                {% endif %}
+                              {% endfor %}
+                            </div>
+                          </div>
+                        {% endif %}
+                      {% endif %}
+                      {% comment %} Diamond Shape {% endcomment %}
+                      {% comment %} mmetafield as variant {% endcomment %}
+                       
+              <div class="flex propertiessize">
+                {% if product.metafields.custom.diamond_type != blank %}
+                  <div class="ringsize">
+                    <div class="ringsizelabel">
+                      {% assign diamond_types = product.metafields.custom.diamond_type | remove: '["' | remove: '"]' %}
+                      {% if diamond_types != blank %}
+                        <h4 class="swatch__title">Diamond Type</h4>
+                        {% comment %}
+                          <div>
+                          <a class="sizechartlabel cd chp btn_size_guide mr__20" href="#" data-no-instant="" rel="nofollow" data-src="https://cdn.shopify.com/s/files/1/0863/4718/6487/files/diamond_type_Chart.jpg?v=1715061728" data-width="600" data-height="600">SIZE CHART</a>
+                          </div>
+                        {% endcomment %}
+                      {% endif %}
+                    </div>
+                    {% if product.metafields.custom.diamond_type != blank %}
+                      {% assign diamond_types = product.metafields.custom.diamond_type | remove: '["' | remove: '"]' %}
+                      {% if diamond_types != blank %}
+                        <select id="your-name" name="properties[Diamond Type]">
+                          {% assign diamond_type = diamond_types | split: '","' %}
+                          {% for diamond_type_value in diamond_type %}
+                            <option value="{{ diamond_type_value }}">{{ diamond_type_value }}</option>
+                          {% endfor %}
+                        </select>
+                      {% endif %}
+                    {% endif %}
+                  </div>
+                {% endif %}
+                {% if product.metafields.custom.diamond_size != blank %}
+                  <div class="diamondsize">
+                    {% assign diamond_sizes = product.metafields.custom.diamond_size | remove: '["' | remove: '"]' %}
+                    {% if diamond_sizes != blank %}
+                      <h4 class="swatch__title">Diamond Size</h4>
+                      <select id="your-name" name="properties[Diamond Size]">
+                        {% assign diamond_size = diamond_sizes | split: '","' %}
+                        {% for diamond_size_value in diamond_size %}
+                          <option value="{{ diamond_size_value }}">{{ diamond_size_value }}</option>
+                        {% endfor %}
+                      </select>
+                    {% endif %}
+                  </div>
+                {% endif %}
+                {% if product.metafields.custom.jewelry_size != blank %}
+                  <div class="diamondsize">
+                    {% assign jewelry_sizes = product.metafields.custom.jewelry_size | remove: '["' | remove: '"]' %}
+                    {% if jewelry_sizes != blank %}
+                      <h4 class="swatch__title">Jewelry size</h4>
+                      <select id="your-name" name="properties[Jewelry Size]">
+                        {% assign jewelry_size = jewelry_sizes | split: '","' %}
+                        {% for jewelry_size_value in jewelry_size %}
+                          <option value="{{ jewelry_size_value }}">{{ jewelry_size_value }}</option>
+                        {% endfor %}
+                      </select>
+                    {% endif %}
+                  </div>
+                {% endif %}
+              </div>
+                      {% comment %} mmetafield as variant {% endcomment %}
+                      
                     {%- if default -%}
                        <input name="id" data-productid="{{pid}}" value="{{ pr_variants.first.id }}" type="hidden">
                        <div class="nt_pr_js lazypreload op__0" data-id="{{call_cl}}" data-include="{{locale_url}}/products/{{product.handle}}/?view=js{{call_cl}}"></div>
@@ -255,12 +404,13 @@ assign locale_url = product.url | split:'/products/' | first -%}
                    {%- elsif price_varies and on_sale -%}<span class="price price_varies"><del>{{ current_variant.compare_at_price | money }}</del> <ins>{{ current_variant.price | money }}</ins></span>
                    {%- elsif price_varies -%}<span class="price price_varies">{{ current_variant.price | money }}</span>{%- endif -%}
                     <div class="variations_button in_flex column w__100">
-                       <div class="flex wrap">
+                       <div class="flex wrap al_center">
                           {%- if ck_external -%}<a href="{{link}}" rel="nofollow" target="_blank" class="truncate external_btn button">{{title}}</a>{%- render 'nt_add_w',class:"order-3",tooltip:"ttip_nt tooltip_top_left" -%}
                           {%- elsif no_sold_out == false -%}
                                 <a rel="nofollow" data-no-instant href="#" class="truncate out_stock button pe_none" id="out_stock{{call_cl}}">{{'products.product.outofstock' | t}}</a>
                                 {%- render 'nt_add_w',tooltip:"ttip_nt tooltip_top_left" -%}
                           {%- else -%}
+                            <div class="quantity_head">Quantity</div>
                              <div class="quantity pr mr__10 order-1 qty__{{block.settings.show_qty}}" id="sp_qty{{call_cl}}"> 
                                 <input type="number" class="input-text qty text tc qty_pr_js" step="1" min="1" max="{% if ck_preoder %}999{% elsif inventory_management != null %}{{inventory_quantity}}{% else %}9999{% endif %}" name="quantity" value="1" size="4" pattern="[0-9]*" inputmode="numeric">
                                 <div class="qty tc fs__14">
@@ -316,7 +466,62 @@ assign locale_url = product.url | split:'/products/' | first -%}
               {%- render 'grouped_product',block:block,nav_up:nav_up,call_cl:call_cl,pid:pid -%}
            {%- endif -%}
         </div>
-        
+        {%- when 'tab' -%}
+          {% if product.metafields.custom.tabdescription != blank -%}
+            <input class="customradio" id="one" name="group" type="radio" checked>
+          {%- endif %}
+          {% if product.metafields.custom.diamonddetails != blank %}
+            <input class="customradio" id="two" name="group" type="radio">
+          {%- endif %}
+          {% if product.metafields.custom.metaltype != blank %}
+            <input class="customradio" id="three" name="group" type="radio">
+          {%- endif %}
+          {% if product.metafields.custom.otherinformation != blank %}
+            <input class="customradio" id="four" name="group" type="radio">
+          {%- endif %}
+          {% if product.metafields.custom.tabdescription != blank
+            or product.metafields.custom.diamonddetails != blank
+            or product.metafields.custom.metaltype != blank
+            or product.metafields.custom.otherinformation != blank
+          %}
+            <div class="customtabs">
+              <label class="customtab" id="one-tab" for="one">
+                {%- if product.metafields.custom.tabdescription != blank %}Description {% endif -%}
+              </label>
+              <label class="customtab" id="two-tab" for="two">
+                {%- if product.metafields.custom.diamonddetails != blank %}Diamond Detail{% endif -%}
+              </label>
+              <label class="customtab" id="three-tab" for="three">
+                {%- if product.metafields.custom.metaltype != blank %}Metal Type{% endif -%}
+              </label>
+              <label class="customtab" id="four-tab" for="four">
+                {%- if product.metafields.custom.otherinformation != blank %}Other Information{% endif -%}
+              </label>
+            </div>
+            <div class="custompanels mb__40">
+              <div class="custompanel" id="one-panel">
+                {{ product.metafields.custom.tabdescription }}
+              </div>
+              <div class="custompanel" id="two-panel">
+                {{ product.metafields.custom.diamonddetails }}
+              </div>
+              <div class="custompanel" id="three-panel">
+                {{ product.metafields.custom.metaltype }}
+              </div>
+              <div class="custompanel" id="four-panel">
+                {{ product.metafields.custom.otherinformation }}
+              </div>
+            </div>
+          {% endif %}
+          {% comment %}
+            <input class="customradio" id="tab-{{ forloop.index  }}" name="group" type="radio" checked{% if forloop.first %} checked {% endif %}>
+            <label class="customtab" id="customtab-{{ forloop.index  }}" for="tab-{{ forloop.index  }}">{{ block.settings.title }}</label>
+            <div class="custompanel" id="custompanel-{{ forloop.index  }}">
+              {{ block.settings.content }}
+              {{ block.settings.page.content }}
+            </div>
+          {% endcomment %}
+    
       {%- when 'store_avai' %}{% if no_sold_out == false %}{% continue %}{% endif -%}
         <div id="store_availability{{call_cl}}" class="product-single__store-availability-container dn" data-store-availability-container
           data-vid="{{current_variant.id}}" data-product-title="{{ product.title | escape }}" data-has-only-default-variant="{% if variants_size == 1 %}true{% else %}{{ default }}{% endif %}" data-base-url="{{ shop.url }}{{ routes.root_url }}"> 
@@ -1989,3 +2194,221 @@ assign locale_url = product.url | split:'/products/' | first -%}
     }
   }
 {% endschema %}
+
+<style>
+  /* add for custom properties  */
+  .customproperties {
+    margin: 30px 0;
+  }
+  .propertiessize,
+  .swatch {
+    margin: 20px 0;
+  }
+  .main-box-properties {
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  .diamondshape-name {
+    font-size: 14px;
+    text-align: center;
+  }
+  .diamond-img-box {
+    cursor: pointer;
+  }
+  .diamondshape-name {
+    float: left;
+    margin: 0;
+    width: 100px;
+    height: 40px;
+    position: relative;
+    color: #777777;
+  }
+  
+  .diamondshape-name input[type='radio']:checked + label {
+    /* border:2px solid #B69D62 !important */
+  }
+  /* .radio-toolbar.selected {
+  border:2px solid #B69D62 !important;
+} */
+ 
+  .diamondshape-name label,
+  .diamondshape-name input {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .diamondshape-name input[type='radio'] {
+    opacity: 0.011;
+    z-index: 100;
+  }
+  .diamondshape-name label {
+    cursor: pointer;
+    z-index: 90;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .propertiessize {
+    justify-content: space-between;
+    align-items: end;
+  }
+  .diamondsize,
+  .ringsize {
+    margin-right: 10px;
+  }
+  .ringsize,
+  .diamondsize {
+    width: 50%;
+  }
+  .sizechartlabel {
+    color: #53c7d7;
+    font-family: Montserrat Alternates;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    text-align: right;
+  }
+  .ringsizelabel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .product_meta > span {
+    margin-bottom: 0 !important;
+  }
+  .sku_wrapper {
+    font-family: Montserrat Alternates;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.38px;
+    text-align: end;
+    color: #282828;
+    order: 2;
+  }
+  .jdgm-widget {
+    order: 1;
+    display: block !important;
+  }
+  #shopify-section-pr_summary .product_title {
+    font-family: Montserrat Alternates;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39.01px;
+    text-align: left;
+    color: #282828;
+  }
+  .customize-properties {
+    width: 100%;
+  }
+  .template-product .complementary_product {
+    width: 100%;
+    display: inline-block;
+  }
+  .complementary_product .mt__30 {
+    margin-top: 0;
+  }
+  .pr_matching .flickity-prev-next-button.previous {
+    top: -13%;
+    right: 20% !important;
+    border: 0;
+    background-color: #ebeff1;
+  }
+  .pr_matching .flickity-prev-next-button.next {
+    top: -13%;
+    right: 13% !important;
+    border: 0;
+    background-color: #ebeff1;
+  }
+  .complementary_title {
+    color: #282828;
+    font-family: Montserrat Alternates !important;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.38px;
+    text-align: left;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+  }
+  .flex-columns {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    padding-bottom: 5px;
+  }
+  .gap-20 {
+    gap: 20px;
+  }
+  #customization {
+    border-color: #b69d62 !important;
+    background-color: #f9f9f9 !important;
+    width: 50%;
+    padding: 5px;
+  }
+  #customization,
+  #customization::placeholder {
+    font-family: Montserrat Alternates;
+    font-size: 14px;
+    font-weight: 500;
+    color: #282828;
+    padding: 5px 25px;
+    width: 100%;
+    min-height: 40px;
+  }
+  .product_meta {
+    display: flex;
+    justify-content: space-between;
+  }
+  .jdgm-preview-badge .jdgm-star.jdgm-star {
+    color: #ffa033;
+  }
+  .jdgm-star.jdgm--on:before {
+    font-size: 20px;
+    line-height: normal;
+  }
+  @media (max-width: 1024px) {
+    .pr_matching .flickity-prev-next-button.next {
+      right: 10% !important;
+    }
+  }
+  @media (max-width: 768px) {
+    .pr_matching .flickity-prev-next-button.previous {
+      right: 23% !important;
+    }
+  }
+  @media (max-width: 500px) {
+    .pr_matching .flickity-prev-next-button.next {
+      right: 8% !important;
+    }
+  }
+  /* add for custom properties  */
+</style>
+<script>
+  document.addEventListener('click', function(event) {
+  // Check if the clicked element has the 'diamond-img-box' class
+  if (event.target.classList.contains('diamond-img-box')) {
+
+    // Find all elements with the 'radio-toolbar' class and remove the 'selected' class
+    var radioToolbars = document.querySelectorAll('.radio-toolbar');
+    radioToolbars.forEach(function(toolbar) {
+      toolbar.classList.remove('selected');
+    });
+
+    // Add the 'selected' class to the closest parent with the 'radio-toolbar' class
+    var closestToolbar = event.target.closest('.radio-toolbar');
+    if (closestToolbar) {
+      closestToolbar.classList.add('selected');
+
+      // Find the input element inside '.diamondshape-name' and check it
+      var inputElement = closestToolbar.querySelector('.diamondshape-name input');
+      if (inputElement) {
+        inputElement.checked = true;
+      }
+    }
+  }
+});
+
+</script>
