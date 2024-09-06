@@ -3157,12 +3157,33 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "custom_collection_slider_BLdNEm": {
+        "type": "custom_collection_slider",
+        "settings": {
+          "main_title": "",
+          "bgcolor": ""
+        }
+      },
+      "custom_insta_slider_yHUrrQ": {
+        "type": "custom_insta_slider",
+        "settings": {
+          "title": "Collection Grid",
+          "sub_title": "",
+          "sub_font": "2",
+          "btn_title": "See all products",
+          "style_title": "title_1",
+          "ic_tt": "gem",
+          "show_clpr": false
+        }
       }
     },
     "content_for_index": [
       "custom_banner_phtfjm",
       "featured_collection_JEbDzE",
-      "featured_collection_owl_XEKcYg"
+      "featured_collection_owl_XEKcYg",
+      "custom_collection_slider_BLdNEm",
+      "custom_insta_slider_yHUrrQ"
     ]
   }
 }
