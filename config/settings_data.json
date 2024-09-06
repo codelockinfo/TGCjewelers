@@ -1656,56 +1656,13 @@
               "btn_atc_full": false,
               "enable_payment_btn": true
             }
-          },
-          "1585709158220": {
-            "type": "img",
-            "settings": {
-              "mess": "",
-              "size": 16,
-              "source": "1",
-              "al": "tl",
-              "wimg": 60,
-              "svg": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa",
-              "height": 50
-            }
-          },
-          "pr_summary-4": {
-            "type": "size",
-            "settings": {
-              "size_chart": "2",
-              "sc_type": "1",
-              "page": "",
-              "size_ck": "",
-              "delivery": true,
-              "page_dr": "",
-              "ask": true
-            }
-          },
-          "pr_summary-5": {
-            "type": "meta",
-            "settings": {
-              "show_pr_vendor": false,
-              "show_sku": true,
-              "show_category_product": true,
-              "show_tag_product": true
-            }
-          },
-          "pr_summary-6": {
-            "type": "social",
-            "settings": {
-              "class": "tc"
-            }
           }
         },
         "block_order": [
           "pr_summary-0",
           "pr_summary-1",
           "pr_summary-2",
-          "pr_summary-3",
-          "1585709158220",
-          "pr_summary-4",
-          "pr_summary-5",
-          "pr_summary-6"
+          "pr_summary-3"
         ],
         "settings": {
         }
