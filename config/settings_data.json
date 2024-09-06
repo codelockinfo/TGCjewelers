@@ -3232,12 +3232,48 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/9e2d38168ba457d37f650083f0206649.png",
               "smallimg": "shopify:\/\/shop_images\/Rectangle_25.png",
-              "product": ""
+              "product": "0-20-cluster-round-shape-moissanite-wedding-band-for-women"
+            }
+          },
+          "text_x9riN6": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/9e2d38168ba457d37f650083f0206649.png",
+              "smallimg": "shopify:\/\/shop_images\/Rectangle_25.png",
+              "product": "0-20-cluster-round-shape-moissanite-wedding-band-for-women"
+            }
+          },
+          "text_d8FDQz": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/9e2d38168ba457d37f650083f0206649.png",
+              "smallimg": "shopify:\/\/shop_images\/Rectangle_25.png",
+              "product": "0-20-cluster-round-shape-moissanite-wedding-band-for-women"
+            }
+          },
+          "text_G7JiFK": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/9e2d38168ba457d37f650083f0206649.png",
+              "smallimg": "shopify:\/\/shop_images\/Rectangle_25.png",
+              "product": "0-20-cluster-round-shape-moissanite-wedding-band-for-women"
+            }
+          },
+          "text_rfYXFe": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/9e2d38168ba457d37f650083f0206649.png",
+              "smallimg": "shopify:\/\/shop_images\/Rectangle_25.png",
+              "product": "0-20-cluster-round-shape-moissanite-wedding-band-for-women"
             }
           }
         },
         "block_order": [
-          "text_nkKVXD"
+          "text_nkKVXD",
+          "text_x9riN6",
+          "text_d8FDQz",
+          "text_G7JiFK",
+          "text_rfYXFe"
         ],
         "settings": {
           "title": "Collection Grid",
