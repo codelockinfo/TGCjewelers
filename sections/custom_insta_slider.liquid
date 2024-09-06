@@ -1,0 +1,318 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+<section class="image_section">
+  <div class="width-container">
+    <div class="celeb-container">
+      <div class="heading_icons">
+        <div class="slider_heading">{{section.settings.sectionhead}}</div>
+        {% comment %} <div class="next-prev-icons">
+          <i class="fa-solid fa-chevron-left button-prev"></i>
+          <i class="fa-solid fa-chevron-right button-next"></i>
+        </div> {% endcomment %}
+      </div>
+      <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+          <div class="swiper-slide">
+            {% if block.settings.sectionhead != blank %}
+            {% endif %}
+            <div class="name_text">{{ block.settings.nametext }}</div>
+            <img src="{{ block.settings.image | img_url: 'master' }}" alt="" class="collection_img">
+            {% if block.settings.smallimg != blank %}
+              <a href="{{block.settings.product.url }}">
+              <div class="jewel_img_box">
+                <img
+                  src="{{ block.settings.smallimg | img_url: 'master' }}"
+                  class="j_img"
+                  alt=""
+                >
+              </div>
+              </a>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+      {% comment %} <div class="next-prev-btn">
+        <i class="fa-solid fa-chevron-left button-prev"></i>
+          <i class="fa-solid fa-chevron-right button-next"></i>
+      </div> {% endcomment %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "custom insta Slider",
+  "class": "custom_insta",
+  "settings": [
+    {
+      "type": "text",
+      "id": "sectionhead",
+      "label": "Section heading"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "block",
+      "type": "text",
+      "settings": [
+        {
+          "id": "image",
+          "type": "image_picker",
+          "label": "Image"
+        },
+        {
+          "id": "smallimg",
+          "type": "image_picker",
+          "label": "Small img"
+        },
+        {
+          "type": "richtext",
+          "id": "nametext",
+          "label": "Name text"
+        },
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Add product"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "custom insta Slider"
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+ .custom_insta .image_section {
+    max-width: 100%;
+    padding: 60px 0px;
+    background-color: #F6F5F3;
+    background-size: contain;
+    background-position: center right;
+    background-repeat: no-repeat;
+  }
+
+  .custom_insta .collection_image {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 132.48px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .custom_insta .name_text {
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #000000;
+  }
+  .custom_insta .name_text p {
+    margin-bottom: 10px;
+  }
+  .custom_insta .heading_icons {
+    margin-bottom: 20px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+  }
+  .custom_insta .heading_icons .slider_heading {
+    font-family: Ivy Mode;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 94.95px;
+    /* letter-spacing: 0.05em; */
+    text-align: left;
+    color: #0A1229;
+  }
+  .custom_insta .jewel_img_box {
+    width: 120px;
+    height: 120px;
+    border: 4px solid #f6f5f3;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 85%;
+    left: 6vw;
+  }
+  .custom_insta .jewel_img_box .j_img {
+    object-position: center center;
+  }
+  .custom_insta .swiper-container {
+    width: 100%;
+    height: 100%;
+    padding: 80px 0px 100px;
+  }
+
+  .custom_insta .collection_img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .custom_insta  .button-next,
+  .button-prev {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    margin: 4px;
+    text-align: center;
+    color: #000;
+    line-height: 40px;
+    font-size: 18px;
+}
+.custom_insta  .next-prev-icons {
+    display: flex;
+    /* width: 95%; */
+    /* margin-top: -34px; */
+    justify-content: end;
+    /* margin-bottom: 40px; */
+  }
+
+  .custom_insta  .btn-next,
+  .btn-prev {
+    width: 32px;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin: 4px;
+    padding: 5px;
+  }
+
+  .custom_insta .next-prev-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  @media (max-width: 1440px) {
+    .custom_insta  .swiper-container {
+      padding: 30px 0px;
+    }
+  }
+  @media (max-width: 1300px) {
+    .custom_insta  .jewel_img_box {
+      width: 100px;
+      height: 100px;
+      left: 6.7vw;
+    }
+  }
+  @media (max-width: 1024px) {
+    .custom_insta  .heading_icons .slider_heading {
+      font-size: 64px;
+    }
+  }
+  @media (max-width: 1100px) {
+    .custom_insta .jewel_img_box {
+      width: 90px;
+      height: 90px;
+    }
+  }
+  @media (max-width: 991px) {
+    .custom_insta .jewel_img_box {
+      left: 10vw;
+    }
+  }
+
+  @media (min-width: 769px) {
+    .custom_insta .next-prev-btn {
+      display: none;
+    }
+    .custom_insta .image_section{
+      padding-bottom: 100px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .custom_insta .collection_logo {
+      width: 15%;
+      margin-bottom: 20px;
+    }
+    
+    .custom_insta .jewel_img_box {
+      left: 9vw;
+    }
+    .custom_insta .heading_icons .slider_heading {
+      font-size: 64px;
+    }
+    .custom_insta .next-prev-icons {
+      display: none;
+    }
+    .custom_insta .next-prev-btn {
+      margin-top: 13%;
+    }
+  }
+  @media (max-width: 576px) {
+    .custom_insta .jewel_img_box {
+      left: 13vw;
+    }
+    .custom_insta .heading_icons .slider_heading {
+      font-size: 40px;
+    }
+  }
+  @media (max-width: 679px) {
+    .custom_insta .next-prev-btn {
+      margin-top: 17%;
+    }
+  }
+  @media (max-width: 500px) {
+    .custom_insta .jewel_img_box {
+      left: 31vw;
+      top: 90%;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .custom_insta .collection_logo {
+      width: 20%;
+    }
+    .custom_insta .jewel_img_box {
+      left: 28vw;
+      top: 85%;
+    }
+    .custom_insta .next-prev-btn {
+      margin-top: 20%;
+    }
+  }
+</style>
+
+<script>
+  $(document).ready(function () {
+    // Initialize Swiper for the main container
+    new Swiper('.celeb-container', {
+      // loop: true,
+    //   nextButton: '.button-next',
+    //   prevButton: '.button-prev',
+      slidesPerView: 4.2,
+      spaceBetween: 15,
+      breakpoints: {
+        500: {
+          slidesPerView: 1.2,
+          spaceBetween: 15,
+        },
+        576: {
+          slidesPerView: 2.2,
+          spaceBetween: 15,
+        },
+        768: {
+          slidesPerView: 3.2,
+          spaceBetween: 15,
+        },
+        991: {
+          slidesPerView: 3.2,
+          spaceBetween: 15,
+        },
+        1028: {
+          slidesPerView: 4.2,
+          spaceBetween: 15,
+        },
+      },
+    });
+  });
+</script>
