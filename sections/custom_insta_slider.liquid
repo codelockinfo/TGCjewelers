@@ -1,23 +1,11 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-
 <section class="image_section">
-  <div class="width-container">
-    <div class="celeb-container">
-      <div class="heading_icons">
-        <div class="slider_heading">{{section.settings.sectionhead}}</div>
-        {% comment %} <div class="next-prev-icons">
-          <i class="fa-solid fa-chevron-left button-prev"></i>
-          <i class="fa-solid fa-chevron-right button-next"></i>
-        </div> {% endcomment %}
-      </div>
+  {%- render 'section_title',url:collection.url -%}
+    <div class="celeb-container">   
       <div class="swiper-wrapper">
         {% for block in section.blocks %}
           <div class="swiper-slide">
             {% if block.settings.sectionhead != blank %}
-            {% endif %}
-            <div class="name_text">{{ block.settings.nametext }}</div>
+            {% endif %} 
             <img src="{{ block.settings.image | img_url: 'master' }}" alt="" class="collection_img">
             {% if block.settings.smallimg != blank %}
               <a href="{{block.settings.product.url }}">
@@ -33,12 +21,7 @@
           </div>
         {% endfor %}
       </div>
-      {% comment %} <div class="next-prev-btn">
-        <i class="fa-solid fa-chevron-left button-prev"></i>
-          <i class="fa-solid fa-chevron-right button-next"></i>
-      </div> {% endcomment %}
     </div>
-  </div>
 </section>
 
 {% schema %}
@@ -47,10 +30,127 @@
   "class": "custom_insta",
   "settings": [
     {
-      "type": "text",
-      "id": "sectionhead",
-      "label": "Section heading"
-    }
+        "type": "header",
+        "content": "== Title Settings"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Collection Grid"
+      },
+      {
+        "type": "textarea",
+        "id": "sub_title",
+        "label": "Sub Text"
+      },
+      {
+        "type": "select",
+        "id": "sub_font",
+        "default": "2",
+        "options": [
+         {
+            "value": "1",
+            "label": "Body font"
+         },
+         {
+            "value": "2",
+            "label": "Sub title font"
+          }
+        ],
+        "label": "Sub Text use font:"
+      },
+      {
+        "type": "text",
+        "id": "btn_title",
+        "label": "See All Title",
+        "info":"only working with design title 10",
+        "default": "See all products"
+      },
+      {
+        "type": "image_picker",
+        "id": "titleimg",
+        "label": "Title image"
+      },
+      {
+        "type": "select",
+        "id": "style_title",
+        "options": [
+         {
+            "value": "title_1",
+            "label": "Design 1"
+         },
+         {
+            "value": "title_2",
+            "label": "Design 2"
+          },
+         {
+            "value": "title_3",
+            "label": "Design 3"
+          },
+         {
+            "value": "title_4",
+            "label": "Design 4"
+          },
+         {
+            "value": "title_5 lazyload",
+            "label": "Design 5"
+          },
+         {
+            "value": "title_6",
+            "label": "Design 6"
+          },
+         {
+            "value": "title_7 +la",
+            "label": "Design 7 (with line-awesome)"
+          },
+         {
+            "value": "title_8",
+            "label": "Design 8"
+          },
+         {
+            "value": "title_9",
+            "label": "Design 9"
+          },
+         {
+            "value": "title_10",
+            "label": "Design 10"
+          },
+         {
+            "value": "title_11",
+            "label": "Design 11"
+          },
+         {
+            "value": "title_12",
+            "label": "Design 12"
+          },
+         {
+            "value": "title_13",
+            "label": "Design 13"
+          },
+         {
+            "value": "title_14",
+            "label": "Design 14"
+          }
+        ],
+        "label": "Design Title:"
+      },
+      {
+        "type": "text",
+        "id": "ic_tt",
+        "label": "Style 7 icon line-awesome",
+        "default": "gem"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_clpr",
+        "label": "Use icon color primary?",
+        "default": false
+      },
+      {
+        "type": "paragraph",
+        "content": "[Get icons Line awesome](https://icons8.com/line-awesome)"
+      },
   ],
   "blocks": [
     {
@@ -66,11 +166,6 @@
           "id": "smallimg",
           "type": "image_picker",
           "label": "Small img"
-        },
-        {
-          "type": "richtext",
-          "id": "nametext",
-          "label": "Name text"
         },
         {
           "type": "product",
@@ -92,7 +187,7 @@
  .custom_insta .image_section {
     max-width: 100%;
     padding: 60px 0px;
-    background-color: #F6F5F3;
+    background-color: #ffffff;
     background-size: contain;
     background-position: center right;
     background-repeat: no-repeat;
@@ -106,7 +201,9 @@
     align-items: center;
     justify-content: center;
   }
-
+ .celeb-container{
+  margin-top: 30px;
+ }
   .custom_insta .name_text {
     font-family: IBM Plex Sans;
     font-size: 24px;
@@ -289,7 +386,7 @@
       // loop: true,
     //   nextButton: '.button-next',
     //   prevButton: '.button-prev',
-      slidesPerView: 4.2,
+      slidesPerView: 5,
       spaceBetween: 15,
       breakpoints: {
         500: {
