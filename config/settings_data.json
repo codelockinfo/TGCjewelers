@@ -3230,51 +3230,15 @@
           "text_nkKVXD": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Rectangle_24.png",
-              "product": ""
-            }
-          },
-          "text_4Q8BXg": {
-            "type": "text",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Rectangle_25.png",
-              "product": ""
-            }
-          },
-          "text_K9LMHB": {
-            "type": "text",
-            "settings": {
-              "product": ""
-            }
-          },
-          "text_MgdAYX": {
-            "type": "text",
-            "settings": {
-              "product": ""
-            }
-          },
-          "text_hUHPe4": {
-            "type": "text",
-            "settings": {
-              "product": ""
-            }
-          },
-          "text_PGCTac": {
-            "type": "text",
-            "settings": {
+              "image": "shopify:\/\/shop_images\/9e2d38168ba457d37f650083f0206649.png",
+              "smallimg": "shopify:\/\/shop_images\/Rectangle_25.png",
               "product": ""
             }
           }
         },
         "block_order": [
-          "text_nkKVXD",
-          "text_4Q8BXg",
-          "text_K9LMHB",
-          "text_MgdAYX",
-          "text_hUHPe4",
-          "text_PGCTac"
+          "text_nkKVXD"
         ],
-        "disabled": true,
         "settings": {
           "title": "Collection Grid",
           "sub_title": "",
