@@ -14,21 +14,49 @@
     position: absolute;
     top: 50%;
 }
-.margin_section{
+
+.margin_section {
     margin-bottom: 30px;
 }
-.product-info  .product-title{
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.compare_p {
     font-family: Lato !important;
-    font-size: 16px !important;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #848484 !important;
+}
+
+.product-info .price_custom {
+    font-family: Lato !important;
+    font-size: 18px !important;
+    font-weight: 700;
+    line-height: 24px;
+    color: #C0862B !important;
+    margin-top: 10px;
+}
+
+.product-info .product-title {
+    font-family: Lato !important;
+    font-size: 18px !important;
     font-weight: 700 !important;
+    letter-spacing: normal !important;
+    text-transform: capitalize !important;
 }
-.product-info  .product-title a{
-    color: #000000 !important; 
+
+.product-info .product-title a {
+    color: #000000 !important;
 }
-.view_more{
+
+.view_more {
     border: 0 !important;
     background-color: #D0A570 !important;
 }
+
 .instafeed_custom {
     margin: 0 10px;
 }
@@ -410,6 +438,10 @@
 }
 
 @media (max-width:768px) {
+    .section-title {
+        font-size: 48px !important;
+        line-height: normal;
+    }
     .about_up_box {
         top: -72%;
     }
@@ -474,6 +506,19 @@
     .Custom_banner_class .banner-box .heading-h1 {
         font-size: 48px;
         line-height: 50px;
+    }
+    .section-title {
+        font-size: 36px !important;
+        line-height: 50px;
+    }
+    .margin_section {
+        margin-bottom: 40px;
+    }
+    .collection_logos {
+        margin-top: 20px;
+    }
+    .big_title_logo .collection_logos{
+        margin-top: 40px;
     }
 }
 
