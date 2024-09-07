@@ -454,6 +454,9 @@
     padding: 15px;
     /* padding: 50px 0; */
 }
+.custo_imgsection .custom_img{
+    text-align: center;
+}
 
 /* FOOTER SECTION  */
 .custom_news {
