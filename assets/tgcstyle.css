@@ -69,7 +69,13 @@
     color: #000 !important;
     letter-spacing: normal !important;
 }
-
+.custom_section_title {
+    font-family: "Sorts Mill Goudy", serif !important;
+    font-size: 45px;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+}
 @media (max-width: 599px) {
     #shopify-section-featured_collection_mFBE6T   .big_title_logo .collection_logos {
         margin-top: 20px;
@@ -92,14 +98,23 @@
     color: #D0A570;
 }
 
-.custom_section_title {
-    font-family: "Sorts Mill Goudy", serif !important;
-    font-size: 45px;
-    font-weight: 400;
-    text-align: center;
-    color: black;
+.header__mid .menu-item .heder_font_title{
+    font-family: Poppins !important;
+font-size: 16px !important;
+font-weight: 500 !important;
+line-height: 24px;
+letter-spacing: 1px;
+transition: all 0.5s;
+text-transform: capitalize !important;
 }
-
+.header__mid .menu-item:hover .heder_font_title{
+    text-transform: capitalize !important;
+ color: #CAA45D !important;
+}
+.nt_menu>li>a {
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+}
 .top_bar {
     text-align: center;
 }

@@ -32,7 +32,7 @@
             </li>
          {%- when 'logo' -%} {% break %} {%- render 'nt_logo', nt_logo:'li',class:'menu-item',class2:'lh__1 flex al_center pr' -%}   
          {%- when 'btn' -%}{% if block.settings.url != blank %}<li id="item_{{blockID}}" class="menu-item type_btn br_radius_{{block.settings.radius}}" {{ block.shopify_attributes }}><a class="button" href="{{block.settings.url}}" target="{{block.settings.open_link}}"{% if block.settings.cus_cl %} style="color:{{block.settings.cl}}"{% endif %}>{%- render 'title_menu',block:block -%}</a></li>{% endif %}
-         {%- when 'simple' -%}{% if block.settings.url != blank %}<li id="item_{{blockID}}" class="menu-item type_simple" {{ block.shopify_attributes }}><a class="lh__1 flex al_center pr" href="{{block.settings.url}}" target="{{block.settings.open_link}}"{% if block.settings.cus_cl %} style="color:{{block.settings.cl}}"{% endif %}>{%- render 'title_menu',block:block -%}</a></li>{% endif %}
+         {%- when 'simple' -%}{% if block.settings.url != blank %}<li id="item_{{blockID}}" class="menu-item type_simple" {{ block.shopify_attributes }}><a class=" heder_font_title lh__1 flex al_center pr" href="{{block.settings.url}}" target="{{block.settings.open_link}}"{% if block.settings.cus_cl %} style="color:{{block.settings.cl}}"{% endif %}>{%- render 'title_menu',block:block -%}</a></li>{% endif %}
          {%- else -%}
             <li id="item_{{blockID}}" class="type_{{block.type}} menu_wid_{{block.settings.wid}} menu-item has-children menu_has_offsets menu_{{block.settings.pos}} pos_{{block.settings.pos}}" {{ block.shopify_attributes }}>
                <a class="lh__1 flex al_center pr" href="{{block.settings.url}}" target="{{block.settings.open_link}}"{% if block.settings.cus_cl %} style="color:{{block.settings.cl}}"{% endif %}>{%- render 'title_menu',block:block -%}</a>
@@ -93,7 +93,7 @@
                      {%- endif -%}
                      </li>
                   {%- when 'btn' -%}{% if block.settings.url != blank %}<li id="item_{{blockID}}" class="menu-item type_btn br_radius_{{block.settings.radius}}" {{ block.shopify_attributes }}><a class="button" href="{{block.settings.url}}" target="{{block.settings.open_link}}"{% if block.settings.cus_cl %} style="color:{{block.settings.cl}}"{% endif %}>{%- render 'title_menu',block:block -%}</a></li>{% endif %}
-                  {%- when 'simple' -%}{% if block.settings.url != blank %}<li id="item_{{blockID}}" class="menu-item type_simple" {{ block.shopify_attributes }}><a class="lh__1 flex al_center pr" href="{{block.settings.url}}" target="{{block.settings.open_link}}"{% if block.settings.cus_cl %} style="color:{{block.settings.cl}}"{% endif %}>{%- render 'title_menu',block:block -%}</a></li>{% endif %}
+                  {%- when 'simple' -%}{% if block.settings.url != blank %}<li id="item_{{blockID}}" class="menu-item type_simple" {{ block.shopify_attributes }}><a class="heder_font_title lh__1 flex al_center pr" href="{{block.settings.url}}" target="{{block.settings.open_link}}"{% if block.settings.cus_cl %} style="color:{{block.settings.cl}}"{% endif %}>{%- render 'title_menu',block:block -%}</a></li>{% endif %}
                {%- endcase -%}
             {% endunless %}
 
