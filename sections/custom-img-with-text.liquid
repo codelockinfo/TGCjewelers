@@ -1,0 +1,44 @@
+<div class="custom_img_text">
+  <div class="customwidth-container">
+        <div class="gray_container">
+            <div class="gray_box">
+                <div class="contentimg_box">
+                   <div class="custom_img">
+                    <div class="custom_img_box">
+                    <img src="{{section.settings.watchimg | img_url:'master'}}" alt="" class="watch_img">
+                   </div>
+                   </div>
+                   <div class="custom_content_box">
+                       <div class="content_heading">Sparkle with our unique jewelry</div>
+                       <div class="content_subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
+                      <a href="" class="content_button"> <i class="fa-sharp fa-solid fa-minus"></i>&nbsp&nbsp View more</a>
+                   </div>
+                </div>
+            </div>
+        </div>
+  </div>
+</div>
+
+
+
+x
+{% schema %}
+{
+  "name": "Custom img with text",
+  "class": "custo_imgsection",
+  "settings": [
+    
+    {
+      "type": "image_picker",
+      "id": "watchimg",
+      "label": "Select Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom img with text"
+    }
+  ]
+}
+{% endschema %}
+

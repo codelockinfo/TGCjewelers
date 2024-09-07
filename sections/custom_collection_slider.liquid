@@ -1,37 +1,39 @@
 <section class="image_section"> 
-  <div class="swiper-container">
-    <div class="heading_icons">
-      <div class="collection_image">
-        <h1 class="collection_slider_heading">{{ section.settings.main_title }}</h1>
-        {% if section.settings.collection_logo != blank %}
-          <img src="{{ section.settings.collection_logo | img_url: 'master' }}" alt="Our Collection" class="collection_logo">
-        {% endif %}
-      </div>
-      <div class="next-prev-icons">
-        <img src="https://img.icons8.com/?size=30&id=99996&format=png" class="button-prev">
-        <img src="https://img.icons8.com/?size=30&id=99982&format=png" class="button-next">
-      </div>
-    </div>
-    <div class="swiper-wrapper">
-      {% for block in section.blocks %}
-        <div class="swiper-slide">
-          {% if block.settings.img_heading_url %}
-            <a href="{{ block.settings.img_heading_url }}">
-              <img src="{{ block.settings.slide_image | img_url: 'master' }}" alt="Rudraksh Mala" class="collection_img">
-            </a>
-          {% endif %}
-          {% if block.settings.img_heading_url %}
-            <a href="{{ block.settings.img_heading_url }}">
-              <span class="product_name">{{ block.settings.heading }}</span>
-            </a>
-          {% endif %}
+  <div class="width-container">
+    <div class="swiper-container">
+        <div class="heading_icons">
+          <div class="collection_image">
+            <h1 class="collection_slider_heading">{{ section.settings.main_title }}</h1>
+            {% if section.settings.collection_logo != blank %}
+              <img src="{{ section.settings.collection_logo | img_url: 'master' }}" alt="Our Collection" class="collection_logo">
+            {% endif %}
+          </div>
+          <div class="next-prev-icons">
+            <img src="https://img.icons8.com/?size=30&id=99996&format=png" class="button-prev">
+            <img src="https://img.icons8.com/?size=30&id=99982&format=png" class="button-next">
+          </div>
         </div>
-      {% endfor %}
-    </div>
-    <div class="next-prev-btn">
-      <img src="https://img.icons8.com/?size=30&id=99996&format=png" class="button-prev">
-      <img src="https://img.icons8.com/?size=30&id=99982&format=png" class="button-next">
-    </div>
+        <div class="swiper-wrapper">
+          {% for block in section.blocks %}
+            <div class="swiper-slide">
+              {% if block.settings.img_heading_url %}
+                <a href="{{ block.settings.img_heading_url }}">
+                  <img src="{{ block.settings.slide_image | img_url: 'master' }}" alt="Rudraksh Mala" class="collection_img">
+                </a>
+              {% endif %}
+              {% if block.settings.img_heading_url %}
+                <a href="{{ block.settings.img_heading_url }}">
+                  <span class="product_name">{{ block.settings.heading }}</span>
+                </a>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </div>
+        <div class="next-prev-btn">
+          <img src="https://img.icons8.com/?size=30&id=99996&format=png" class="button-prev">
+          <img src="https://img.icons8.com/?size=30&id=99982&format=png" class="button-next">
+        </div>
+      </div>
   </div>
 </section>   
 

@@ -8,7 +8,8 @@
 {%- if template.suffix == "header" and template.name == 'search' -%} 
   {%- render 'menu_import',section:section -%}
 {%- else -%}
-  <div class="header__mid{% if h__bgimg != blank %} lazyload h__lz_img" data-bgset="{{ h__bgimg | img_url: '1x1' }}" data-ratio="{{h__bgimg.aspect_ratio}}" data-sizes="auto"{% else %}"{% endif %}><div class="container">
+  <div class="header__mid{% if h__bgimg != blank %} lazyload h__lz_img" data-bgset="{{ h__bgimg | img_url: '1x1' }}" data-ratio="{{h__bgimg.aspect_ratio}}" data-sizes="auto"{% else %}"{% endif %}>
+    <div class="width-container">
      <div class="row al_center css_h_se">
         <div class="col-lg-2 col-md-4 col-3">
            {%- render 'push_menu' with 'dn_lg' -%}
@@ -19,8 +20,10 @@
             {%- elsif section.settings.social == '2' -%}{%- render 'social-sharing',follow_social:true,class_tooltip:'ttip_nt tooltip_top_right' -%}{%- endif -%}
            </div> 
         </div>
-        <div class="col-lg-8 col-md-4 col-6">{%- render 'menu_inc',admin_sp:admin_sp,se_blocks:se_blocks,tp_blocks:tp_blocks -%}</div>
-        <div class="col-lg-2 col-md-4 col-3 tr">{%- render 'nt_group_btns' -%}</div>
+        <div class="col-lg-12 col-md-7 col-8 flex menu_inc_custom">{%- render 'menu_inc_custom',admin_sp:admin_sp,se_blocks:se_blocks,tp_blocks:tp_blocks -%}
+   
+        </div>
+        {% comment %} <div class="col-lg-2 col-md-4 col-3 tr">{%- render 'nt_group_btns' -%}</div> {% endcomment %}
      </div>
   </div></div>
 
@@ -30,6 +33,7 @@
   {%- endif -%}
   <style>.header__mid .css_h_se {min-height: {{section.settings.height}}px}.nt_menu >li>a{height:{{section.settings.height}}px}</style>
 {%- endif -%}
+
 
 {%- schema -%}
   {
@@ -1266,3 +1270,65 @@
     }
   }
 {% endschema %}
+
+<style>
+  
+  .nt_navigation {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+  }
+  .width-menu{
+    width:45%;
+  }
+  .width-logo{
+    justify-content: center;
+    width:10%;
+  }
+  .menu-2{
+    justify-content: end;
+  }
+
+
+
+ 
+ 
+  .width-container  .nt_menu>li>a:hover {
+    color: #282828 !important;
+  }
+  .width-container  .ntheader.live_stuck .nt_menu>li>a {
+    color: #ffffff !important;
+  }
+  .width-container .css_h_se  .flex {
+    justify-content: space-between !important;
+  }
+ 
+  .header__mid .width-container .row{
+    justify-content: space-between;
+  }
+  @media (max-width: 1024px) {
+    .width-container .width-logo{
+      width:auto;
+    }
+    .menu-1{
+      display: none;
+    }
+    .nt_navigation{
+      justify-content: space-between !important;
+    }
+  }
+  @media(max-width:1239px) {
+    .width-container  .nt_menu>li>a {
+    font-size: 12px !important;
+    /* text-decoration:  */
+}
+}
+  @media(max-width:1136px) {
+    .header-width-container  .nt_menu>li>a {
+    font-size: 10px !important;
+    /* text-decoration:  */
+}
+  }
+</style>

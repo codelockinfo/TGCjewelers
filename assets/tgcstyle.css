@@ -70,6 +70,12 @@
     letter-spacing: normal !important;
 }
 
+@media (max-width: 599px) {
+    #shopify-section-featured_collection_mFBE6T   .big_title_logo .collection_logos {
+        margin-top: 20px;
+    }
+}
+
 /* HEADER CSS  */
 
 .login_button {
@@ -101,6 +107,9 @@
 .header_top_background {
     background: linear-gradient(90deg, #DDB16D 0%, #C0862B 46.5%, #D0A571 100%) !important;
 
+}
+.header__mid .container{
+    max-width: 100% !important;
 }
 
 /* BANNER SLIDER SECTION  */
@@ -348,6 +357,71 @@
     letter-spacing: 0.09em;
     text-align: center;
 }
+/* CUSTOM IMG WITH TEXT  */
+.custo_imgsection .gray_box{
+    padding: 0 50px;
+    background-color: #E9E8E4;
+ }
+ .customwidth-container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+ }
+ /* .custo_imgsection .gray_container{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+ } */
+
+.custo_imgsection .contentimg_box{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.custo_imgsection .watch_img{
+   width: 80%;
+   height: 100%;
+}
+.custo_imgsection .content_heading{
+    font-family: Sorts Mill Goudy;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 80px;
+    text-align: left;
+    color: #000000;    
+}
+.custo_imgsection .content_subtext{
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;    
+    margin: 30px 0;  
+    margin-bottom: 50px;
+}
+.custo_imgsection .content_button{
+    font-family: Lato;
+font-size: 18px;
+font-weight: 600;
+line-height: 23.46px;
+text-align: center;
+   padding: 10px 30px;
+   background-color: #D0A570;
+}
+.custo_imgsection .custom_img ,.custom_content_box{
+    width: 50%;
+    padding: 15px;
+    /* padding: 50px 0; */
+}
+
+
+
+
+
+
+
 
 /* MEDIA QUERY  */
 
@@ -366,6 +440,7 @@
         width: 70%;
     }
 }
+
 
 @media (max-width:1024px) {
     .Custom_banner_class .banner-box .heading-h1 {
@@ -448,6 +523,11 @@
 
     .about_down_box {
         margin-top: 42%;
+    }
+    .custo_imgsection .custom_img ,.custom_content_box{
+        width: 100%;
+        padding: 15px;
+        /* padding: 50px 0; */
     }
 }
 
