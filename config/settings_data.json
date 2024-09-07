@@ -3327,6 +3327,16 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "custom_img_with_text_i6xVXk": {
+        "type": "custom-img-with-text",
+        "settings": {
+          "watchimg": "shopify:\/\/shop_images\/Rectangle_42.png",
+          "mainheading": "Sparkle with our unique jewelry",
+          "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+          "buttontext": "View More",
+          "buttonurl": ""
+        }
       }
     },
     "content_for_index": [
@@ -3335,6 +3345,7 @@
       "featured_collection_JEbDzE",
       "featured_collection_mFBE6T",
       "featured_collection_owl_XEKcYg",
+      "custom_img_with_text_i6xVXk",
       "custom_insta_slider_yHUrrQ"
     ]
   }
