@@ -773,7 +773,7 @@
             "type": "menu",
             "settings": {
               "title": "INFORMATION",
-              "menu": "",
+              "menu": "information-menu",
               "order": "1",
               "cl": "15",
               "cl_tb": "6",
@@ -784,7 +784,7 @@
             "type": "menu",
             "settings": {
               "title": "USEFUL LINKS",
-              "menu": "",
+              "menu": "usefull-links",
               "order": "1",
               "cl": "15",
               "cl_tb": "6",
