@@ -69,6 +69,7 @@
     color: #000 !important;
     letter-spacing: normal !important;
 }
+
 .custom_section_title {
     font-family: "Sorts Mill Goudy", serif !important;
     font-size: 45px;
@@ -76,8 +77,9 @@
     text-align: center;
     color: black;
 }
+
 @media (max-width: 599px) {
-    #shopify-section-featured_collection_mFBE6T   .big_title_logo .collection_logos {
+    #shopify-section-featured_collection_mFBE6T .big_title_logo .collection_logos {
         margin-top: 20px;
     }
 }
@@ -98,23 +100,26 @@
     color: #D0A570;
 }
 
-.header__mid .menu-item .heder_font_title{
+.header__mid .menu-item .heder_font_title {
     font-family: Poppins !important;
-font-size: 16px !important;
-font-weight: 500 !important;
-line-height: 24px;
-letter-spacing: 1px;
-transition: all 0.5s;
-text-transform: capitalize !important;
-}
-.header__mid .menu-item:hover .heder_font_title{
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 24px;
+    letter-spacing: 1px;
+    transition: all 0.5s;
     text-transform: capitalize !important;
- color: #CAA45D !important;
 }
+
+.header__mid .menu-item:hover .heder_font_title {
+    text-transform: capitalize !important;
+    color: #CAA45D !important;
+}
+
 .nt_menu>li>a {
     padding-right: 10px !important;
     padding-left: 10px !important;
 }
+
 .top_bar {
     text-align: center;
 }
@@ -123,7 +128,8 @@ text-transform: capitalize !important;
     background: linear-gradient(90deg, #DDB16D 0%, #C0862B 46.5%, #D0A571 100%) !important;
 
 }
-.header__mid .container{
+
+.header__mid .container {
     max-width: 100% !important;
 }
 
@@ -372,69 +378,85 @@ text-transform: capitalize !important;
     letter-spacing: 0.09em;
     text-align: center;
 }
+
 /* CUSTOM IMG WITH TEXT  */
-.custo_imgsection .gray_box{
+.custo_imgsection .gray_box {
     padding: 0 50px;
-    background-color: #E9E8E4;
- }
- .customwidth-container{
+    /* background-color: #E9E8E4; */
+    position: relative;
+    z-index: 1;
+}
+
+.customwidth-container {
     max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
- }
- /* .custo_imgsection .gray_container{
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 50px;
-    padding-bottom: 50px;
- } */
+}
 
-.custo_imgsection .contentimg_box{
+.custo_imgsection .gray_box::after {
+    right: 0;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 80%;
+    top: 10%;
+    bottom: 10%;
+    background-color: #e9e8e4;
+    z-index: -1;
+    left: 0;
+}
+
+
+.custo_imgsection .contentimg_box {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
-.custo_imgsection .watch_img{
-   width: 80%;
-   height: 100%;
+
+.custo_imgsection .watch_img {
+    width: 80%;
+    height: 100%;
 }
-.custo_imgsection .content_heading{
+
+.custo_imgsection .content_heading {
     font-family: Sorts Mill Goudy;
     font-size: 64px;
     font-weight: 400;
     line-height: 80px;
     text-align: left;
-    color: #000000;    
+    color: #000000;
 }
-.custo_imgsection .content_subtext{
+
+.custo_imgsection .content_subtext {
     font-family: Lato;
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
     text-align: left;
-    color: #000000;    
-    margin: 30px 0;  
+    color: #000000;
+    margin: 30px 0;
     margin-bottom: 50px;
 }
-.custo_imgsection .content_button{
+
+.custo_imgsection .content_button {
     font-family: Lato;
-font-size: 18px;
-font-weight: 600;
-line-height: 23.46px;
-text-align: center;
-   padding: 10px 30px;
-   background-color: #D0A570;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23.46px;
+    text-align: center;
+    padding: 10px 30px;
+    background-color: #D0A570;
 }
-.custo_imgsection .custom_img ,.custom_content_box{
+
+.custo_imgsection .custom_img,
+.custom_content_box {
     width: 50%;
     padding: 15px;
     /* padding: 50px 0; */
 }
 
-
-
 /* FOOTER SECTION  */
-.custom_news{
+.custom_news {
     border-bottom: 1px solid #fff !important;
     border-radius: 0 !important;
     border-top: 0 !important;
@@ -447,25 +469,31 @@ text-align: center;
     font-size: 16px;
 }
 
-.footer__top .signup-newsletter-form .submit-btn{
+.footer__top .signup-newsletter-form .submit-btn {
     background-color: transparent !important;
 }
-.footer__top .signup-newsletter-form .submit-btn i{
+
+.footer__top .signup-newsletter-form .submit-btn i {
     font-size: 18px;
 }
+
 .footer__top .widget-title {
     letter-spacing: 1px !important;
 }
-.footer__top .widget-title .txt_title{
+
+.footer__top .widget-title .txt_title {
     border-bottom: 2px solid #C0862B;
     padding-bottom: 5px;
 }
-.footer__top .menu-item a{
+
+.footer__top .menu-item a {
     font-size: 16px !important;
 }
+
 .footer__top a:hover {
     color: #CAA45D !important;
 }
+
 /* MEDIA QUERY  */
 
 @media (max-width:1440px) {
@@ -475,6 +503,13 @@ text-align: center;
 
     .Custom_banner_class .banner-box .banner-content {
         width: 60%;
+    }
+}
+
+@media (max-width:1106px) {
+    .custo_imgsection .content_heading {
+        font-size: 48px;
+        line-height: 50px;
     }
 }
 
@@ -529,29 +564,31 @@ text-align: center;
         margin-top: 40%;
     }
 
+    .custo_imgsection .watch_img {
+        width: 90%;
+        height: 100%;
+    }
 }
 
 
 @media (max-width:959px) {
-    .about_up_box {
-        top: -82%;
+    .custo_imgsection .content_heading {
+        font-size: 40px;
+        line-height: 40px;
     }
 
-    .about_down_box {
-        margin-top: 42%;
+    .custo_imgsection .content_subtext {
+        font-size: 18px;
+        margin: 10px 0 40px;
     }
+}
 
-    .cabout_section {
-        padding-top: 150px;
-    }
+@media (max-width:829px) {
 
-    .about_content {
-        width: 100%;
-    }
-
-    .about_button_box {
-        width: 100%;
-        margin: 15px;
+    .custo_imgsection .content_subtext {
+        font-size: 16px;
+        margin: 10px 0 40px;
+        line-height: 20px;
     }
 }
 
@@ -560,6 +597,7 @@ text-align: center;
         font-size: 48px !important;
         line-height: normal;
     }
+
     .about_up_box {
         top: -72%;
     }
@@ -567,13 +605,39 @@ text-align: center;
     .about_down_box {
         margin-top: 42%;
     }
-    .custo_imgsection .custom_img ,.custom_content_box{
+
+    .custo_imgsection .custom_img,
+    .custom_content_box {
         width: 100%;
         padding: 15px;
-        /* padding: 50px 0; */
+        text-align: center;
+    }
+
+    .custom_img_box {
+        text-align: center;
+    }
+
+    .custo_imgsection .watch_img {
+        width: 80%;
+    }
+    .custo_imgsection .content_heading {
+        text-align: center;
+    }
+    .custo_imgsection .content_subtext {
+        text-align: center;
+    }
+    .custo_imgsection .gray_box:after{
+            width: 100%;
+            height: 50%;
+            top: 13vw;
     }
 }
-
+@media (max-width:719px) {
+    .custo_imgsection .gray_box:after {
+        height: 50%;
+        top: 10vw;
+    }
+}
 @media (max-width:767px) {
     .Custom_banner_class .banner_box_main::after {
         position: absolute;
@@ -630,18 +694,26 @@ text-align: center;
         font-size: 48px;
         line-height: 50px;
     }
+
     .section-title {
         font-size: 36px !important;
         line-height: 50px;
     }
+
     .margin_section {
         margin-bottom: 40px;
     }
+
     .collection_logos {
         margin-top: 20px;
     }
-    .big_title_logo .collection_logos{
+
+    .big_title_logo .collection_logos {
         margin-top: 40px;
+    }
+    .custo_imgsection .gray_box:after {
+        height: 40%;
+        top: 14vw;
     }
 }
 
@@ -684,6 +756,13 @@ text-align: center;
     .about_up_box {
         top: -57%;
     }
+    .custo_imgsection .gray_box:after {
+        height: 40%;
+        top: 15vw;
+    }   
+    .customwidth-container{
+        padding: 0;
+    }
 }
 
 @media (max-width:529px) {
@@ -703,6 +782,10 @@ text-align: center;
     .insta_mini_img_box {
         left: 12.6vw;
     }
+    .custo_imgsection .gray_box:after {
+        height: 40%;
+        top: 12vw;
+    }   
 }
 
 @media (max-width:430px) {
@@ -712,6 +795,13 @@ text-align: center;
 
     .about_up_box {
         top: -48%;
+    }
+    .custo_imgsection .gray_box:after {
+        height: 40%;
+        top: 15vw;
+    }   
+    .custo_imgsection .gray_box{
+        padding: 0;
     }
 }
 
@@ -724,4 +814,7 @@ text-align: center;
     .about_up_box {
         top: -42%;
     }
+    .custo_imgsection .gray_box:after {
+        top: 14vw;
+    }   
 }

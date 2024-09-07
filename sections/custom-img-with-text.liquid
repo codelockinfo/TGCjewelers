@@ -1,37 +1,59 @@
 <div class="custom_img_text">
   <div class="customwidth-container">
-        <div class="gray_container">
-            <div class="gray_box">
-                <div class="contentimg_box">
-                   <div class="custom_img">
-                    <div class="custom_img_box">
-                    <img src="{{section.settings.watchimg | img_url:'master'}}" alt="" class="watch_img">
-                   </div>
-                   </div>
-                   <div class="custom_content_box">
-                       <div class="content_heading">Sparkle with our unique jewelry</div>
-                       <div class="content_subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
-                      <a href="" class="content_button"> <i class="fa-sharp fa-solid fa-minus"></i>&nbsp&nbsp View more</a>
-                   </div>
-                </div>
+    <div class="gray_container">
+      {% if section.settings.watchimg != blank %}
+        <div class="gray_box">
+          <div class="contentimg_box">
+            <div class="custom_img">
+              <div class="custom_img_box">
+                <img src="{{section.settings.watchimg | img_url:'master'}}" alt="" class="watch_img">
+              </div>
             </div>
+            <div class="custom_content_box">
+              <div class="content_heading">{{ section.settings.mainheading }}</div>
+              <div class="content_subtext">{{ section.settings.subheading }}</div>
+              {% if section.settings.buttontext != blank %}
+                <a href="{{section.settings.buttonurl}}" class="content_button">
+                  <i class="fa-sharp fa-solid fa-minus"></i>&nbsp&nbsp {{ section.settings.buttontext -}}
+                </a>
+              {% endif %}
+            </div>
+          </div>
         </div>
+      {% endif %}
+    </div>
   </div>
 </div>
 
-
-
-x
 {% schema %}
 {
   "name": "Custom img with text",
   "class": "custo_imgsection",
   "settings": [
-    
     {
       "type": "image_picker",
       "id": "watchimg",
       "label": "Select Image"
+    },
+    {
+      "type": "text",
+      "id": "mainheading",
+      "label": "Main heading text"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Paragraph text"
+    },
+    {
+      "type": "text",
+      "id": "buttontext",
+      "label": "Button text "
+    },
+    {
+      "type": "url",
+      "id": "buttonurl",
+      "label": "Button url"
     }
   ],
   "presets": [
@@ -41,4 +63,3 @@ x
   ]
 }
 {% endschema %}
-
