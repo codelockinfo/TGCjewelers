@@ -3393,8 +3393,11 @@
       "hip_hop_collection_BFmgbj": {
         "type": "hip_hop_collection",
         "settings": {
-          "mainheading": "",
-          "collection": "",
+          "backgroundimg": "shopify:\/\/shop_images\/Rectangle_36_6.png",
+          "hiphopimg": "shopify:\/\/shop_images\/gold-dollar-symbol-golden-chain-jewellery-necklace-background-with-place-text-banner-fashion-accessories_1_1.png",
+          "mainheading": "Hip Hop Chains",
+          "collectionlogo": "shopify:\/\/shop_images\/6b7221cf8966784b3d4ddded1688d7dc_1_8a135a0d-b95a-4a93-b0d6-ff4237a29778.png",
+          "collection": "moissanite-rings",
           "limit": 8,
           "space": 30,
           "use_pagination": "none",
