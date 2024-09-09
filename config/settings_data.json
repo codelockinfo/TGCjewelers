@@ -3079,7 +3079,7 @@
           "ic_tt": "gem",
           "show_clpr": false,
           "collection": "delicate-bands",
-          "limit": 12,
+          "limit": 8,
           "space": 30,
           "use_pagination": "none",
           "use_bar_lm": true,
