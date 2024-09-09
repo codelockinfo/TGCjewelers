@@ -16,6 +16,7 @@
   <link rel="preload" as="style" href="{{ 'pre_theme.min.css' | asset_url }}">
   <link rel="preload" as="style" href="{%- render 'enable_minify' with 'css' ,nameFile:'theme.css' -%}">
   {{ 'tgcstyle.css' | asset_url | stylesheet_tag: preload: true }}
+  {{ 'custom-media.css' | asset_url | stylesheet_tag: preload: true }}
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

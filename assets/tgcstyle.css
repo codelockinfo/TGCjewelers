@@ -263,21 +263,22 @@
 
 /* ABOUT US SECTION  */
 .cabout_section {
-    padding: 100px 0;
+    padding-top: 100px;
 }
 
 /* about upbox css  */
 .about_up_mainbox {
     /* padding-top: 80px; */
-    position: absolute;
+    /* position: absolute; */
     margin: 0 auto;
 }
 
 .about_up_box {
     display: flex;
     flex-wrap: wrap;
-    position: absolute;
-    top: -51%;
+    justify-content: center;
+    /* position: absolute; */
+    /* top: -51%; */
 }
 
 .about_us_video {
@@ -285,26 +286,27 @@
     /* padding: 15px; */
 }
 
-.about_us_info1 {
+/* .about_us_info1 {
     width: 20%;
     padding: 15px;
 
-}
+} */
 
-.about_us_info2 {
+/* .about_us_info2 {
     width: 20%;
     padding: 15px;
-
-}
+} */
 
 .about_info {
     display: flex;
     align-items: center;
-    justify-content: center;
+    margin-bottom: 20px;
+    /* justify-content: center; */
 }
 
 .about_video {
     width: 100%;
+    height: 100%;
 }
 
 .about_video_box {
@@ -316,23 +318,26 @@
 .about_info_box {
     margin-top: 50px;
 }
-
-
+.svgimg_about{
+    width: 70%;
+}
+.about_flex{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    margin-top: 50px;
+}
 /* about down box css */
 .about_down_box {
-    background-image: url('https://cdn.shopify.com/s/files/1/0697/1621/3987/files/Group_1000004466.png?v=1724485005');
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
-    position: relative;
-    margin-top: 16%;
-    /* background-color: #C48F40; */
 }
 
 .about_content_box {
     display: flex;
     /* padding: 100px 0; */
     flex-wrap: wrap;
-    padding-top: 12%;
+    padding-top: 3%;
     padding-bottom: 3%;
 }
 
@@ -377,6 +382,46 @@
     line-height: 23.46px;
     letter-spacing: 0.09em;
     text-align: center;
+}
+
+.icon_main_heading {
+    font-family: IBM Plex Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #000000;
+}
+
+.icon_main_subheading {
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: left;
+    color: #848484;
+}
+
+.about_title {
+    width: 84px;
+    margin-bottom: 10px;
+}
+
+.about_img_box {
+    display: none;
+}
+
+.icon_img {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #E9E8E4;
+}
+
+.icon_content {
+    margin-left: 15px;
 }
 
 /* CUSTOM IMG WITH TEXT  */
@@ -454,7 +499,8 @@
     padding: 15px;
     /* padding: 50px 0; */
 }
-.custo_imgsection .custom_img{
+
+.custo_imgsection .custom_img {
     text-align: center;
 }
 
@@ -495,329 +541,4 @@
 
 .footer__top a:hover {
     color: #CAA45D !important;
-}
-
-/* MEDIA QUERY  */
-
-@media (max-width:1440px) {
-    .Custom_banner_class .banner-box .banner-content {
-        padding-left: 40px;
-    }
-
-    .Custom_banner_class .banner-box .banner-content {
-        width: 60%;
-    }
-}
-
-@media (max-width:1106px) {
-    .custo_imgsection .content_heading {
-        font-size: 48px;
-        line-height: 50px;
-    }
-}
-
-@media (max-width:1250px) {
-    .Custom_banner_class .banner-box .banner-content {
-        width: 70%;
-    }
-}
-
-
-@media (max-width:1024px) {
-    .Custom_banner_class .banner-box .heading-h1 {
-        font-size: 80px;
-        line-height: 87px;
-    }
-
-    .corder-1 {
-        order: 1;
-    }
-
-    .corder-2 {
-        order: 2;
-    }
-
-    .Custom_banner_class .banner-box .banner-content {
-        width: 75%;
-    }
-
-    .insta_mini_img_box {
-        left: 6.5vw;
-    }
-
-    .about_us_info1 {
-        width: 50%;
-    }
-
-    .about_us_info2 {
-        width: 50%;
-    }
-
-    .about_us_video {
-        width: 80%;
-        order: 3;
-    }
-
-    .about_up_box {
-        justify-content: center;
-        top: -100%;
-    }
-
-    .about_down_box {
-        margin-top: 40%;
-    }
-
-    .custo_imgsection .watch_img {
-        width: 90%;
-        height: 100%;
-    }
-}
-
-
-@media (max-width:959px) {
-    .custo_imgsection .content_heading {
-        font-size: 40px;
-        line-height: 40px;
-    }
-
-    .custo_imgsection .content_subtext {
-        font-size: 18px;
-        margin: 10px 0 40px;
-    }
-}
-
-@media (max-width:829px) {
-
-    .custo_imgsection .content_subtext {
-        font-size: 16px;
-        margin: 10px 0 40px;
-        line-height: 20px;
-    }
-}
-
-@media (max-width:768px) {
-    .section-title {
-        font-size: 48px !important;
-        line-height: normal;
-    }
-
-    .about_up_box {
-        top: -72%;
-    }
-
-    .about_down_box {
-        margin-top: 42%;
-    }
-
-    .custo_imgsection .custom_img,
-    .custom_content_box {
-        width: 100%;
-        padding: 15px;
-        text-align: center;
-    }
-
-    .custom_img_box {
-        text-align: center;
-    }
-
-    .custo_imgsection .watch_img {
-        width: 80%;
-    }
-    .custo_imgsection .content_heading {
-        text-align: center;
-    }
-    .custo_imgsection .content_subtext {
-        text-align: center;
-    }
-    .custo_imgsection .gray_box:after{
-            width: 100%;
-            height: 50%;
-            top: 13vw;
-    }
-}
-@media (max-width:719px) {
-    .custo_imgsection .gray_box:after {
-        height: 50%;
-        top: 10vw;
-    }
-}
-@media (max-width:767px) {
-    .Custom_banner_class .banner_box_main::after {
-        position: absolute;
-        content: "";
-        width: 100%;
-        height: 100%;
-        z-index: 2;
-        bottom: 0;
-        background: linear-gradient(180deg, #5b544a00, #000 97.43%);
-    }
-
-    .insta_mini_img_box {
-        left: 13.5vw;
-        width: 20vw;
-        height: 20vw;
-        bottom: -10vw;
-    }
-}
-
-@media (max-width:699px) {
-    .Custom_banner_class .banner-box .heading-h1 {
-        font-size: 64px;
-        line-height: 70px;
-    }
-
-    .Custom_banner_class .banner-box .banner-content {
-        width: 100%;
-        padding-left: 15px;
-        padding-right: 15px;
-        text-align: center;
-        padding-top: 250px;
-        padding-bottom: 0;
-    }
-
-    .button-arrow {
-        display: none;
-    }
-
-    .Custom_banner_class .custom_banner_carousel .swiper-button-next {
-        display: none;
-    }
-
-    .Custom_banner_class .custom_banner_carousel .swiper-button-prev {
-        display: none;
-    }
-
-    .about_up_box {
-        top: -65%;
-    }
-}
-
-@media (max-width:599px) {
-    .Custom_banner_class .banner-box .heading-h1 {
-        font-size: 48px;
-        line-height: 50px;
-    }
-
-    .section-title {
-        font-size: 36px !important;
-        line-height: 50px;
-    }
-
-    .margin_section {
-        margin-bottom: 40px;
-    }
-
-    .collection_logos {
-        margin-top: 20px;
-    }
-
-    .big_title_logo .collection_logos {
-        margin-top: 40px;
-    }
-    .custo_imgsection .gray_box:after {
-        height: 40%;
-        top: 14vw;
-    }
-}
-
-@media (max-width:629px) {
-    .about_us_info1 {
-        width: 100%;
-        padding-bottom: 0;
-    }
-
-    .about_us_info2 {
-        width: 100%;
-        padding-top: 0;
-    }
-
-    .about_info_box {
-        margin-top: 0;
-    }
-
-    .about_down_box {
-        margin-top: 50%;
-        background-color: #C48F40;
-    }
-
-    .about_up_box {
-        top: -65%;
-    }
-
-    .about_content .about_heading {
-        font-size: 42px;
-    }
-
-}
-
-
-@media (max-width:576px) {
-    .about_content_box {
-        padding-top: 20%;
-    }
-
-    .about_up_box {
-        top: -57%;
-    }
-    .custo_imgsection .gray_box:after {
-        height: 40%;
-        top: 15vw;
-    }   
-    .customwidth-container{
-        padding: 0;
-    }
-}
-
-@media (max-width:529px) {
-    .Custom_banner_class .banner-box .heading-h1 {
-        font-size: 42px;
-        line-height: 50px;
-    }
-
-    .Custom_banner_class .banner-box .banner-p {
-        font-size: 16px;
-        line-height: 20px;
-        margin-bottom: 20px;
-    }
-}
-
-@media (max-width:500px) {
-    .insta_mini_img_box {
-        left: 12.6vw;
-    }
-    .custo_imgsection .gray_box:after {
-        height: 40%;
-        top: 12vw;
-    }   
-}
-
-@media (max-width:430px) {
-    .insta_mini_img_box {
-        left: 12.6vw;
-    }
-
-    .about_up_box {
-        top: -48%;
-    }
-    .custo_imgsection .gray_box:after {
-        height: 40%;
-        top: 15vw;
-    }   
-    .custo_imgsection .gray_box{
-        padding: 0;
-    }
-}
-
-@media (max-width:375px) {
-    .Custom_banner_class .banner-box .heading-h1 {
-        font-size: 36px;
-        line-height: 40px;
-    }
-
-    .about_up_box {
-        top: -42%;
-    }
-    .custo_imgsection .gray_box:after {
-        top: 14vw;
-    }   
 }
