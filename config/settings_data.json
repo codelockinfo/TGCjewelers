@@ -3340,6 +3340,46 @@
       },
       "about_us_section_BHDgTr": {
         "type": "about_us_section",
+        "blocks": {
+          "text_yFCChr": {
+            "type": "text",
+            "settings": {
+              "svgimg": "shopify:\/\/shop_images\/Group_1000004462.svg",
+              "text1": "MONEY RETURN",
+              "text2": "30 days for free return"
+            }
+          },
+          "text_9khfxR": {
+            "type": "text",
+            "settings": {
+              "svgimg": "shopify:\/\/shop_images\/Vector.svg",
+              "text1": "ONLINE SUPPORT",
+              "text2": "Support 24 hours a day"
+            }
+          },
+          "text_3UpkdL": {
+            "type": "text",
+            "settings": {
+              "svgimg": "shopify:\/\/shop_images\/Group.svg",
+              "text1": "",
+              "text2": ""
+            }
+          },
+          "text_zJmpdt": {
+            "type": "text",
+            "settings": {
+              "svgimg": "shopify:\/\/shop_images\/fast_1.svg",
+              "text1": "",
+              "text2": ""
+            }
+          }
+        },
+        "block_order": [
+          "text_yFCChr",
+          "text_9khfxR",
+          "text_3UpkdL",
+          "text_zJmpdt"
+        ],
         "settings": {
           "bgimg": "shopify:\/\/shop_images\/Group_1000004466.png",
           "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/adc8e1c26e024a2fb3d4d02d475763c4.mp4",
