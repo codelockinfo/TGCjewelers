@@ -3341,6 +3341,7 @@
       "about_us_section_BHDgTr": {
         "type": "about_us_section",
         "settings": {
+          "bgimg": "shopify:\/\/shop_images\/Group_1000004466.png",
           "video": "",
           "mainheading": "",
           "paragraph": "",
