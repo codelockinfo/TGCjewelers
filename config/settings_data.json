@@ -3081,7 +3081,7 @@
           "collection": "delicate-bands",
           "limit": 8,
           "space": 30,
-          "use_pagination": "none",
+          "use_pagination": "view-all",
           "use_bar_lm": true,
           "btn_rd": true,
           "btn_icon": false,
