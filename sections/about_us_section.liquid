@@ -7,9 +7,11 @@
             <div class="about_info_box">
               {%- for block in section.blocks limit: 2 -%}
                 <div class="about_info">
+                  {% if block.settings.svgimg != blank %}
                   <div class="icon_img">
                     <img src="{{ block.settings.svgimg | img_url: 'master' }}" class="svgimg_about" alt="">
                   </div>
+                  {% endif %}
                   <div class="icon_content">
                     <div class="icon_main_heading">{{ block.settings.text1 }}</div>
                     <div class="icon_main_subheading">{{ block.settings.text2 }}</div>
@@ -31,9 +33,11 @@
           <div class="about_info_box">
             {%- for block in section.blocks offset: 2 -%}
               <div class="about_info">
+                {% if block.settings.svgimg != blank %}
                 <div class="icon_img">
                   <img src="{{ block.settings.svgimg | img_url: 'master' }}" class="svgimg_about" alt="">
                 </div>
+              {% endif %}
                 <div class="icon_content">
                   <div class="icon_main_heading">{{ block.settings.text1 }}</div>
                   <div class="icon_main_subheading">{{ block.settings.text2 }}</div>
