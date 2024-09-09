@@ -3337,6 +3337,16 @@
           "buttontext": "View More",
           "buttonurl": ""
         }
+      },
+      "about_us_section_BHDgTr": {
+        "type": "about_us_section",
+        "settings": {
+          "video": "",
+          "mainheading": "",
+          "paragraph": "",
+          "btntext": "",
+          "btnurl": ""
+        }
       }
     },
     "content_for_index": [
@@ -3346,7 +3356,8 @@
       "featured_collection_mFBE6T",
       "featured_collection_owl_XEKcYg",
       "custom_img_with_text_i6xVXk",
-      "custom_insta_slider_yHUrrQ"
+      "custom_insta_slider_yHUrrQ",
+      "about_us_section_BHDgTr"
     ]
   }
 }
