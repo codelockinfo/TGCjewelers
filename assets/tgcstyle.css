@@ -15,6 +15,11 @@
     top: 50%;
 }
 
+.collection_logo {
+    width: 84px;
+    margin: 10px 0;
+}
+
 .margin_section {
     margin-bottom: 30px;
 }
@@ -318,15 +323,18 @@
 .about_info_box {
     margin-top: 50px;
 }
-.svgimg_about{
+
+.svgimg_about {
     width: 70%;
 }
-.about_flex{
+
+.about_flex {
     display: flex;
     width: 25%;
     justify-content: center;
     margin-top: 50px;
 }
+
 /* about down box css */
 .about_down_box {
     background-position: bottom;
@@ -357,7 +365,7 @@
 
 .about_content .about_heading {
     font-family: Sorts Mill Goudy;
-    font-size: 64px;
+    font-size: 60px;
     font-weight: 400;
     line-height: 110px;
     text-align: left;
@@ -465,7 +473,7 @@
 
 .custo_imgsection .content_heading {
     font-family: Sorts Mill Goudy;
-    font-size: 64px;
+    font-size: 60px;
     font-weight: 400;
     line-height: 80px;
     text-align: left;
@@ -541,4 +549,65 @@
 
 .footer__top a:hover {
     color: #CAA45D !important;
+}
+
+
+/* HIPHOP COLLECTION SECTION  */
+.hiphopcollection .width-container {
+    padding: 0 15px;
+}
+
+.hiphopsection {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.hiphopsection::after{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg,#010102 55.08%,#030306b0 67%,#02020200);
+    z-index: -1;
+}
+
+.hiphop_main_box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.hiphopimg_box,
+.hiphopcollectionbox {
+    width: 50%;
+}
+
+.hiphopimg_box .hiphop_img {
+    width: 90%;
+    height: 100%;
+}
+
+.hiphop_heading {
+    font-family: Sorts Mill Goudy;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: normal;
+    color: #ffffff;
+}
+.hiphop_margin{
+    margin: 0 !important;
+}
+
+.hiphopcollection .product-info .product-title a {
+    color: #ffffff !important;
+}
+.hiphopcollectionbox{
+    padding: 20px 0;
+}
+.hiphopcollection .product-info .product-title{
+    height: 50px;
+    overflow: hidden;
 }

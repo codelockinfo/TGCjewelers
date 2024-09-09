@@ -105,6 +105,9 @@
         font-size: 18px;
         margin: 10px 0 40px;
     }
+    .hiphop_heading{
+        font-size: 48px;
+    }
 }
 @media (max-width:829px) {
 
@@ -161,6 +164,20 @@
     .about_content .about_heading {
         font-size: 50px;
         line-height: normal;
+    }
+    .hiphop_heading{
+        text-align: center;
+    }
+    .hiphoptitleimg{
+        text-align: center;
+    }
+    .hiphopimg_box, .hiphopcollectionbox{
+        width: 100%;
+        text-align: center;
+    }
+   
+    .hiphopsection::after{
+        background: linear-gradient(180deg, #010102 60.6%, rgba(3, 3, 6, 0.69) 75.01%, rgba(2, 2, 2, 0) 100%);
     }
 }
 @media (max-width:719px) {
@@ -271,6 +288,9 @@
     }
     .about_button_box{
         justify-content: center;
+    }
+    .hiphop_heading{
+        font-size: 40px;
     }
 }
 @media (max-width:529px) {
