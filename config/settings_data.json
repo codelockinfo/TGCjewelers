@@ -3369,8 +3369,8 @@
             "type": "text",
             "settings": {
               "svgimg": "shopify:\/\/shop_images\/fast_1.svg",
-              "text1": "",
-              "text2": ""
+              "text1": "FREE SHIPPING",
+              "text2": "Free shipping all order"
             }
           }
         },
