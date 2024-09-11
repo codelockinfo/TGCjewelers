@@ -20,7 +20,7 @@
                   {% if block.settings.comaimg  != blank %}<img src="{{ block.settings.comaimg | img_url:'master' }}" class="coma-img" alt="">{% endif %}
               </div>
               <div class="testi-content">
-                Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque.
+                {{block.settings.review}}
               </div>
 
               <div class="quote_col col-12 col-md-{{col_tb}} col-lg-{{col}} mb__35">{%- render 'quote_3',block:block,rating:block.settings.rating -%}</div>
@@ -29,7 +29,7 @@
                   {% if block.settings.clientimg  != blank %}
                   <img src="{{ block.settings.clientimg | img_url:'master' }}" class="client-img" alt="">{% endif %}
               </div>
-              <div class="client-name">Rock -DAB los angeles, USA</div>
+              <div class="client-name">{{block.settings.clienname}}</div>
             </div>
           {% endfor %}
         </div>
@@ -74,6 +74,16 @@
           "type": "image_picker",
           "id": "clientimg",
           "label": "Client image"
+        },
+        {
+          "type": "text",
+          "id": "review",
+          "label": "Client Review"
+        },
+        {
+          "type": "text",
+          "id": "clienname",
+          "label": "Client name"
         },
         {
           "type": "range",
