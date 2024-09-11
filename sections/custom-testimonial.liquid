@@ -1,0 +1,125 @@
+<link rel="canonical" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="testimonial-main-box" style="background-image: url('{{ section.settings.bgimg | img_url:'master' }} '); ">
+  <div class="testimonial-position">
+  <div class="width-container">
+      <div class="testimonial-up ">
+        <div class="testi-heading">{{section.settings.mainheading}}</div>
+        <div class="testi-paragraph">
+          {{section.settings.paragraph}}
+        </div>
+      </div>
+      <div class="testimonial-slider-box">
+        <div class=" testiminial-cls">
+          {% for block in section.blocks %}
+            <div class="slidermain-box">
+              <div class="coma-img-box">
+                  {% if block.settings.comaimg  != blank %}<img src="{{ block.settings.comaimg | img_url:'master' }}" class="coma-img" alt="">{% endif %}
+              </div>
+              <div class="testi-content">
+                Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque.
+              </div>
+
+              <div class="quote_col col-12 col-md-{{col_tb}} col-lg-{{col}} mb__35">{%- render 'quote_3',block:block,rating:block.settings.rating -%}</div>
+
+              <div class="client-img-box">
+                  {% if block.settings.clientimg  != blank %}
+                  <img src="{{ block.settings.clientimg | img_url:'master' }}" class="client-img" alt="">{% endif %}
+              </div>
+              <div class="client-name">Rock -DAB los angeles, USA</div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      </div>
+      </div>
+</div>
+
+{% schema %}
+{
+  "name": "Custom testimonial ",
+  "tag": "section",
+  "class": "Testi-slider",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "bgimg",
+      "label": "Background image"
+    },
+    {
+      "type": "text",
+      "id": "mainheading",
+      "label": "Section heading"
+    },
+    {
+      "type": "text",
+      "id": "paragraph",
+      "label": "Section subheading"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "testiminial slide",  
+      "type": "text",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "comaimg",
+          "label": "Coma image"
+        },
+        {
+          "type": "image_picker",
+          "id": "clientimg",
+          "label": "Client image"
+        },
+        {
+          "type": "range",
+          "id": "rating",
+          "min": 0,
+          "max": 5,
+          "step": 0.5,
+          "label": "Rating",
+          "info": "Set less than '1' to disable Rating.",
+          "default": 5
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom testimonial "
+    }
+  ]
+}
+{% endschema %}
+
+<script>
+  $('.testiminial-cls').slick({
+    dots: true,
+    infinite: true,
+    arrows: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 991,
+        settings: {
+          dots: true,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          dots: true,
+          slidesToShow: 1.1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  });
+</script>

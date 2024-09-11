@@ -15,6 +15,7 @@
     .about_us_video {
         margin-bottom: 30px;
     }
+   
     
 }
 @media (max-width:1106px) {
@@ -25,6 +26,9 @@
 }
 @media (max-width:1250px) {
     .Custom_banner_class .banner-box .banner-content {
+        width: 70%;
+    }
+    .testi-paragraph {
         width: 70%;
     }
 }
@@ -63,6 +67,23 @@
     }
     .about_flex {
         margin-top: 20px;
+    }
+    .testimonial-slider-box {
+        padding:0  50px;
+    }
+    
+    .Testi-slider .slick-next {
+    
+    width: 50px !important;
+    height: 20px !important;
+
+    }
+    .Testi-slider .slick-prev  {
+        width: 50px !important;
+        height: 20px !important;
+    }
+    .testi-heading {
+        font-size: 48px;
     }
 }
 @media (max-width:991px) {
@@ -108,6 +129,7 @@
     .hiphop_heading{
         font-size: 48px;
     }
+   
 }
 @media (max-width:829px) {
 
@@ -115,6 +137,16 @@
         font-size: 16px;
         margin: 10px 0 40px;
         line-height: 20px;
+    }
+    .Testi-slider .slick-next, .Testi-slider .slick-prev {
+        width: 45px !important;
+        height: 10px !important;
+    }
+    .Testi-slider .slick-next, .Testi-slider .slick-prev  {
+        border-radius: 10px!important;
+    }
+    .Testi-slider .slick-prev:before, .Testi-slider .slick-next:before{
+        font-size: 20px;
     }
 }
 @media (max-width:768px) {
@@ -179,11 +211,26 @@
     .hiphopsection::after{
         background: linear-gradient(180deg, #010102 60.6%, rgba(3, 3, 6, 0.69) 75.01%, rgba(2, 2, 2, 0) 100%);
     }
+    .Testi-slider .slick-prev {
+        left: -5.6vw;
+    }
+    .Testi-slider .slick-next {
+        right: -5.6vw;
+    }
 }
 @media (max-width:719px) {
     .custo_imgsection .gray_box:after {
         height: 50%;
         top: 10vw;
+    }
+    .Testi-slider .slick-prev {
+        display: none !important;
+    }
+    .Testi-slider .slick-next {
+        display: none !important;
+    }
+    .testimonial-slider-box {
+        padding: 0 15px;
     }
 }
 @media (max-width:767px) {
@@ -259,6 +306,12 @@
         height: 40%;
         top: 14vw;
     }
+    .testi-heading {
+        line-height: 60px;
+    }
+    .testi-paragraph{
+        width: 100%;
+    }
 }
 @media (max-width:576px) {
 
@@ -292,6 +345,10 @@
     .hiphop_heading{
         font-size: 40px;
     }
+  
+    .testi-heading {
+        font-size: 40px;
+    }
 }
 @media (max-width:529px) {
     .Custom_banner_class .banner-box .heading-h1 {
@@ -323,6 +380,9 @@
     }
     .about_us_info1 ,.about_us_info2 {
         width: 100%;
+    }
+    .testi-heading{
+        line-height: 35px;
     }
 }
 @media (max-width:430px) {  

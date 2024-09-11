@@ -563,14 +563,15 @@
     position: relative;
     z-index: 1;
 }
-.hiphopsection::after{
+
+.hiphopsection::after {
     width: 100%;
     height: 100%;
     position: absolute;
     content: "";
     top: 0;
     left: 0;
-    background: linear-gradient(90deg,#010102 55.08%,#030306b0 67%,#02020200);
+    background: linear-gradient(90deg, #010102 55.08%, #030306b0 67%, #02020200);
     z-index: -1;
 }
 
@@ -597,17 +598,394 @@
     line-height: normal;
     color: #ffffff;
 }
-.hiphop_margin{
+
+.hiphop_margin {
     margin: 0 !important;
 }
 
 .hiphopcollection .product-info .product-title a {
     color: #ffffff !important;
 }
-.hiphopcollectionbox{
+
+.hiphopcollectionbox {
     padding: 20px 0;
 }
-.hiphopcollection .product-info .product-title{
+
+.hiphopcollection .product-info .product-title {
     height: 50px;
     overflow: hidden;
+}
+
+/* CUSTOM TESTIMONIAL SLIDER  */
+
+.testimonial-main-box {
+    padding-top: 50px;
+    padding-bottom: 250px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 200px;
+    margin-top: 50px;
+    background-color: #C0862B;
+}
+
+.testimonial-main-box::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #C0862B 0%, #DDB16D 50%, #C0862B 100%);
+    opacity: 90%;
+    z-index: -1;
+}
+
+.testi-heading {
+    font-family: Sorts Mill Goudy;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 110px;
+    text-align: center;
+    color: #000000;
+}
+
+.testi-paragraph {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    width: 40%;
+    margin: 0 auto;
+}
+
+/* TESTIMONIAL SLIDER START  */
+.slidermain-box{
+    padding: 30px;
+    background-color: #fff;
+    margin: 10px;
+    position: relative;
+}
+.slidermain-box::after{
+   position: absolute;
+   content: "";
+   width: 100%;
+   height: 2px;
+   background: linear-gradient(90deg, #C0862B 0%, #DDB16D 44.5%, #C0862B 100%);
+    left: 0;
+    bottom: 0;
+}
+.coma-img{
+    width: 15%;
+}
+.client-name{
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #000;
+    margin-top: 15px;
+}
+.client-img{
+    width: 100%;
+}
+.client-img-box{
+   border-radius: 50%;
+   width: 20%;
+}
+.testi-content{
+    font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.6px;
+letter-spacing: 0.05em;
+text-align: left;
+margin: 15px 0;
+color: #000000;
+}
+.testimonial-slider-box{
+    padding: 0 100px;
+    max-width: 1600px;
+    -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  position: absolute;
+  top: 96%;
+  left: 50%;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.Testi-slider .slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.Testi-slider .slick-list {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.Testi-slider .slick-list:focus {
+    outline: none;
+}
+
+.Testi-slider .slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.Testi-slider .slick-slider .slick-track,
+.Testi-slider .slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.Testi-slider .slick-track {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: block;
+}
+
+.Testi-slider .slick-track:before,
+.Testi-slider .slick-track:after {
+    content: '';
+    display: table;
+}
+
+.Testi-slider .slick-track:after {
+    clear: both;
+}
+
+.Testi-slider .slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.Testi-slider .slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    display: none;
+}
+
+[dir='rtl'] .Testi-slider .slick-slide {
+    float: right;
+}
+
+.Testi-slider .slick-slide img {
+    display: block;
+}
+
+.Testi-slider .slick-slide.slick-loading img {
+    display: none;
+}
+
+.Testi-slider .slick-slide.dragging img {
+    pointer-events: none;
+}
+
+.Testi-slider .slick-initialized .slick-slide {
+    display: block;
+}
+
+.Testi-slider .slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.Testi-slider .slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+
+.Testi-slider .slick-arrow.slick-hidden {
+    display: none;
+}
+
+/*================ Slick Slider Theme ================*/
+.Testi-slider .slick-loading .slick-list {
+    background: #fff var(--slick-img-url) center center no-repeat;
+}
+
+/* / Icons / / Arrows /  */
+.Testi-slider .slick-prev,
+.Testi-slider .slick-next {
+    position: absolute;
+    display: block;
+    height: 20px;
+    width: 20px;
+    line-height: 0px;
+    font-size: 0px;
+    cursor: pointer;
+    background: transparent;
+    color: transparent;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    padding: 0;
+    border: none;
+}
+
+.Testi-slider .slick-prev:hover,
+.Testi-slider .slick-prev:focus,
+.Testi-slider .slick-next:hover,
+.Testi-slider .slick-next:focus {
+    background: transparent;
+    color: transparent;
+}
+
+.Testi-slider .slick-prev:hover:before,
+.Testi-slider .slick-prev:focus:before,
+.Testi-slider .slick-next:hover:before,
+.Testi-slider .slick-next:focus:before {
+    opacity: 1;
+}
+
+.Testi-slider .slick-prev.slick-disabled:before,
+.Testi-slider .slick-next.slick-disabled:before {
+    opacity: 0.25;
+}
+
+.Testi-slider .slick-prev:before,
+.Testi-slider .slick-next:before {
+    font-family: 'slick-icons, sans-serif';
+    font-size: 30px;
+    line-height: 0.5;
+    color: #000;
+    opacity: 0.75;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.Testi-slider .slick-prev {
+    left: -5vw;
+    background: #F6F4F2;
+    width: 60px !important;
+    height: 30px !important;
+    border-radius: 40px !important;
+    border: 1px solid #000;
+}
+
+[dir='rtl'] .Testi-slider .slick-prev {
+    left: auto;
+    right: -5vw;
+}
+
+.Testi-slider .slick-prev:before {
+    content: '←';
+}
+
+[dir='rtl'] .Testi-slider .slick-prev:before {
+    content: '→';
+}
+
+.Testi-slider .slick-next {
+    right: -5vw;
+    background: #F6F4F2;
+    width: 60px !important;
+    height: 30px !important;
+    border-radius: 40px !important;
+    border: 1px solid #000;
+}
+
+[dir='rtl'] .Testi-slider .slick-next {
+    left: -5vw;
+    right: auto;
+}
+
+.Testi-slider .slick-next:before {
+    content: '→';
+}
+
+[dir='rtl'] .Testi-slider .slick-next:before {
+    content: '←';
+}
+
+/* / Dots /  */
+.Testi-slider .slick-dotted.slick-slider {
+    margin-bottom: 30px;
+}
+
+.Testi-slider .slick-dots {
+    list-style: none;
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.Testi-slider .slick-dots li {
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    /* margin: 0 5px; */
+    padding: 0;
+    cursor: pointer;
+}
+
+.Testi-slider .slick-dots li button,
+.Testi-slider .slick-dots li a {
+    border: 0;
+    background: transparent;
+    display: block;
+    height: 20px;
+    width: 20px;
+    line-height: 0px;
+    font-size: 0px;
+    color: transparent;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.Testi-slider .slick-dots li button:hover:before,
+.Testi-slider .slick-dots li button:focus:before,
+.Testi-slider .slick-dots li a:hover:before,
+.Testi-slider .slick-dots li a:focus:before {
+    opacity: 1;
+}
+
+.Testi-slider .slick-dots li button:before,
+.Testi-slider .slick-dots li a:before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    content: '•';
+    width: 20px;
+    height: 20px;
+    font-family: 'slick-icons, sans-serif';
+    font-size: 40px;
+    line-height: 20px;
+    text-align: center;
+    color: #D9D9D9;
+    /* opacity: 0.25; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.Testi-slider .slick-dots li.slick-active button:before {
+    color: #C0862B;
 }
