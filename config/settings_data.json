@@ -3448,10 +3448,54 @@
               "clienname": "Rock -DAB los angeles, USA",
               "rating": 5
             }
+          },
+          "text_Mk4XAB": {
+            "type": "text",
+            "settings": {
+              "comaimg": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+              "clientimg": "shopify:\/\/shop_images\/Ellipse_2_2.png",
+              "review": "Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque.",
+              "clienname": "Rock -DAB los angeles, USA",
+              "rating": 5
+            }
+          },
+          "text_nwtggg": {
+            "type": "text",
+            "settings": {
+              "comaimg": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+              "clientimg": "shopify:\/\/shop_images\/Ellipse_2_2.png",
+              "review": "Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque.",
+              "clienname": "Rock -DAB los angeles, USA",
+              "rating": 5
+            }
+          },
+          "text_k8Yjid": {
+            "type": "text",
+            "settings": {
+              "comaimg": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+              "clientimg": "shopify:\/\/shop_images\/Ellipse_2_2.png",
+              "review": "Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque.",
+              "clienname": "Rock -DAB los angeles, USA",
+              "rating": 5
+            }
+          },
+          "text_63KPBh": {
+            "type": "text",
+            "settings": {
+              "comaimg": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+              "clientimg": "shopify:\/\/shop_images\/Ellipse_2_2.png",
+              "review": "Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque.",
+              "clienname": "Rock -DAB los angeles, USA",
+              "rating": 5
+            }
           }
         },
         "block_order": [
-          "text_QrPXgV"
+          "text_QrPXgV",
+          "text_Mk4XAB",
+          "text_nwtggg",
+          "text_k8Yjid",
+          "text_63KPBh"
         ],
         "settings": {
           "bgimg": "shopify:\/\/shop_images\/0e671863283fdd05f4703464f27445a4.jpg",
