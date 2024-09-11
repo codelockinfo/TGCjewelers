@@ -3435,6 +3435,14 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "custom_testimonial_6TAgE7": {
+        "type": "custom-testimonial",
+        "settings": {
+          "bgimg": "shopify:\/\/shop_images\/0e671863283fdd05f4703464f27445a4.jpg",
+          "mainheading": "What they say about us",
+          "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+        }
       }
     },
     "content_for_index": [
@@ -3446,7 +3454,8 @@
       "featured_collection_owl_XEKcYg",
       "custom_img_with_text_i6xVXk",
       "about_us_section_BHDgTr",
-      "custom_insta_slider_yHUrrQ"
+      "custom_insta_slider_yHUrrQ",
+      "custom_testimonial_6TAgE7"
     ]
   }
 }
