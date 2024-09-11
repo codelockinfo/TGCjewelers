@@ -3439,36 +3439,17 @@
       "custom_testimonial_6TAgE7": {
         "type": "custom-testimonial",
         "blocks": {
-          "text_kdqfqj": {
-            "type": "text",
-            "settings": {
-              "rating": 5
-            }
-          },
           "text_QrPXgV": {
             "type": "text",
             "settings": {
-              "rating": 5
-            }
-          },
-          "text_Pn7d9b": {
-            "type": "text",
-            "settings": {
-              "rating": 5
-            }
-          },
-          "text_HdXb7q": {
-            "type": "text",
-            "settings": {
+              "comaimg": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
+              "clientimg": "shopify:\/\/shop_images\/Ellipse_2_2.png",
               "rating": 5
             }
           }
         },
         "block_order": [
-          "text_kdqfqj",
-          "text_QrPXgV",
-          "text_Pn7d9b",
-          "text_HdXb7q"
+          "text_QrPXgV"
         ],
         "settings": {
           "bgimg": "shopify:\/\/shop_images\/0e671863283fdd05f4703464f27445a4.jpg",
