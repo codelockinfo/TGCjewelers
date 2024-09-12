@@ -800,7 +800,7 @@
         ],
         "settings": {
           "sticky": false,
-          "accordions": true,
+          "accordions": false,
           "border": false,
           "bd_cl": "#ededed",
           "cl_h": "#ffffff",
