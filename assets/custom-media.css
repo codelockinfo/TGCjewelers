@@ -476,6 +476,9 @@
     .about_content_box {
         padding-bottom: 0;
     }
+    .custom-footer-class{
+        padding: 25px 10px !important;
+    }
 }
 @media (max-width:375px) {
     .Custom_banner_class .banner-box .heading-h1 {
