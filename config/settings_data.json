@@ -948,6 +948,18 @@
               "lb_cl": ""
             }
           },
+          "menu_VHUMDE": {
+            "type": "menu",
+            "settings": {
+              "title": "Men's",
+              "url": "",
+              "open_link": "_self",
+              "menu": "",
+              "icon": "",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
           "mb_nav-4": {
             "type": "wis",
             "settings": {
@@ -984,6 +996,7 @@
         },
         "block_order": [
           "mb_nav-0",
+          "menu_VHUMDE",
           "mb_nav-4",
           "mb_nav-5",
           "mb_nav-6",
