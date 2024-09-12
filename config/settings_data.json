@@ -939,10 +939,10 @@
           "mb_nav-0": {
             "type": "menu",
             "settings": {
-              "title": "Menu",
+              "title": "Home",
               "url": "",
               "open_link": "_self",
-              "menu": "main-menu",
+              "menu": "",
               "icon": "",
               "lb": "",
               "lb_cl": ""
@@ -951,18 +951,6 @@
           "mb_nav-4": {
             "type": "wis",
             "settings": {
-            }
-          },
-          "menu_PBgbcy": {
-            "type": "menu",
-            "settings": {
-              "title": "Heading",
-              "url": "",
-              "open_link": "_self",
-              "menu": "",
-              "icon": "",
-              "lb": "",
-              "lb_cl": ""
             }
           },
           "mb_nav-5": {
@@ -987,47 +975,21 @@
             "settings": {
             }
           },
-          "menu_HQ7GY8": {
-            "type": "menu",
-            "settings": {
-              "title": "Heading",
-              "url": "",
-              "open_link": "_self",
-              "menu": "information-menu",
-              "icon": "",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
           "compe_GgUTcD": {
             "type": "compe",
+            "disabled": true,
             "settings": {
-            }
-          },
-          "menu_B6WtP3": {
-            "type": "menu",
-            "settings": {
-              "title": "Heading",
-              "url": "",
-              "open_link": "_self",
-              "menu": "main-menu",
-              "icon": "",
-              "lb": "",
-              "lb_cl": ""
             }
           }
         },
         "block_order": [
           "mb_nav-0",
           "mb_nav-4",
-          "menu_PBgbcy",
           "mb_nav-5",
           "mb_nav-6",
           "mb_nav-7",
           "mb_nav-8",
-          "menu_HQ7GY8",
-          "compe_GgUTcD",
-          "menu_B6WtP3"
+          "compe_GgUTcD"
         ],
         "settings": {
         }
