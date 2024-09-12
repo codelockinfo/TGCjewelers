@@ -1,17 +1,17 @@
 {%- assign image = section.settings.image -%}
 
-<div class="footer__top_wrap footer_sticky_{{section.settings.sticky}} footer_collapse_{{section.settings.accordions}} nt_bg_overlay pr oh pb__30 pt__80{% if image %} lazyload{% endif %}" {% if image %} data-bgset="{{ image | img_url: '1x1' }}" data-ratio="{{image.aspect_ratio}}" data-sizes="auto"{% endif %}>
+<div class="footer__top_wrap footer_sticky_{{section.settings.sticky}} footer_collapse_{{section.settings.accordions}} nt_bg_overlay pr oh {% if image %} lazyload{% endif %}" {% if image %} data-bgset="{{ image | img_url: '1x1' }}" data-ratio="{{image.aspect_ratio}}" data-sizes="auto"{% endif %}>
    <div class="container pr z_100">
       <div class="row">
       	{%- for block in section.blocks %}{% assign bk_stts = block.settings -%}
-      	<div class="col-lg-{{bk_stts.cl}} col-md-{{bk_stts.cl_tb}} col-{{bk_stts.cl_mb}} mb__50 order-lg-{{forloop.index}} order-{{bk_stts.order}}" {{ block.shopify_attributes }}>
+      	<div class="custom-footer-class col-lg-{{bk_stts.cl}} col-md-{{bk_stts.cl_tb}} col-{{bk_stts.cl_mb}}  order-lg-{{forloop.index}} order-{{bk_stts.order}}" {{ block.shopify_attributes }}>
       		{%- case block.type -%}
       		   {%- when 'logo' -%}
                 {%- assign image = bk_stts.image -%}
 		            <aside id="block_{{block.id}}" class="widget widget_text widget_logo">
                    {%- if bk_stts.title != blank -%}<h3 class="widget-title fwsb flex al_center fl_between fs__16 mg__0 mb__30{% if image != blank %} dn_md{% endif %}"><span class="txt_title">{{bk_stts.title}}</span><span class="nav_link_icon ml__5"></span></h3>{%- endif -%}
 		               <div class="textwidget widget_footer">
-		                  <div class="footer-contact">
+		                  <div class="1111111111111111 footer-contact">
 		                     {%- if image != blank -%}<p><a class="db" href="/">{%- assign lg_w = bk_stts.logo_width -%}
                           {%- assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
                           <img class="w__100 mb__15 lazyload lz_op_ef" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20{{image.width}}%20{{image.height}}%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="{{ img_url }}" data-widths="[{{lg_w}}, {{lg_w | times:2}}]" data-sizes="auto" alt="{{ image.alt | default: shop.name | escape}}" style="max-width: {{ lg_w }}px"></a></p>{%- endif -%}

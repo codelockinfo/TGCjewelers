@@ -85,6 +85,11 @@
     .testi-heading {
         font-size: 48px;
     }
+
+    /* FOOTER CHANGES */
+    .footer__top_wrap .container {
+        padding: 20px 10px;
+    }
 }
 @media (max-width:991px) {
     .corder-1 {
@@ -216,6 +221,12 @@
     }
     .Testi-slider .slick-next {
         right: -5.6vw;
+    }
+    .custom-footer-class:nth-child(1) .txt_title{
+       display: none;
+    }
+    .custom-footer-class:nth-child(1) {
+        text-align: center;
     }
 }
 @media (max-width:719px) {

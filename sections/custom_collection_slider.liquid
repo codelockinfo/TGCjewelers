@@ -9,12 +9,12 @@
           <div class="collection_image">
             <h1 class="collection_slider_heading">{{ section.settings.main_title }}</h1>
             {% if section.settings.collection_logo != blank %}
-              <img src="{{ section.settings.collection_logo | img_url: 'master' }}" alt="Our Collection" class="collection_logo">
+              <img src="{{ section.settings.collection_logo | img_url: 'master' }}" alt="Our Collection" class="collection_logo lazyload">
             {% endif %}
           </div>
           <div class="next-prev-icons">
-            <img src="https://img.icons8.com/?size=30&id=99996&format=png" class="button-prev">
-            <img src="https://img.icons8.com/?size=30&id=99982&format=png" class="button-next">
+            <img src="https://img.icons8.com/?size=30&id=99996&format=png" class="button-prev lazyload">
+            <img src="https://img.icons8.com/?size=30&id=99982&format=png" class="button-next lazyload">
           </div>
         </div>
         <div class="swiper-wrapper">
@@ -22,7 +22,7 @@
             <div class="swiper-slide">
               {% if block.settings.img_heading_url %}
                 <a href="{{ block.settings.img_heading_url }}">
-                  <img src="{{ block.settings.slide_image | img_url: 'master' }}" alt="Rudraksh Mala" class="collection_img">
+                  <img src="{{ block.settings.slide_image | img_url: 'master' }}" alt="Rudraksh Mala" class="collection_img lazyload">
                 </a>
               {% endif %}
               {% if block.settings.img_heading_url %}
@@ -34,8 +34,8 @@
           {% endfor %}
         </div>
         <div class="next-prev-btn">
-          <img src="https://img.icons8.com/?size=30&id=99996&format=png" class="button-prev">
-          <img src="https://img.icons8.com/?size=30&id=99982&format=png" class="button-next">
+          <img src="https://img.icons8.com/?size=30&id=99996&format=png" class="button-prev lazyload">
+          <img src="https://img.icons8.com/?size=30&id=99982&format=png" class="button-next lazyload">
         </div>
       </div>
   </div>
