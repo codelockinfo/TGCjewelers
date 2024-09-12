@@ -3588,6 +3588,11 @@
           "image_size": "nt_cover",
           "image_position": "8"
         }
+      },
+      "sidebar_shop": {
+        "type": "sidebar_shop",
+        "settings": {
+        }
       }
     },
     "content_for_index": [
