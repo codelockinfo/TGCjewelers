@@ -262,9 +262,7 @@
     .custom-footer-class:nth-child(1) .txt_title{
        display: none;
     }
-    .custom-footer-class:nth-child(1) {
-        text-align: center;
-    }
+    
     .footer__top_wrap .footer__bot_wrap{
         padding-top: 15px;
         padding-bottom: 0;
