@@ -662,7 +662,12 @@
     width: 40%;
     margin: 0 auto;
 }
-
+.testimonial-up {
+     text-align: center;
+}
+.testimonial-main-box .about_title{
+    margin: 20px 0;
+}
 /* TESTIMONIAL SLIDER START  */
 .slidermain-box{
     padding: 30px;

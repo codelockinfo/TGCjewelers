@@ -8,6 +8,11 @@
   <div class="width-container">
       <div class="testimonial-up ">
         <div class="testi-heading">{{section.settings.mainheading}}</div>
+        {% if section.settings.titleimg != blank %}
+          <div class="about_img_box">
+            <img src="{{section.settings.titleimg  | img_url:'master' }}" class="about_title" alt="">
+          </div>
+        {% endif %}
         <div class="testi-paragraph">
           {{section.settings.paragraph}}
         </div>
@@ -58,6 +63,11 @@
       "type": "text",
       "id": "paragraph",
       "label": "Section subheading"
+    },
+    {
+      "type": "image_picker",
+      "id": "titleimg",
+      "label": "Mobile title img"
     }
   ],
   "blocks": [
@@ -128,6 +138,8 @@
           dots: true,
           slidesToShow: 1.1,
           slidesToScroll: 1,
+          centerMode: true,  // Enables centering
+          centerPadding: '20px', // Adjust padding for spacing
         },
       },
     ],
