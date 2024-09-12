@@ -18,7 +18,7 @@
        <div class="container pr z_100">
           {%- for block in se_bks -%}
             {%- case block.type -%}
-             {%- when '1' -%}<h1 class="mb__5 cw">{{ collection.title }}</h1>
+             {%- when '1' -%}<h1 class="mb__5  collection-h1">{{ collection.title }}</h1>
              {%- else %}{% if settings.cat_des == '1' %}<p class="mg__0">{{ collection.description }}</p>{% endif -%}
             {%- endcase -%}
           {%- endfor -%}
@@ -28,8 +28,27 @@
 
     {%- if image != blank -%}
       <div class="page-head tc pr oh cat_bg_img page_head_{{se_id}}">
-         <div class="parallax-inner nt_parallax_{{parallax}} lazyload nt_bg_lz pa t__0 l__0 r__0 b__0" data-bgset="{{ image | img_url: '1x1' }}" data-ratio="{{image.aspect_ratio}}" data-sizes="auto" data-parent-fit="cover"></div>
+         <div class="collection-head parallax-inner nt_parallax_{{parallax}} lazyload nt_bg_lz pa t__0 l__0 r__0 b__0" data-bgset="{{ image | img_url: '1x1' }}" data-ratio="{{image.aspect_ratio}}" data-sizes="auto" data-parent-fit="cover"></div>
          {{-bk_contents-}}
+         {%- if ck_next_pr or settings.breadcrumb_pr -%}
+          <div class="bgbl pt__20 pb__20 lh__1">
+           <div class="container">
+            <div class="row al_center">
+              <div class="col">{% if settings.breadcrumb_pr %}<nav class="sp-breadcrumb custom-breadcrumb-class"><a href="{{ routes.root_url }}" class="dib custom-breadcrumb-class">{{ 'general.breadcrumbs.home' | t }}</a>{% if collection.url != blank %}  ||  <a href="{{collection.url}}" class="dib  custom-breadcrumb-class ">{{collection.title}}</a>{% endif %} </nav>{% endif %}</div>
+              {%- if ck_next_pr -%}
+              <div class="col-auto flex al_center">
+                {%- assign next_pr = collection.next_product -%}
+                {%- assign prev_pr = collection.previous_product -%}
+                
+                {%- if prev_pr -%}<a href="{{prev_pr.url}}" class="pl__5 pr__5 fs__18 cd chp ttip_nt tooltip_bottom_left"><i class="las la-angle-left"></i><span class="tt_txt">{{prev_pr.title}}</span></a>{%- endif -%}
+                <a href="{{collection.url}}" class="pl__5 pr__5 fs__20 cd chp ttip_nt tooltip_bottom_left"><i class="fwb iccl iccl-grid fs__15"></i><span class="tt_txt">{{'products.product.back_to' | t:title:collection.title}}</span></a>
+                {%- if next_pr -%}<a href="{{next_pr.url}}" class="pl__5 pr__5 fs__18 cd chp ttip_nt tooltip_bottom_left"><i class="las la-angle-right"></i><span class="tt_txt">{{next_pr.title}}</span></a>{%- endif -%}
+              </div>
+              {%- endif -%} 
+            </div>
+           </div>
+          </div>
+          {%- endif -%}
       </div>
     {%- else -%}
       <div class="page-head tc pr oh page_head_{{se_id}}">{{bk_contents}}</div>

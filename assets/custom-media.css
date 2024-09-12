@@ -267,6 +267,12 @@
         padding-top: 15px;
         padding-bottom: 0;
     }
+    .collection-h1 {
+        font-size: 48px !important;
+    }
+    .custom-breadcrumb-class {
+        font-size: 14px;
+    }
 }
 @media (max-width:719px) {
     .custo_imgsection .gray_box:after {
@@ -412,6 +418,14 @@
     }
     .copyright-div{
         font-size: 14px;
+    }
+    .collection-h1 {
+        font-size: 40px !important;
+        line-height: 24px !important;
+    }
+    
+    .custom-breadcrumb-class {
+        font-size: 12px;
     }
 }
 @media (max-width:529px) {
