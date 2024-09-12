@@ -321,7 +321,7 @@
     "share_facebook": true,
     "share_twitter": true,
     "share_pinterest": true,
-    "share_tumblr": true,
+    "share_tumblr": false,
     "share_email": true,
     "share_telegram": true,
     "share_whatsapp": false,
