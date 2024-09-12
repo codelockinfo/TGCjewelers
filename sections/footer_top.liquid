@@ -3,6 +3,7 @@
 <div class="footer__top_wrap footer_sticky_{{section.settings.sticky}} footer_collapse_{{section.settings.accordions}} nt_bg_overlay pr oh {% if image %} lazyload{% endif %}" {% if image %} data-bgset="{{ image | img_url: '1x1' }}" data-ratio="{{image.aspect_ratio}}" data-sizes="auto"{% endif %}>
    <div class="container pr z_100">
       <div class="row">
+
       	{%- for block in section.blocks %}{% assign bk_stts = block.settings -%}
       	<div class="custom-footer-class col-lg-{{bk_stts.cl}} col-md-{{bk_stts.cl_tb}} col-{{bk_stts.cl_mb}}  order-lg-{{forloop.index}} order-{{bk_stts.order}}" {{ block.shopify_attributes }}>
       		{%- case block.type -%}
@@ -16,15 +17,6 @@
                           {%- assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
                           <img class="w__100 mb__15 lazyload lz_op_ef" src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20{{image.width}}%20{{image.height}}%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" data-src="{{ img_url }}" data-widths="[{{lg_w}}, {{lg_w | times:2}}]" data-sizes="auto" alt="{{ image.alt | default: shop.name | escape}}" style="max-width: {{ lg_w }}px"></a></p>{%- endif -%}
 		                     {{- bk_stts.content -}}
-                         {%- liquid
-                          if bk_stts.social_mode != '1'
-                            if bk_stts.social_mode == '3'
-                              assign follow_social = true
-                            else
-                              assign share_image = settings.share_image | default: page_image | default: settings.logo
-                            endif
-                            render 'social-sharing', social-sharing:'mt__15',share_permalink:shop.url,share_title:shop.name,share_image:share_image,follow_social:follow_social
-                          endif -%}
 		                  </div>
 		               </div>
 		            </aside>
@@ -127,6 +119,26 @@
       		{%- endcase -%}
       	</div>
       	{%- endfor -%}
+
+        <div class="footer__bot_wrap pt__20 pb__20">
+          <div class=" pr ">
+             <div class=" width-row">
+                <div class="copyright-div">{{section.settings.copyright}}</div>
+                <div class="social-div">
+                  {% assign social = section.settings -%}
+                  {%- liquid
+                  if social.social_mode != '1'
+                    if social.social_mode == '3'
+                      assign follow_social = true
+                    else
+                      assign share_image = settings.share_image | default: page_image | default: settings.logo
+                    endif
+                    render 'social-sharing', social-sharing:'mt__15',share_permalink:shop.url,share_title:shop.name,share_image:share_image,follow_social:follow_social
+                  endif -%}
+                </div>
+             </div>
+          </div>
+       </div>
       </div>
    </div>
 </div>
@@ -370,7 +382,32 @@
         "max": 100,
         "step": 1,
         "unit": "%"
-      }
+      },
+      {
+        "type": "text",
+        "id": "copyright",
+        "label": "Copyright text",
+      },
+      {
+          "type": "select",
+          "id": "social_mode",
+          "label": "Footer social:",
+          "default": "3",
+          "options": [
+            {
+              "value": "1",
+              "label": "Disable"
+            },
+            {
+              "value": "2",
+              "label": "Share"
+            },
+            {
+              "value": "3",
+              "label": "Follow"
+            }
+          ]
+        },
     ],
     "blocks": [
       {
@@ -415,26 +452,7 @@
             "label": "Content",
             "default": "<p><i class=\"pegk pe-7s-map-marker\"> <\/i><span>184 Main Rd E, St Albans <br> <span class=\"pl__30\">VIC 3021, Australia<\/span><\/span><\/p><p><i class=\"pegk pe-7s-mail\"><\/i><span> <a href=\"mailto:contact@company.com\">contact@company.com<\/a><\/span><\/p><p><i class=\"pegk pe-7s-call\"><\/i> <span>+001 2233 456 <\/span><\/p>"
          },
-        {
-          "type": "select",
-          "id": "social_mode",
-          "label": "Footer social:",
-          "default": "3",
-          "options": [
-            {
-              "value": "1",
-              "label": "Disable"
-            },
-            {
-              "value": "2",
-              "label": "Share"
-            },
-            {
-              "value": "3",
-              "label": "Follow"
-            }
-          ]
-        },
+      
          {
            "type": "header",
            "content": "== Width settings"

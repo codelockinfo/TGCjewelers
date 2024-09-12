@@ -31,6 +31,9 @@
     .testi-paragraph {
         width: 70%;
     }
+    .copyright-div{
+        font-size: 16px;
+    }
 }
 @media (max-width:1024px) {
     .Custom_banner_class .banner-box .heading-h1 {
@@ -90,6 +93,12 @@
     .footer__top_wrap .container {
         padding: 20px 10px;
     }
+    .footer__top_wrap .footer__bot_wrap {
+        position: relative; 
+        order: 5;
+        width: 100%;
+    }
+    
 }
 @media (max-width:991px) {
     .corder-1 {
@@ -136,6 +145,17 @@
     }
    
 }
+@media (max-width:942px) {
+    .copyright-div{
+        order: 2;
+        margin: 20px 0;
+    }
+    .social-div{
+        order: 1;
+        margin: 20px 0;
+    }
+    
+}
 @media (max-width:829px) {
 
     .custo_imgsection .content_subtext {
@@ -152,6 +172,23 @@
     }
     .Testi-slider .slick-prev:before, .Testi-slider .slick-next:before{
         font-size: 20px;
+    }
+}
+@media (max-width:792px) {
+
+    .footer__top_wrap .width-row{
+        justify-content: center;
+    }
+    .footer__top_wrap .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .copyright-div{
+        margin: 10px 0;
+        text-align: center;
+    }
+    .social-div{
+        margin: 10px 0;
     }
 }
 @media (max-width:768px) {
@@ -227,6 +264,10 @@
     }
     .custom-footer-class:nth-child(1) {
         text-align: center;
+    }
+    .footer__top_wrap .footer__bot_wrap{
+        padding-top: 15px;
+        padding-bottom: 0;
     }
 }
 @media (max-width:719px) {
@@ -370,6 +411,9 @@
     }
     .Testi-slider .slick-dots li button:before, .Testi-slider .slick-dots li a:before {
         font-size: 32px;
+    }
+    .copyright-div{
+        font-size: 14px;
     }
 }
 @media (max-width:529px) {
