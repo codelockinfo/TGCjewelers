@@ -746,7 +746,6 @@
               "logo_width": 80,
               "title": "GET IN TOUCH",
               "content": "<p>Lorem ipsum dolor sit amet, conse elit, sedid do eiusmod tempor incidi ut labore et dolore magna aliqua. Quis ipsum usendi laboris mollit\n<\/p><p>Office: 12 Fake Street,New York<\/p><p><span> <a href=\"mailto:support.goaltheme.com\">Mail: support.goaltheme.com<\/a><\/span><\/p><p><a href=\"tel:(123)456789\">Phone: (123)456789<\/a><\/p>",
-              "social_mode": "3",
               "order": "1",
               "cl": "3",
               "cl_tb": "6",
@@ -816,7 +815,9 @@
           "bg_att": "scroll",
           "bg_pos": "center center",
           "cl_overlay": "#000000",
-          "cl_opacity": 0
+          "cl_opacity": 0,
+          "copyright": "Copyright © 2024 The Golden Corner Jewelry – All Rights Reserved.",
+          "social_mode": "3"
         }
       },
       "footer_bot": {
