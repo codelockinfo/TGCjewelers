@@ -334,6 +334,24 @@
     .Custom_banner_class .custom_banner_carousel .swiper-button-prev {
         display: none;
     }
+    .template-product .product_title {
+        font-size: 20px !important;
+        line-height: 24px !important;
+    }
+    .template-product .price_varies ins {
+        font-size: 16px !important;
+        line-height: 19.02px !important;
+    }
+    
+    .template-product .price_varies del {
+        font-size: 16px !important;
+        line-height: 19.02px !important;
+    }
+    
+    .template-product .priceoff {
+        font-size: 16px !important;
+        line-height: 19.02px !important;
+    }
 
 }
 @media (max-width:599px) {
