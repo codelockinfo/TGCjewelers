@@ -1093,3 +1093,172 @@
     line-height: 24px;
 }
 
+/* PRODUCT PAGE  */
+.template-product .product_title {
+    font-family: Lato !important;
+    font-size: 32px !important;
+    font-weight: 600 !important;
+    line-height: 38.4px !important;
+    color: #000000 !important;
+    letter-spacing: normal;
+}
+
+.template-product .price_varies ins {
+    font-family: Lato !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    line-height: 28.8px !important;
+    color: #000000 !important;
+    margin-left: 0 !important;
+}
+
+.template-product .price_varies del {
+    font-family: Lato !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    line-height: 24px !important;
+    color: #848484 !important;
+    order: 2;
+    margin-left: 6px !important;
+}
+
+.template-product .priceoff {
+    font-family: Lato !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    line-height: 24px !important;
+    color: #C02727 !important;
+}
+
+.template-product .custom-pri {
+    display: flex;
+    align-items: center;
+}
+
+.template-product .entry-summary .price_range {
+    display: flex !important;
+    align-items: center;
+}
+
+.template-product .swatch__title {
+    font-family: Lato !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    line-height: 21.6px !important;
+    color: #000000;
+    letter-spacing: normal;
+}
+
+.template-product .diamondshape-name label {
+    font-family: Lato !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    line-height: 36px !important;
+    color: #848484;
+    letter-spacing: normal;
+}
+
+.template-product .select-color {
+    border: 1px solid #D9D9D9 !important;
+    background-color: #f9f9f9 !important;
+    color: #000 !important;
+    font-size: 16px !important;
+    font-family: Lato !important;
+    font-weight: 600 !important;
+    line-height: 19.2px !important;
+
+}
+
+.template-product .variations.style__rectangle .swatch:not(.is-color) li.is-selected {
+    border-color: #000000 !important;
+    background-color: #000000 !important;
+    color: #fff;
+}
+
+.template-product .variations.style__rectangle .swatch:not(.is-color) li:hover {
+    border-color: #000000 !important;
+    background-color: #000000 !important;
+    color: #fff;
+}
+
+.template-product .variations.style__rectangle .swatch:not(.is-color) li {
+    border-color: #D9D9D9 !important;
+    background-color: #ffffff !important;
+    color: #000000;
+    font-family: Lato !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    line-height: 16.8px !important;
+}
+
+.template-product .customtab {
+    font-family: Lato !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    line-height: 21.6px !important;
+    text-align: left !important;
+    color: #848484;
+}
+
+.template-product .custompanel {
+    font-family: Lato !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 27.2px !important;
+    text-align: left !important;
+    color: #000;
+}
+
+.single_add_to_cart_button {
+    background: #FFFFFF !important;
+    color: #000 !important;
+    border: 1px solid #000000 !important;
+}
+
+
+.template-product #wrap_des_pr {
+    background-color: #ffffff !important;
+}
+.template-product #wrap_des_pr .entry-content {
+    color: #000000 !important;
+}
+.template-product .sp-tabs .tab_title_block {
+    border-bottom: 2px solid #D9D9D9 !important;
+}
+
+.template-product .ul_tabs li.active a {
+    border: 0 !important;
+}
+
+.template-product .ul_tabs li {
+    position: relative;
+}
+
+.template-product .ul_tabs li a {
+    font-family: Lato !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    line-height: 21.6px !important;
+    color: #848484 !important;
+}
+
+.template-product .ul_tabs li.active::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    bottom: -2px;
+    background-color: #000;
+    color: #000;
+    left: 0;
+}
+.template-product .customize-properties textarea {
+	min-height: 90px !important;
+	border: 1px solid #000000 !important;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 19.5px;
+	text-align: left;
+	color: #848484 !important;
+	background-color: #F9F9F9 !important;
+}
