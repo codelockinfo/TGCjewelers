@@ -1748,7 +1748,7 @@
       "product-recommendations": {
         "type": "product-recommendations",
         "settings": {
-          "show": true,
+          "show": false,
           "title": "You may also like",
           "sub_title": "",
           "sub_font": "2",
