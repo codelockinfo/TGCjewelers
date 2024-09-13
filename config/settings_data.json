@@ -3606,7 +3606,7 @@
           "ic_tt": "gem",
           "show_clpr": false,
           "collection": "",
-          "limit": 12,
+          "limit": 4,
           "space": 30,
           "use_pagination": "none",
           "use_bar_lm": true,
