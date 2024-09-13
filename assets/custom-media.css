@@ -176,9 +176,7 @@
 }
 @media (max-width:792px) {
 
-    .footer__top_wrap .width-row{
-        justify-content: center;
-    }
+  
     .footer__top_wrap .container {
         padding-left: 15px;
         padding-right: 15px;
@@ -308,6 +306,9 @@
     }
 }
 @media (max-width:699px) {
+    .footer__top_wrap .width-row{
+        justify-content: center;
+    }
     .Custom_banner_class .banner-box .heading-h1 {
         font-size: 64px;
         line-height: 70px;
