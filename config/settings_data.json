@@ -3623,11 +3623,22 @@
               "key": "Vendor",
               "style": "ck"
             }
+          },
+          "color_KAtcXr": {
+            "type": "color",
+            "settings": {
+              "hidden_block": false,
+              "title": "Style",
+              "arra_enter": "Solitaire",
+              "use_auto_filter_tag": false,
+              "key": "Color"
+            }
           }
         },
         "block_order": [
           "other_gaiT7k",
-          "brand_FTdpRV"
+          "brand_FTdpRV",
+          "color_KAtcXr"
         ],
         "settings": {
         }
