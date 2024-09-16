@@ -3661,11 +3661,11 @@
             "type": "other",
             "settings": {
               "hidden_block": false,
-              "title": "price",
+              "title": "P",
               "arra_enter": "",
               "use_auto_filter_tag": true,
-              "key": "price",
-              "style": "ck"
+              "key": "Price",
+              "style": "df"
             }
           }
         },
