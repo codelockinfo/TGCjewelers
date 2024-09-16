@@ -3624,21 +3624,22 @@
               "style": "ck"
             }
           },
-          "color_KAtcXr": {
-            "type": "color",
+          "other_hYdHWC": {
+            "type": "other",
             "settings": {
               "hidden_block": false,
               "title": "Style",
               "arra_enter": "Solitaire",
               "use_auto_filter_tag": false,
-              "key": "Color"
+              "key": "Other",
+              "style": "ck"
             }
           }
         },
         "block_order": [
           "other_gaiT7k",
           "brand_FTdpRV",
-          "color_KAtcXr"
+          "other_hYdHWC"
         ],
         "settings": {
         }
