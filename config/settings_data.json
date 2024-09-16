@@ -3624,17 +3624,6 @@
               "style": "ck"
             }
           },
-          "other_hYdHWC": {
-            "type": "other",
-            "settings": {
-              "hidden_block": false,
-              "title": "Style",
-              "arra_enter": "Solitaire",
-              "use_auto_filter_tag": false,
-              "key": "Other",
-              "style": "ck"
-            }
-          },
           "other_PFn6YM": {
             "type": "other",
             "settings": {
@@ -3656,14 +3645,25 @@
               "key": "Other",
               "style": "ck"
             }
+          },
+          "other_hYdHWC": {
+            "type": "other",
+            "settings": {
+              "hidden_block": false,
+              "title": "Style",
+              "arra_enter": "Solitaire",
+              "use_auto_filter_tag": false,
+              "key": "Other",
+              "style": "ck"
+            }
           }
         },
         "block_order": [
           "other_gaiT7k",
           "brand_FTdpRV",
-          "other_hYdHWC",
           "other_PFn6YM",
-          "other_WayKnH"
+          "other_WayKnH",
+          "other_hYdHWC"
         ],
         "settings": {
         }
