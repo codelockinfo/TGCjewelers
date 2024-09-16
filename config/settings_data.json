@@ -3656,13 +3656,25 @@
               "key": "Other",
               "style": "ck"
             }
+          },
+          "other_7dzXdn": {
+            "type": "other",
+            "settings": {
+              "hidden_block": false,
+              "title": "price",
+              "arra_enter": "",
+              "use_auto_filter_tag": true,
+              "key": "price",
+              "style": "ck"
+            }
           }
         },
         "block_order": [
           "brand_FTdpRV",
           "other_PFn6YM",
           "other_WayKnH",
-          "other_hYdHWC"
+          "other_hYdHWC",
+          "other_7dzXdn"
         ],
         "settings": {
         }
