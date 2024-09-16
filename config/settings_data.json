@@ -3615,12 +3615,11 @@
         "blocks": {
           "other_gaiT7k": {
             "type": "other",
-            "disabled": true,
             "settings": {
               "hidden_block": false,
-              "title": "By price",
+              "title": "Price",
               "arra_enter": "",
-              "use_auto_filter_tag": false,
+              "use_auto_filter_tag": true,
               "key": "price",
               "style": "df"
             }
