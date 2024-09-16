@@ -3601,6 +3601,17 @@
       "sidebar_shop": {
         "type": "sidebar_shop",
         "blocks": {
+          "other_gaiT7k": {
+            "type": "other",
+            "settings": {
+              "hidden_block": false,
+              "title": "By price",
+              "arra_enter": "",
+              "use_auto_filter_tag": false,
+              "key": "price",
+              "style": "df"
+            }
+          },
           "brand_FTdpRV": {
             "type": "brand",
             "settings": {
@@ -3614,6 +3625,7 @@
           }
         },
         "block_order": [
+          "other_gaiT7k",
           "brand_FTdpRV"
         ],
         "settings": {
