@@ -3600,6 +3600,22 @@
       },
       "sidebar_shop": {
         "type": "sidebar_shop",
+        "blocks": {
+          "brand_FTdpRV": {
+            "type": "brand",
+            "settings": {
+              "hidden_block": false,
+              "title": "Gender",
+              "arra_enter": "male,female",
+              "use_auto_filter_tag": false,
+              "key": "Vendor",
+              "style": "ck"
+            }
+          }
+        },
+        "block_order": [
+          "brand_FTdpRV"
+        ],
         "settings": {
         }
       },
