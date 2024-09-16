@@ -2504,6 +2504,16 @@
               "key": "color",
               "style": "ck"
             }
+          },
+          "variants_NyNNiT": {
+            "type": "variants",
+            "settings": {
+              "hidden_block": false,
+              "count": true,
+              "title": "gender",
+              "key": "male",
+              "style": "ck"
+            }
           }
         },
         "block_order": [
@@ -2515,7 +2525,8 @@
           "sidebar_shop2-5",
           "1596191009077",
           "1596419303044",
-          "1596419377121"
+          "1596419377121",
+          "variants_NyNNiT"
         ],
         "settings": {
         }
