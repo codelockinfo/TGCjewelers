@@ -200,7 +200,7 @@
     "show_list_switch": true,
     "sort_enable": false,
     "cat_sticky": false,
-    "shop_filters": true,
+    "shop_filters": false,
     "pop_style": "pop_default",
     "type_filters": "1",
     "logic_filter": "2",
