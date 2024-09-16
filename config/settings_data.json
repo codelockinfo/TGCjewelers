@@ -3645,13 +3645,25 @@
               "key": "Other",
               "style": "ck"
             }
+          },
+          "other_WayKnH": {
+            "type": "other",
+            "settings": {
+              "hidden_block": false,
+              "title": "Stone type",
+              "arra_enter": "Agate (1)Items",
+              "use_auto_filter_tag": false,
+              "key": "Other",
+              "style": "ck"
+            }
           }
         },
         "block_order": [
           "other_gaiT7k",
           "brand_FTdpRV",
           "other_hYdHWC",
-          "other_PFn6YM"
+          "other_PFn6YM",
+          "other_WayKnH"
         ],
         "settings": {
         }
