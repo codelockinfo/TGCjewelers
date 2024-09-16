@@ -3661,7 +3661,7 @@
             "type": "other",
             "settings": {
               "hidden_block": false,
-              "title": "P",
+              "title": "Price",
               "arra_enter": "",
               "use_auto_filter_tag": true,
               "key": "Price",
