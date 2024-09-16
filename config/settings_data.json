@@ -3603,6 +3603,7 @@
         "blocks": {
           "other_gaiT7k": {
             "type": "other",
+            "disabled": true,
             "settings": {
               "hidden_block": false,
               "title": "By price",
