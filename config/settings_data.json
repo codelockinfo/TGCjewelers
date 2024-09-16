@@ -202,7 +202,7 @@
     "cat_sticky": false,
     "shop_filters": true,
     "pop_style": "pop_default",
-    "type_filters": "1",
+    "type_filters": "2",
     "logic_filter": "2",
     "auto_hide_ofsock": false,
     "show_hide_ofsock": false,
@@ -1500,13 +1500,25 @@
               "key": "Vendor",
               "style": "ck"
             }
+          },
+          "other_HpWdxU": {
+            "type": "other",
+            "settings": {
+              "hidden_block": false,
+              "title": "By Other",
+              "arra_enter": "",
+              "use_auto_filter_tag": false,
+              "key": "Other",
+              "style": "ck"
+            }
           }
         },
         "block_order": [
           "1581909372373",
           "1581914074326",
           "1581913909406",
-          "1581913174211"
+          "1581913174211",
+          "other_HpWdxU"
         ],
         "settings": {
         }
