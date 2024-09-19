@@ -1532,7 +1532,7 @@
       "collection_page": {
         "type": "collection_page",
         "settings": {
-          "limit": 22,
+          "limit": 20,
           "space": 20,
           "use_pagination": "default",
           "use_bar_lm": true,
