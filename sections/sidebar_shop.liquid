@@ -19,7 +19,7 @@
       <h5 class="widget-title">{{ 'collections.sorting.title' | t }}</h5>
       <div class="loke_scroll">
          <ul class="nt_filter_block nt_filter_sortby">
-            {%- for option in collection.sort_options -%}<li {%- if sort_by == option.value %} class="active"{% endif %}><a href="{{ sr_url | sort_by:option.value }}">{{  option.name }}</a></li>{%- endfor -%}
+            {%- for option in collection.sort_options -%}<li {%- if sort_by == option.value %} class="active"{% endif %}><a href="{{ sr_url | sort_by:option.value }}" >{{  option.name }}</a></li>{%- endfor -%}
          </ul>
       </div>
    </div>

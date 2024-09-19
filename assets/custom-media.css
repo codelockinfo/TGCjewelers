@@ -35,6 +35,11 @@
         font-size: 16px;
     }
 }
+@media (min-width: 1025px) {
+    .space_30.sidebar_nt {
+        margin-top: 20px !important;
+    }
+}
 @media (max-width:1024px) {
     .Custom_banner_class .banner-box .heading-h1 {
         font-size: 80px;
