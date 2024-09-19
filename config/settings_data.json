@@ -1459,49 +1459,6 @@
       "nt_filter": {
         "type": "nt_filter",
         "blocks": {
-          "1581909372373": {
-            "type": "color",
-            "settings": {
-              "hidden_block": false,
-              "title": "By Color",
-              "arra_enter": "Red,White,Brown,Blue, Black, Green, Grey, Sliver,Pink",
-              "use_auto_filter_tag": true,
-              "key": "Color"
-            }
-          },
-          "1581914074326": {
-            "type": "other",
-            "settings": {
-              "hidden_block": false,
-              "title": "By Price",
-              "arra_enter": "",
-              "use_auto_filter_tag": true,
-              "key": "Price",
-              "style": "ck"
-            }
-          },
-          "1581913909406": {
-            "type": "other",
-            "settings": {
-              "hidden_block": false,
-              "title": "By Size",
-              "arra_enter": "",
-              "use_auto_filter_tag": true,
-              "key": "Size",
-              "style": "ck"
-            }
-          },
-          "1581913174211": {
-            "type": "brand",
-            "settings": {
-              "hidden_block": false,
-              "title": "By Brand",
-              "arra_enter": "",
-              "use_auto_filter_tag": true,
-              "key": "Vendor",
-              "style": "ck"
-            }
-          },
           "other_HpWdxU": {
             "type": "other",
             "settings": {
@@ -1512,14 +1469,22 @@
               "key": "Other",
               "style": "ck"
             }
+          },
+          "other_Vk7qdp": {
+            "type": "other",
+            "settings": {
+              "hidden_block": false,
+              "title": "Stone shape",
+              "arra_enter": "Baguette (68)Items",
+              "use_auto_filter_tag": false,
+              "key": "Other",
+              "style": "ck"
+            }
           }
         },
         "block_order": [
-          "1581909372373",
-          "1581914074326",
-          "1581913909406",
-          "1581913174211",
-          "other_HpWdxU"
+          "other_HpWdxU",
+          "other_Vk7qdp"
         ],
         "settings": {
         }
