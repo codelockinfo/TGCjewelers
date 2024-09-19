@@ -1491,12 +1491,24 @@
               "key": "Other",
               "style": "ck"
             }
+          },
+          "other_NL4Abc": {
+            "type": "other",
+            "settings": {
+              "hidden_block": false,
+              "title": "Style",
+              "arra_enter": "Solitaire",
+              "use_auto_filter_tag": false,
+              "key": "Other",
+              "style": "ck"
+            }
           }
         },
         "block_order": [
           "other_HpWdxU",
           "other_Vk7qdp",
-          "other_X3MYtg"
+          "other_X3MYtg",
+          "other_NL4Abc"
         ],
         "settings": {
         }
