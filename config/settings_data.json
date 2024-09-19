@@ -1502,13 +1502,24 @@
               "key": "Other",
               "style": "ck"
             }
+          },
+          "color_9rqtpE": {
+            "type": "color",
+            "settings": {
+              "hidden_block": false,
+              "title": "By Color",
+              "arra_enter": "Red,White,Brown,Blue, Black, Green, Grey, Sliver,Pink",
+              "use_auto_filter_tag": true,
+              "key": "Color"
+            }
           }
         },
         "block_order": [
           "other_HpWdxU",
           "other_Vk7qdp",
           "other_X3MYtg",
-          "other_NL4Abc"
+          "other_NL4Abc",
+          "color_9rqtpE"
         ],
         "settings": {
         }
