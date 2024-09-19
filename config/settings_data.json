@@ -1461,6 +1461,7 @@
         "blocks": {
           "other_HpWdxU": {
             "type": "other",
+            "disabled": true,
             "settings": {
               "hidden_block": false,
               "title": "Gender",
@@ -1472,6 +1473,7 @@
           },
           "other_Vk7qdp": {
             "type": "other",
+            "disabled": true,
             "settings": {
               "hidden_block": false,
               "title": "Stone shape",
@@ -1483,6 +1485,7 @@
           },
           "other_X3MYtg": {
             "type": "other",
+            "disabled": true,
             "settings": {
               "hidden_block": false,
               "title": "Stone type",
@@ -1494,6 +1497,7 @@
           },
           "other_NL4Abc": {
             "type": "other",
+            "disabled": true,
             "settings": {
               "hidden_block": false,
               "title": "Style",
