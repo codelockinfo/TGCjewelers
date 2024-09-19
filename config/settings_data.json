@@ -3583,37 +3583,13 @@
               "key": "Other",
               "style": "ck"
             }
-          },
-          "other_iw8K9G": {
-            "type": "other",
-            "settings": {
-              "hidden_block": false,
-              "title": "Price",
-              "arra_enter": "",
-              "use_auto_filter_tag": false,
-              "key": "Price",
-              "style": "df"
-            }
-          },
-          "other_YjQzLy": {
-            "type": "other",
-            "settings": {
-              "hidden_block": false,
-              "title": "Price",
-              "arra_enter": "",
-              "use_auto_filter_tag": false,
-              "key": "Price",
-              "style": "df"
-            }
           }
         },
         "block_order": [
           "brand_FTdpRV",
           "other_PFn6YM",
           "other_WayKnH",
-          "other_hYdHWC",
-          "other_iw8K9G",
-          "other_YjQzLy"
+          "other_hYdHWC"
         ],
         "settings": {
         }
