@@ -1505,6 +1505,7 @@
           },
           "color_9rqtpE": {
             "type": "color",
+            "disabled": true,
             "settings": {
               "hidden_block": false,
               "title": "By Color",
