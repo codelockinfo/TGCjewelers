@@ -201,7 +201,7 @@
     "default_list_view": false,
     "sort_enable": true,
     "cat_sticky": false,
-    "shop_filters": true,
+    "shop_filters": false,
     "pop_style": "nt_pop_sidebar",
     "type_filters": "1",
     "logic_filter": "2",
