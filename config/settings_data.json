@@ -1506,8 +1506,8 @@
             "type": "other",
             "settings": {
               "hidden_block": false,
-              "title": "By Other",
-              "arra_enter": "",
+              "title": "Gender",
+              "arra_enter": "male,female",
               "use_auto_filter_tag": false,
               "key": "Other",
               "style": "ck"
