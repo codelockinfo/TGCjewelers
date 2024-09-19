@@ -203,7 +203,7 @@
     "cat_sticky": false,
     "shop_filters": true,
     "pop_style": "nt_pop_sidebar",
-    "type_filters": "2",
+    "type_filters": "1",
     "logic_filter": "2",
     "auto_hide_ofsock": false,
     "show_hide_ofsock": false,
@@ -2445,90 +2445,11 @@
               "hidden_block": false,
               "title": "By Price"
             }
-          },
-          "sidebar_shop2-2": {
-            "type": "variants",
-            "disabled": true,
-            "settings": {
-              "hidden_block": false,
-              "count": true,
-              "title": "By Size",
-              "key": "Size",
-              "style": "ck"
-            }
-          },
-          "sidebar_shop2-3": {
-            "type": "color",
-            "disabled": true,
-            "settings": {
-              "hidden_block": false,
-              "count": true,
-              "title": "By Color",
-              "key": "Color"
-            }
-          },
-          "sidebar_shop2-4": {
-            "type": "vendor",
-            "disabled": true,
-            "settings": {
-              "hidden_block": false,
-              "count": true,
-              "title": "By Vendor",
-              "style": "ck"
-            }
-          },
-          "sidebar_shop2-5": {
-            "type": "available",
-            "disabled": true,
-            "settings": {
-              "hidden_block": false,
-              "count": true,
-              "title": "Product status"
-            }
-          },
-          "1596191009077": {
-            "type": "variants",
-            "disabled": true,
-            "settings": {
-              "hidden_block": false,
-              "count": false,
-              "title": "By Shoes Size",
-              "key": "Shoes Size",
-              "style": "ck"
-            }
-          },
-          "1596419303044": {
-            "type": "tags",
-            "disabled": true,
-            "settings": {
-              "hidden_block": false,
-              "count": true,
-              "title": "By Tags",
-              "style": "ck"
-            }
-          },
-          "1596419377121": {
-            "type": "tag",
-            "disabled": true,
-            "settings": {
-              "hidden_block": false,
-              "count": true,
-              "title": "By Tag Color",
-              "key": "color",
-              "style": "ck"
-            }
           }
         },
         "block_order": [
           "sidebar_shop2-0",
-          "sidebar_shop2-1",
-          "sidebar_shop2-2",
-          "sidebar_shop2-3",
-          "sidebar_shop2-4",
-          "sidebar_shop2-5",
-          "1596191009077",
-          "1596419303044",
-          "1596419377121"
+          "sidebar_shop2-1"
         ],
         "settings": {
         }
