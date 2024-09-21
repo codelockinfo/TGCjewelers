@@ -2465,9 +2465,19 @@
             "type": "tag2",
             "settings": {
               "hidden_block": false,
-              "count": false,
-              "title": "Stone shape",
-              "arra_enter": "Baguette (68)Items,Cushion (45)Items,Emerald (33)Items,Heart-Cut (8)Items,Marquise (91)Items",
+              "count": true,
+              "title": "Stone Shape",
+              "arra_enter": "Baguette,Cushion,Emerald,Heart-Cut,Marquise",
+              "style": "ck"
+            }
+          },
+          "tag2_hfpePb": {
+            "type": "tag2",
+            "settings": {
+              "hidden_block": false,
+              "count": true,
+              "title": "Stone Type",
+              "arra_enter": "Agate,Alexandrite,Amethyst,Aquamarine,Citrine,Crystal,Cubic Zirconia,Cultured Pearl,Diamond",
               "style": "ck"
             }
           }
@@ -2476,7 +2486,8 @@
           "sidebar_shop2-0",
           "sidebar_shop2-1",
           "tag2_aJ94iL",
-          "tag2_rDGnNe"
+          "tag2_rDGnNe",
+          "tag2_hfpePb"
         ],
         "settings": {
         }
