@@ -2480,6 +2480,16 @@
               "arra_enter": "Agate,Alexandrite,Amethyst,Aquamarine,Citrine,Crystal,Cubic Zirconia,Cultured Pearl,Diamond",
               "style": "ck"
             }
+          },
+          "tag2_ktPddF": {
+            "type": "tag2",
+            "settings": {
+              "hidden_block": false,
+              "count": true,
+              "title": "Style",
+              "arra_enter": "Solitaire,Halo,Pave,Eternity,Half Eternity,Three Stone,Championship,Religious,Hip Hop",
+              "style": "ck"
+            }
           }
         },
         "block_order": [
@@ -2487,7 +2497,8 @@
           "sidebar_shop2-1",
           "tag2_aJ94iL",
           "tag2_rDGnNe",
-          "tag2_hfpePb"
+          "tag2_hfpePb",
+          "tag2_ktPddF"
         ],
         "settings": {
         }
