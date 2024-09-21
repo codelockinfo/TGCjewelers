@@ -2450,11 +2450,22 @@
               "hidden_block": false,
               "title": "By Price"
             }
+          },
+          "tag2_aJ94iL": {
+            "type": "tag2",
+            "settings": {
+              "hidden_block": false,
+              "count": true,
+              "title": "Gender",
+              "arra_enter": "male,female",
+              "style": "ck"
+            }
           }
         },
         "block_order": [
           "sidebar_shop2-0",
-          "sidebar_shop2-1"
+          "sidebar_shop2-1",
+          "tag2_aJ94iL"
         ],
         "settings": {
         }
