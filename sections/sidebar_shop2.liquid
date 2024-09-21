@@ -703,7 +703,7 @@
           
           <div id="blockid_{{block.id}}"  class="col-12 col-md-{{col_class}} widget blockid_tag2 count_vr_{{bk_count}}">
               <h5 class="widget-title">{{bk_stts.title}}</h5>
-              <div class="loke_scroll">
+              <div class="loke_scroll 111111111111111111">
                  <ul class="nt_filter_block nt_filter_style{{bk_stts.style}} css_ntbar">
       
                     {%- if doing_fillter -%}
@@ -716,9 +716,9 @@
                          {%- if bk_count %}{% assign adt4_block_size = arr_tags2 | split:adt4_block | size %}{% else %}{% assign adt4_block_size = 1 %}{% endif -%}
                          
                          {%- if nt_canonical_url contains key_block -%}
-                             <li class="active"><a href="{{nt_canonical_url | remove:key_block2 | remove:key_block | sort_by:sort_by}}">{{block}}<span class="count_vr_filter">({{adt4_block_size | minus:1}})</span></a></li>
+                             <li class="active"><a href="{{nt_canonical_url | remove:key_block2 | remove:key_block | sort_by:sort_by}}">{{block}}<span class="count_vr_filter 222222222222">({{adt4_block_size | minus:1}})</span></a></li>
                          {%- else -%}
-                             <li><a href="{{nt_canonical_url | append:split_txt |append:'filter_tag%3d' | append:encode_block | sort_by:sort_by}}">{{block}}<span class="count_vr_filter">({{adt4_block_size | minus:1}})</span></a></li>
+                             <li><a href="{{nt_canonical_url | append:split_txt |append:'filter_tag%3d' | append:encode_block | sort_by:sort_by}}">{{block}}<span class="count_vr_filter 111111111111">({{adt4_block_size | minus:1}})</span></a></li>
                          {%- endif -%}
 
                        {%- endfor -%}
@@ -726,7 +726,7 @@
                     {%- else -%}
                   
                        {%- for block in tag_block %}{% assign encode_block = block | url_encode | downcase %}{% assign adt4_block = block | append:';;' | prepend:';;' %}{%- if bk_count %}{% assign adt4_block_size = arr_tags2 | split:adt4_block | size %}{% else %}{% assign adt4_block_size = 1 %}{% endif -%}
-                       <li><a href="{{nt_canonical_url | append:split_txt |append:'filter_tag%3d' | append:encode_block | sort_by:sort_by}}">{{block}}<span class="count_vr_filter">({{adt4_block_size | minus:1}})</span></a></li>
+                       <li><a href="{{nt_canonical_url | append:split_txt |append:'filter_tag%3d' | append:encode_block | sort_by:sort_by}}">{{block}}<span class="count_vr_filter 000000000">({{adt4_block_size | minus:1}})</span></a></li>
                        {%- endfor -%} 
                   
                     {%- endif -%}

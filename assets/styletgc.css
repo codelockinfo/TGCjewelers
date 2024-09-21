@@ -75,3 +75,14 @@ border-bottom: 4px solid #000;
   line-height: 27.2px;
   text-align: left;
 }
+.cat_shop_wrap {
+  background-color: #F6F4F2 !important;
+  padding: 20px;
+}
+ul.nt_filter_styleck>li>a:before {
+	background-color: transparent;
+	border: 1.5px solid #848484 !important;
+}
+.container_cat .cat_filter a {
+  display: none;
+}
