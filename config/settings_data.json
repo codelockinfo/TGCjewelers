@@ -2455,9 +2455,19 @@
             "type": "tag2",
             "settings": {
               "hidden_block": false,
-              "count": true,
+              "count": false,
               "title": "Gender",
               "arra_enter": "male,female",
+              "style": "ck"
+            }
+          },
+          "tag2_rDGnNe": {
+            "type": "tag2",
+            "settings": {
+              "hidden_block": false,
+              "count": false,
+              "title": "Stone shape",
+              "arra_enter": "Baguette (68)Items,Cushion (45)Items,Emerald (33)Items,Heart-Cut (8)Items,Marquise (91)Items",
               "style": "ck"
             }
           }
@@ -2465,7 +2475,8 @@
         "block_order": [
           "sidebar_shop2-0",
           "sidebar_shop2-1",
-          "tag2_aJ94iL"
+          "tag2_aJ94iL",
+          "tag2_rDGnNe"
         ],
         "settings": {
         }
