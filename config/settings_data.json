@@ -2465,7 +2465,7 @@
             "type": "tag2",
             "settings": {
               "hidden_block": false,
-              "count": true,
+              "count": false,
               "title": "Stone Shape",
               "arra_enter": "Baguette,Cushion,Emerald,Heart-Cut,Marquise",
               "style": "ck"
@@ -2475,7 +2475,7 @@
             "type": "tag2",
             "settings": {
               "hidden_block": false,
-              "count": true,
+              "count": false,
               "title": "Stone Type",
               "arra_enter": "Agate,Alexandrite,Amethyst,Aquamarine,Citrine,Crystal,Cubic Zirconia,Cultured Pearl,Diamond",
               "style": "ck"
@@ -2485,7 +2485,7 @@
             "type": "tag2",
             "settings": {
               "hidden_block": false,
-              "count": true,
+              "count": false,
               "title": "Style",
               "arra_enter": "Solitaire,Halo,Pave,Eternity,Half Eternity,Three Stone,Championship,Religious,Hip Hop",
               "style": "ck"
