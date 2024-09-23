@@ -1270,7 +1270,7 @@
 /* COLLECTION SIDEBAR SECTION  */
 
 .custom-sidebar {
-    padding: 15px;
+    /* padding: 15px; */
     background-color: #F6F4F2;
 }
 
@@ -1303,7 +1303,7 @@ line-height: 40px !important;
 text-align: left !important;
 color: #000000;
 }
-.filter-text{
+.nt_filter_block{
     font-family: Lato;
 font-size: 16px;
 font-weight: 600;
@@ -1313,17 +1313,40 @@ text-align: left;
 }
  ul.nt_filter_styleck>li>a:before{
   order: 2;
-
 } 
 ul.nt_filter_styleck>li>a {
     justify-content: space-between !important;
         margin-bottom: 0 !important;
 
 }
-.filter-text .active{
+.nt_filter_block  .active{
     background-color: #ffffff;
     padding: 5px;
 }
-.filter-text .active a{
+.nt_filter_block .active a{
    color: #C0862B !important;
+}
+.nt_filter_block li:hover a{
+   color: #C0862B !important;
+}
+ul.nt_filter_styleck>li.active>a:before{
+    background-color: transparent !important;
+}
+
+.noUi-handle:before  {
+    background-color: #C0862B !important;
+}
+.noUi-handle:after {
+    background-color: #C0862B !important;
+}
+.noUi-connect{
+    background: #C0862B !important;
+}
+.blockid_price .price_slider_amount .button {
+    background-color: transparent !important;
+    border: 2px solid #848484 !important;
+    color: #000000 !important;
+    font-weight: 700 !important;
+     font-family: Lato !important;
+     text-transform: capitalize !important
 }

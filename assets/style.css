@@ -4611,7 +4611,7 @@ ul.nt_filter_styleck>li>a:before,
 }
 ul.nt_filter_styleck>li.active>a:before,
 .nt_filter_color li.active .filter-swatch >span:after {
-  background-image: url(filter_selected.svg?194);
+  background-image: url(https://cdn.shopify.com/s/files/1/0697/1621/3987/files/Vector_10.svg?v=1727068906);
   background-size: 12px;
 }
 input[type="checkbox"].js_agree_ck,
