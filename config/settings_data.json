@@ -56,12 +56,12 @@
     "c_2": "",
     "c_3": "",
     "c_4": "",
-    "placeholder_img": "shopify:\/\/shop_images\/brand-logo_1.jpg",
+    "placeholder_img": "shopify://shop_images/brand-logo_1.jpg",
     "enable_meta": true,
     "enable_tag": true,
     "filter_price_list": "$7-$50, $50-$150, $150-$500",
     "logo_svg": "",
-    "logo": "shopify:\/\/shop_images\/1919ab976139553064ce06b053a0c286.png",
+    "logo": "shopify://shop_images/1919ab976139553064ce06b053a0c286.png",
     "logo_retina": "",
     "logo_width": 95,
     "logos": "",
@@ -309,7 +309,7 @@
     "currency_format": "money_format",
     "round_currency": false,
     "notify_currency": true,
-    "mess_currency": "All charges are billed in {{ currency }}. While the content of your cart is currently displayed in <span class=\"selected-currency\"><\/span>, the checkout will use {{ currency }} at the most current exchange rate.",
+    "mess_currency": "All charges are billed in {{ currency }}. While the content of your cart is currently displayed in <span class=\"selected-currency\"></span>, the checkout will use {{ currency }} at the most current exchange rate.",
     "hover_currency": false,
     "custom_css": false,
     "global_css": "",
@@ -326,14 +326,14 @@
     "share_email": true,
     "share_telegram": true,
     "share_whatsapp": false,
-    "social_facebook_link": "https:\/\/facebook.com\/shopify",
+    "social_facebook_link": "https://facebook.com/shopify",
     "social_twitter_link": "",
-    "social_instagram_link": "https:\/\/instagram.com\/shopify",
+    "social_instagram_link": "https://instagram.com/shopify",
     "social_dribbble_link": "",
     "social_linkedin_link": "",
     "social_pinterest_link": "",
     "social_tumblr_link": "",
-    "social_youtube_link": "https:\/\/www.youtube.com\/shopify",
+    "social_youtube_link": "https://www.youtube.com/shopify",
     "social_behance_link": "",
     "social_soundcloud_link": "",
     "favicon": "",
@@ -370,7 +370,7 @@
     "fv_txtcolor": "#ffffff",
     "enable_pro_pp": false,
     "operation_days": "Mon:1700-2100,Tue:1700-2100,Wed:1700-2200,Thu:1700-2200,Fri:1700-2300,Sat:1200-2300,Sun:1200-2100",
-    "timezones": "America\/Los_Angeles",
+    "timezones": "America/Los_Angeles",
     "sale_cl": "#ec0101",
     "color_body_text": "#555555",
     "color_price_sale": "#ec0101",
@@ -447,7 +447,7 @@
           "1596007070336": {
             "type": "text2",
             "settings": {
-              "text": "<p>Black Friday | Hundreds of brands, up to 50% off!<\/p>",
+              "text": "<p>Black Friday | Hundreds of brands, up to 50% off!</p>",
               "effect": "1",
               "au_time": 2.5,
               "hide": false,
@@ -494,7 +494,7 @@
             "type": "mega",
             "settings": {
               "title": "DEMO",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -511,7 +511,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "HOMEPAGES",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "col": "3"
@@ -521,7 +521,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "HOMEPAGES",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "col": "3"
@@ -531,7 +531,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Header Layouts",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "col": "3"
@@ -541,7 +541,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "FEATURES",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "col": "3"
@@ -551,7 +551,7 @@
             "type": "mega",
             "settings": {
               "title": "SHOP",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -568,7 +568,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "SHOP PAGES",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "col": "2"
@@ -578,7 +578,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "FEATURES",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "col": "2"
@@ -608,7 +608,7 @@
             "type": "mega",
             "settings": {
               "title": "PRODUCT",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -625,7 +625,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "PRODUCT LAYOUT",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "col": "3"
@@ -635,7 +635,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "PRODUCT DETAIL",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "col": "3"
@@ -645,7 +645,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "PRODUCT SWATCH",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "col": "3"
@@ -655,7 +655,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "PRODUCT FEATURES",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "col": "3"
@@ -665,7 +665,7 @@
             "type": "dropdown",
             "settings": {
               "title": "PORTFOLIO",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -681,7 +681,7 @@
             "type": "dropdown",
             "settings": {
               "title": "LOOKBOOK",
-              "url": "https:\/\/gecko5.myshopify.com\/?preview_theme_id=",
+              "url": "https://gecko5.myshopify.com/?preview_theme_id=",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -697,7 +697,7 @@
             "type": "dropdown",
             "settings": {
               "title": "BLOG",
-              "url": "shopify:\/\/blogs\/life-style",
+              "url": "shopify://blogs/life-style",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -743,10 +743,10 @@
           "1581507819652": {
             "type": "logo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/image_1-removebg-preview.png",
+              "image": "shopify://shop_images/image_1-removebg-preview.png",
               "logo_width": 80,
               "title": "GET IN TOUCH",
-              "content": "<p>Lorem ipsum dolor sit amet, conse elit, sedid do eiusmod tempor incidi ut labore et dolore magna aliqua. Quis ipsum usendi laboris mollit\n<\/p><p>Office: 12 Fake Street,New York<\/p><p><span> <a href=\"mailto:support.goaltheme.com\">Mail: support.goaltheme.com<\/a><\/span><\/p><p><a href=\"tel:(123)456789\">Phone: (123)456789<\/a><\/p>",
+              "content": "<p>Lorem ipsum dolor sit amet, conse elit, sedid do eiusmod tempor incidi ut labore et dolore magna aliqua. Quis ipsum usendi laboris mollit\n</p><p>Office: 12 Fake Street,New York</p><p><span> <a href=\"mailto:support.goaltheme.com\">Mail: support.goaltheme.com</a></span></p><p><a href=\"tel:(123)456789\">Phone: (123)456789</a></p>",
               "order": "1",
               "cl": "3",
               "cl_tb": "6",
@@ -827,7 +827,7 @@
           "1581507860120": {
             "type": "copy",
             "settings": {
-              "text": "Copyright © [year] <span class=\"cp\">Gecko<\/span> All Rights Reserved. Powered by <a href=\"https:\/\/the4.co\">The4<\/a>"
+              "text": "Copyright © [year] <span class=\"cp\">Gecko</span> All Rights Reserved. Powered by <a href=\"https://the4.co\">The4</a>"
             }
           },
           "1581507855652": {
@@ -1053,7 +1053,7 @@
             "type": "help",
             "settings": {
               "title": "Need help?",
-              "text": "<i class=\"pegk pe-7s-call fwb mr__10\"><\/i>+01 23456789<br><i class=\"pegk pe-7s-mail fwb mr__10\"><\/i><a class=\"cg\" href=\"mailto:gecko@domain.com\">gecko@domain.com<\/a>"
+              "text": "<i class=\"pegk pe-7s-call fwb mr__10\"></i>+01 23456789<br><i class=\"pegk pe-7s-mail fwb mr__10\"></i><a class=\"cg\" href=\"mailto:gecko@domain.com\">gecko@domain.com</a>"
             }
           },
           "mb_nav-8": {
@@ -1308,9 +1308,9 @@
       "header_banner": {
         "type": "header_banner",
         "settings": {
-          "link": "shopify:\/\/collections\/trending",
-          "text": "Today deal sale off <strong>70% <\/strong>. End in [countdown].  Hurry Up <i class=\"las la-arrow-right\"><\/i>",
-          "countdown": "2020\/12\/19",
+          "link": "shopify://collections/trending",
+          "text": "Today deal sale off <strong>70% </strong>. End in [countdown].  Hurry Up <i class=\"las la-arrow-right\"></i>",
+          "countdown": "2020/12/19",
           "height": 41,
           "fontsize": 12,
           "cl": "#fff",
@@ -1444,7 +1444,7 @@
         ],
         "settings": {
           "shown": true,
-          "image": "shopify:\/\/shop_images\/image_4.png",
+          "image": "shopify://shop_images/image_4.png",
           "use_specify_image": true,
           "parallax": false,
           "color": "#000000",
@@ -1793,7 +1793,7 @@
           "bgcl": "#f6f6f8",
           "bgclmb": "#ffffff",
           "des_w": "3",
-          "des_mb": "2",
+          "des_mb": "1",
           "auto": false,
           "mg": "30px,,30px,",
           "mg_mb": "0,,0,"
@@ -2723,7 +2723,7 @@
           "hover": "hover_side_up",
           "bg": "#56cfe1",
           "cl_txt": "#ffffff",
-          "text": "<i class=\"las la-phone fs__14\"><\/i> +01 23456789 <i class=\"las la-envelope fs__14 ml__15\"><\/i> <a class=\"cg\" href=\"mailto:Gecko@domain.com\">Gecko@domain.com<\/a>",
+          "text": "<i class=\"las la-phone fs__14\"></i> +01 23456789 <i class=\"las la-envelope fs__14 ml__15\"></i> <a class=\"cg\" href=\"mailto:Gecko@domain.com\">Gecko@domain.com</a>",
           "shop_cat": true,
           "txt_cat": "SHOP BY CATEGORY",
           "bgcat": "#007e91",
@@ -2826,7 +2826,7 @@
           "us_heading-1": {
             "type": "2",
             "settings": {
-              "text": "<p>Follow your passion, and sucess will follow you<\/p>"
+              "text": "<p>Follow your passion, and sucess will follow you</p>"
             }
           }
         },
@@ -2852,7 +2852,7 @@
             "type": "1",
             "settings": {
               "title": "OUR MISSION",
-              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae<\/em> vitae dicta sunt explicabo nemo enim ipsam.",
+              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</em> vitae dicta sunt explicabo nemo enim ipsam.",
               "al": "txtn",
               "cl": "6",
               "cl_mb": "12"
@@ -2862,7 +2862,7 @@
             "type": "1",
             "settings": {
               "title": "OUR MISSION",
-              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae<\/em> vitae dicta sunt explicabo nemo enim ipsam.",
+              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</em> vitae dicta sunt explicabo nemo enim ipsam.",
               "al": "txtn",
               "cl": "6",
               "cl_mb": "12"
@@ -2872,7 +2872,7 @@
             "type": "1",
             "settings": {
               "title": "OUR MISSION",
-              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae<\/em> vitae dicta sunt explicabo nemo enim ipsam.",
+              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</em> vitae dicta sunt explicabo nemo enim ipsam.",
               "al": "txtn",
               "cl": "6",
               "cl_mb": "12"
@@ -2882,7 +2882,7 @@
             "type": "1",
             "settings": {
               "title": "OUR MISSION",
-              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae<\/em> vitae dicta sunt explicabo nemo enim ipsam.",
+              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</em> vitae dicta sunt explicabo nemo enim ipsam.",
               "al": "txtn",
               "cl": "6",
               "cl_mb": "12"
@@ -2930,7 +2930,7 @@
           "4143db8f-06cf-493a-ae3c-e9974cd2e53f": {
             "type": "6",
             "settings": {
-              "html": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae<\/em> vitae dicta sunt explicabo nemo enim ipsam.<\/p>",
+              "html": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <em>totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae</em> vitae dicta sunt explicabo nemo enim ipsam.</p>",
               "cl": "12",
               "cl_mb": "12"
             }
@@ -2957,7 +2957,7 @@
             "type": "simple",
             "settings": {
               "title": "home",
-              "url": "shopify:\/\/collections\/frontpage",
+              "url": "shopify://collections/frontpage",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -2970,7 +2970,7 @@
             "type": "simple",
             "settings": {
               "title": "men's",
-              "url": "\/",
+              "url": "/",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -2983,7 +2983,7 @@
             "type": "simple",
             "settings": {
               "title": "women's",
-              "url": "shopify:\/\/collections\/delicate-bands",
+              "url": "shopify://collections/delicate-bands",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -2996,7 +2996,7 @@
             "type": "simple",
             "settings": {
               "title": "gold chain",
-              "url": "\/",
+              "url": "/",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3009,7 +3009,7 @@
             "type": "simple",
             "settings": {
               "title": "engagement",
-              "url": "\/",
+              "url": "/",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3040,7 +3040,7 @@
             "type": "simple",
             "settings": {
               "title": "custom",
-              "url": "\/",
+              "url": "/",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3053,7 +3053,7 @@
             "type": "simple",
             "settings": {
               "title": "made to order",
-              "url": "\/",
+              "url": "/",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3090,25 +3090,25 @@
           "img_dkwNfD": {
             "type": "img",
             "settings": {
-              "bgimg": "shopify:\/\/shop_images\/342587617021ee081602e05b74b8191a.jpg",
-              "bannerimg": "shopify:\/\/shop_images\/3bdb28cae45602cb0ca9838da368d25a.png",
+              "bgimg": "shopify://shop_images/342587617021ee081602e05b74b8191a.jpg",
+              "bannerimg": "shopify://shop_images/3bdb28cae45602cb0ca9838da368d25a.png",
               "heading": "Good Jewelry for the Best Occasion",
               "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras maximus, dolor nec placerat scelerisque urna libero lacinia.",
               "btntext": "Explore Now",
               "btnurl": "",
-              "fontawsome": "<i class=\"fa-solid fa-arrow-down arrow\"><\/i>"
+              "fontawsome": "<i class=\"fa-solid fa-arrow-down arrow\"></i>"
             }
           },
           "img_GrrB7d": {
             "type": "img",
             "settings": {
-              "bgimg": "shopify:\/\/shop_images\/342587617021ee081602e05b74b8191a.jpg",
-              "bannerimg": "shopify:\/\/shop_images\/3bdb28cae45602cb0ca9838da368d25a.png",
+              "bgimg": "shopify://shop_images/342587617021ee081602e05b74b8191a.jpg",
+              "bannerimg": "shopify://shop_images/3bdb28cae45602cb0ca9838da368d25a.png",
               "heading": "Good Jewelry for the Best Occasion",
               "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras maximus, dolor nec placerat scelerisque urna libero lacinia.",
               "btntext": "Explore Now",
               "btnurl": "",
-              "fontawsome": "<i class=\"fa-solid fa-arrow-down arrow\"><\/i>"
+              "fontawsome": "<i class=\"fa-solid fa-arrow-down arrow\"></i>"
             }
           }
         },
@@ -3126,7 +3126,7 @@
           "sub_title": "",
           "sub_font": "2",
           "btn_title": "See all products",
-          "titleimg": "shopify:\/\/shop_images\/6b7221cf8966784b3d4ddded1688d7dc_1_8a135a0d-b95a-4a93-b0d6-ff4237a29778.png",
+          "titleimg": "shopify://shop_images/6b7221cf8966784b3d4ddded1688d7dc_1_8a135a0d-b95a-4a93-b0d6-ff4237a29778.png",
           "style_title": "title_1",
           "ic_tt": "gem",
           "show_clpr": false,
@@ -3168,7 +3168,7 @@
           "sub_title": "",
           "sub_font": "2",
           "btn_title": "See all products",
-          "titleimg": "shopify:\/\/shop_images\/6b7221cf8966784b3d4ddded1688d7dc_1_8a135a0d-b95a-4a93-b0d6-ff4237a29778.png",
+          "titleimg": "shopify://shop_images/6b7221cf8966784b3d4ddded1688d7dc_1_8a135a0d-b95a-4a93-b0d6-ff4237a29778.png",
           "style_title": "title_1",
           "ic_tt": "gem",
           "show_clpr": false,
@@ -3217,49 +3217,49 @@
           "collection_ztcxiB": {
             "type": "collection",
             "settings": {
-              "slide_image": "shopify:\/\/shop_images\/Rectangle_25.png",
+              "slide_image": "shopify://shop_images/Rectangle_25.png",
               "heading": "Ring",
-              "img_heading_url": "shopify:\/\/collections\/moissanite-rings"
+              "img_heading_url": "shopify://collections/moissanite-rings"
             }
           },
           "collection_bYz7gg": {
             "type": "collection",
             "settings": {
-              "slide_image": "shopify:\/\/shop_images\/Rectangle_26.png",
+              "slide_image": "shopify://shop_images/Rectangle_26.png",
               "heading": "Rudraksh Bracelets",
-              "img_heading_url": "shopify:\/\/collections"
+              "img_heading_url": "shopify://collections"
             }
           },
           "collection_WDygU3": {
             "type": "collection",
             "settings": {
-              "slide_image": "shopify:\/\/shop_images\/Rectangle_27.png",
+              "slide_image": "shopify://shop_images/Rectangle_27.png",
               "heading": "Rudraksh Mala",
-              "img_heading_url": "shopify:\/\/collections"
+              "img_heading_url": "shopify://collections"
             }
           },
           "collection_dFeTTx": {
             "type": "collection",
             "settings": {
-              "slide_image": "shopify:\/\/shop_images\/Rectangle_25.png",
+              "slide_image": "shopify://shop_images/Rectangle_25.png",
               "heading": "Ring",
-              "img_heading_url": "shopify:\/\/collections\/moissanite-rings"
+              "img_heading_url": "shopify://collections/moissanite-rings"
             }
           },
           "collection_dqQ37a": {
             "type": "collection",
             "settings": {
-              "slide_image": "shopify:\/\/shop_images\/Rectangle_27.png",
+              "slide_image": "shopify://shop_images/Rectangle_27.png",
               "heading": "Rudraksh Mala",
-              "img_heading_url": "shopify:\/\/collections"
+              "img_heading_url": "shopify://collections"
             }
           },
           "collection_mUrJJm": {
             "type": "collection",
             "settings": {
-              "slide_image": "shopify:\/\/shop_images\/Rectangle_26.png",
+              "slide_image": "shopify://shop_images/Rectangle_26.png",
               "heading": "Rudraksh Bracelets",
-              "img_heading_url": "shopify:\/\/collections"
+              "img_heading_url": "shopify://collections"
             }
           }
         },
@@ -3273,7 +3273,7 @@
         ],
         "settings": {
           "main_title": "Our Collection",
-          "collection_logo": "shopify:\/\/shop_images\/6b7221cf8966784b3d4ddded1688d7dc_1_8a135a0d-b95a-4a93-b0d6-ff4237a29778.png",
+          "collection_logo": "shopify://shop_images/6b7221cf8966784b3d4ddded1688d7dc_1_8a135a0d-b95a-4a93-b0d6-ff4237a29778.png",
           "bgcolor": "#f6f4f2"
         }
       },
@@ -3283,40 +3283,40 @@
           "text_nkKVXD": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/9e2d38168ba457d37f650083f0206649.png",
-              "smallimg": "shopify:\/\/shop_images\/Rectangle_25.png",
+              "image": "shopify://shop_images/9e2d38168ba457d37f650083f0206649.png",
+              "smallimg": "shopify://shop_images/Rectangle_25.png",
               "product": "0-20-cluster-round-shape-moissanite-wedding-band-for-women"
             }
           },
           "text_x9riN6": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/9e2d38168ba457d37f650083f0206649.png",
-              "smallimg": "shopify:\/\/shop_images\/Rectangle_25.png",
+              "image": "shopify://shop_images/9e2d38168ba457d37f650083f0206649.png",
+              "smallimg": "shopify://shop_images/Rectangle_25.png",
               "product": "0-20-cluster-round-shape-moissanite-wedding-band-for-women"
             }
           },
           "text_d8FDQz": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/9e2d38168ba457d37f650083f0206649.png",
-              "smallimg": "shopify:\/\/shop_images\/Rectangle_25.png",
+              "image": "shopify://shop_images/9e2d38168ba457d37f650083f0206649.png",
+              "smallimg": "shopify://shop_images/Rectangle_25.png",
               "product": "0-20-cluster-round-shape-moissanite-wedding-band-for-women"
             }
           },
           "text_G7JiFK": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/9e2d38168ba457d37f650083f0206649.png",
-              "smallimg": "shopify:\/\/shop_images\/Rectangle_25.png",
+              "image": "shopify://shop_images/9e2d38168ba457d37f650083f0206649.png",
+              "smallimg": "shopify://shop_images/Rectangle_25.png",
               "product": "0-20-cluster-round-shape-moissanite-wedding-band-for-women"
             }
           },
           "text_rfYXFe": {
             "type": "text",
             "settings": {
-              "image": "shopify:\/\/shop_images\/9e2d38168ba457d37f650083f0206649.png",
-              "smallimg": "shopify:\/\/shop_images\/Rectangle_25.png",
+              "image": "shopify://shop_images/9e2d38168ba457d37f650083f0206649.png",
+              "smallimg": "shopify://shop_images/Rectangle_25.png",
               "product": "0-20-cluster-round-shape-moissanite-wedding-band-for-women"
             }
           }
@@ -3333,7 +3333,7 @@
           "sub_title": "",
           "sub_font": "2",
           "btn_title": "See all products",
-          "titleimg": "shopify:\/\/shop_images\/6b7221cf8966784b3d4ddded1688d7dc_1_8a135a0d-b95a-4a93-b0d6-ff4237a29778.png",
+          "titleimg": "shopify://shop_images/6b7221cf8966784b3d4ddded1688d7dc_1_8a135a0d-b95a-4a93-b0d6-ff4237a29778.png",
           "style_title": "title_1",
           "ic_tt": "gem",
           "show_clpr": false
@@ -3346,7 +3346,7 @@
           "sub_title": "",
           "sub_font": "2",
           "btn_title": "See all products",
-          "titleimg": "shopify:\/\/shop_images\/6b7221cf8966784b3d4ddded1688d7dc_1_8a135a0d-b95a-4a93-b0d6-ff4237a29778.png",
+          "titleimg": "shopify://shop_images/6b7221cf8966784b3d4ddded1688d7dc_1_8a135a0d-b95a-4a93-b0d6-ff4237a29778.png",
           "style_title": "title_1",
           "ic_tt": "gem",
           "show_clpr": false,
@@ -3383,7 +3383,7 @@
       "custom_img_with_text_i6xVXk": {
         "type": "custom-img-with-text",
         "settings": {
-          "watchimg": "shopify:\/\/shop_images\/Rectangle_42.png",
+          "watchimg": "shopify://shop_images/Rectangle_42.png",
           "mainheading": "Sparkle with our unique jewelry",
           "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
           "buttontext": "View More",
@@ -3396,7 +3396,7 @@
           "text_yFCChr": {
             "type": "text",
             "settings": {
-              "svgimg": "shopify:\/\/shop_images\/Group_1000004462.svg",
+              "svgimg": "shopify://shop_images/Group_1000004462.svg",
               "text1": "MONEY RETURN",
               "text2": "30 days for free return"
             }
@@ -3404,7 +3404,7 @@
           "text_9khfxR": {
             "type": "text",
             "settings": {
-              "svgimg": "shopify:\/\/shop_images\/Vector.svg",
+              "svgimg": "shopify://shop_images/Vector.svg",
               "text1": "ONLINE SUPPORT",
               "text2": "Support 24 hours a day"
             }
@@ -3412,7 +3412,7 @@
           "text_3UpkdL": {
             "type": "text",
             "settings": {
-              "svgimg": "shopify:\/\/shop_images\/Group.svg",
+              "svgimg": "shopify://shop_images/Group.svg",
               "text1": "DEALS & PROMOTIONS",
               "text2": "Price savings, discounts"
             }
@@ -3420,7 +3420,7 @@
           "text_zJmpdt": {
             "type": "text",
             "settings": {
-              "svgimg": "shopify:\/\/shop_images\/fast_1.svg",
+              "svgimg": "shopify://shop_images/fast_1.svg",
               "text1": "FREE SHIPPING",
               "text2": "Free shipping all order"
             }
@@ -3433,10 +3433,10 @@
           "text_zJmpdt"
         ],
         "settings": {
-          "bgimg": "shopify:\/\/shop_images\/Group_1000004466.png",
-          "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/adc8e1c26e024a2fb3d4d02d475763c4.mp4",
+          "bgimg": "shopify://shop_images/Group_1000004466.png",
+          "video": "https://cdn.shopify.com/videos/c/o/v/adc8e1c26e024a2fb3d4d02d475763c4.mp4",
           "mainheading": "About Us",
-          "titleimg": "shopify:\/\/shop_images\/divider-min_3.png",
+          "titleimg": "shopify://shop_images/divider-min_3.png",
           "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
           "btntext": "About Us",
           "btnurl": ""
@@ -3445,10 +3445,10 @@
       "hip_hop_collection_BFmgbj": {
         "type": "hip_hop_collection",
         "settings": {
-          "backgroundimg": "shopify:\/\/shop_images\/Rectangle_36_6.png",
-          "hiphopimg": "shopify:\/\/shop_images\/gold-dollar-symbol-golden-chain-jewellery-necklace-background-with-place-text-banner-fashion-accessories_1_1.png",
+          "backgroundimg": "shopify://shop_images/Rectangle_36_6.png",
+          "hiphopimg": "shopify://shop_images/gold-dollar-symbol-golden-chain-jewellery-necklace-background-with-place-text-banner-fashion-accessories_1_1.png",
           "mainheading": "Hip Hop Chains",
-          "collectionlogo": "shopify:\/\/shop_images\/6b7221cf8966784b3d4ddded1688d7dc_1_8a135a0d-b95a-4a93-b0d6-ff4237a29778.png",
+          "collectionlogo": "shopify://shop_images/6b7221cf8966784b3d4ddded1688d7dc_1_8a135a0d-b95a-4a93-b0d6-ff4237a29778.png",
           "collection": "moissanite-rings",
           "limit": 8,
           "space": 20,
@@ -3494,8 +3494,8 @@
           "text_QrPXgV": {
             "type": "text",
             "settings": {
-              "comaimg": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-              "clientimg": "shopify:\/\/shop_images\/Ellipse_2_2.png",
+              "comaimg": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+              "clientimg": "shopify://shop_images/Ellipse_2_2.png",
               "review": "Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque.",
               "clienname": "Rock -DAB los angeles, USA",
               "rating": 5
@@ -3504,8 +3504,8 @@
           "text_Mk4XAB": {
             "type": "text",
             "settings": {
-              "comaimg": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-              "clientimg": "shopify:\/\/shop_images\/Ellipse_2_2.png",
+              "comaimg": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+              "clientimg": "shopify://shop_images/Ellipse_2_2.png",
               "review": "Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque.",
               "clienname": "Rock -DAB los angeles, USA",
               "rating": 5
@@ -3514,8 +3514,8 @@
           "text_nwtggg": {
             "type": "text",
             "settings": {
-              "comaimg": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-              "clientimg": "shopify:\/\/shop_images\/Ellipse_2_2.png",
+              "comaimg": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+              "clientimg": "shopify://shop_images/Ellipse_2_2.png",
               "review": "Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque.",
               "clienname": "Rock -DAB los angeles, USA",
               "rating": 5
@@ -3524,8 +3524,8 @@
           "text_k8Yjid": {
             "type": "text",
             "settings": {
-              "comaimg": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-              "clientimg": "shopify:\/\/shop_images\/Ellipse_2_2.png",
+              "comaimg": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+              "clientimg": "shopify://shop_images/Ellipse_2_2.png",
               "review": "Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque.",
               "clienname": "Rock -DAB los angeles, USA",
               "rating": 5
@@ -3534,8 +3534,8 @@
           "text_63KPBh": {
             "type": "text",
             "settings": {
-              "comaimg": "shopify:\/\/shop_images\/da21dde662a19a4b8a6e17048660983a.png",
-              "clientimg": "shopify:\/\/shop_images\/Ellipse_2_2.png",
+              "comaimg": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
+              "clientimg": "shopify://shop_images/Ellipse_2_2.png",
               "review": "Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque.",
               "clienname": "Rock -DAB los angeles, USA",
               "rating": 5
@@ -3550,7 +3550,7 @@
           "text_63KPBh"
         ],
         "settings": {
-          "bgimg": "shopify:\/\/shop_images\/0e671863283fdd05f4703464f27445a4.jpg",
+          "bgimg": "shopify://shop_images/0e671863283fdd05f4703464f27445a4.jpg",
           "mainheading": "What they say about us",
           "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
         }
@@ -3561,7 +3561,7 @@
           "wis_heading-0": {
             "type": "2",
             "settings": {
-              "text": "<p>View your wishlist products<\/p>"
+              "text": "<p>View your wishlist products</p>"
             }
           }
         },
@@ -3681,7 +3681,7 @@
           "sub_title": "",
           "sub_font": "2",
           "btn_title": "See all products",
-          "titleimg": "shopify:\/\/shop_images\/6b7221cf8966784b3d4ddded1688d7dc_1_8a135a0d-b95a-4a93-b0d6-ff4237a29778.png",
+          "titleimg": "shopify://shop_images/6b7221cf8966784b3d4ddded1688d7dc_1_8a135a0d-b95a-4a93-b0d6-ff4237a29778.png",
           "style_title": "title_1",
           "ic_tt": "gem",
           "show_clpr": false,
