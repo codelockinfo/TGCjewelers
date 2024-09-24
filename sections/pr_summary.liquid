@@ -85,6 +85,11 @@
       {%- endif -%}
 
     {%- when 'pricereview' -%}
+      <div class="sku-custom-div">
+      <div class="sku_wrapper">{{ 'products.product.product_sku' | t }} <span class="sku value cb{% if current_variant.sku == blank %} dn{% endif %}" id="pr_sku{{call_cl}}">{{current_variant.sku}}</span><span class="sku value{% if current_variant.sku != blank %} dn{% endif %}" id="pr_sku_na{{call_cl}}">{{ 'products.product.na' | t }}</span></div>
+      <div class="jdgm-widget jdgm-preview-badge"></div>
+        {{ product.metafields.judgeme.badge }}
+      </div>
       <div class="flex wrap fl_between al_center price-review mt__15 pb__10 mb__20 price_stock">
         <p class="price_range" id="price{{call_cl}}">
           {%- if nav_up_size == 0 and current_variant.unit_price_measurement -%}
@@ -163,7 +168,7 @@
             {%- endif -%}
           {%- endif -%}
         </p>
-
+      
         {%- if block.settings.show_available -%}
           <span class="available_wrapper"
             ><span class="available value"
@@ -178,7 +183,9 @@
             ></span
           >
         {%- endif -%}
-      </div>
+        </div>
+       
+      
       {%- if block.settings.rating -%}
         <a href="#tab_pr_reivew" class="rating_sp_kl{% if call_cl == '_qv' %} pe_none{% endif %}">
           {%- case settings.app_review -%}
@@ -957,6 +964,9 @@
           {%- endif -%}
           {%- if block.settings.show_sku -%} {%- assign ck_meta = true -%}{%- if current_variant.sku != blank -%}{%-endif-%}
           <span class="sku_wrapper">{{ 'products.product.product_sku' | t }} <span class="sku value cb{% if current_variant.sku == blank %} dn{% endif %}" id="pr_sku{{call_cl}}">{{current_variant.sku}}</span><span class="sku value{% if current_variant.sku != blank %} dn{% endif %}" id="pr_sku_na{{call_cl}}">{{ 'products.product.na' | t }}</span></span>
+          <div class="jdgm-widget jdgm-preview-badge"></div>
+            {{ product.metafields.judgeme.badge }}
+          </div>
           {%- endif -%}
           {%- if product.collections.size > 0 and block.settings.show_category_product -%} {%- assign ck_meta = true -%}
           <span class="posted_in">{{ 'products.product.product_category' | t }}

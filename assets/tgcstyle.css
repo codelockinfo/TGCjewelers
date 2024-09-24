@@ -1350,3 +1350,24 @@ ul.nt_filter_styleck>li.active>a:before{
      font-family: Lato !important;
      text-transform: capitalize !important
 }
+
+
+/* PRODUCT PAGE CSS  */
+/* .custom-flex-pro{
+    flex-wrap: nowrap !important;
+} */    
+.sku_wrapper {
+    font-family: lato;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.38px;
+    text-align: end;
+    color: #282828;
+    order: 2;
+  }
+  .product_meta > span {
+    margin-bottom: 0 !important;
+  }
+  .sku-custom-div{
+    display: flex;
+  }
