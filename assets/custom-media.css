@@ -103,6 +103,13 @@
         order: 5;
         width: 100%;
     }
+    /* PRODUCT PAGE IMG  */
+    /* .custom-flex-pro .col-lg{
+        flex-basis: 0 !important;
+        -ms-flex-positive: 1 !important;
+        flex-grow: 1 !important;
+        max-width: 100% ;
+    } */
     
 }
 @media (max-width:991px) {

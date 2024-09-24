@@ -1357,7 +1357,7 @@ ul.nt_filter_styleck>li.active>a:before{
     flex-wrap: nowrap !important;
 } */    
 .sku_wrapper {
-    font-family: lato;
+    font-family: lato !important; 
     font-size: 20px;
     font-weight: 600;
     line-height: 24.38px;
@@ -1370,4 +1370,6 @@ ul.nt_filter_styleck>li.active>a:before{
   }
   .sku-custom-div{
     display: flex;
+    justify-content: space-between;
   }
+  
