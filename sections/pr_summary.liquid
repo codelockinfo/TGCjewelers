@@ -630,6 +630,18 @@
               {%- elsif price_varies -%}
                 <span class="price price_varies">{{ current_variant.price | money }}</span>
               {%- endif -%}
+              <div class="customize-properties mb__40">
+                <h4 for="customization" class="swatch__title">Personalize Box</h4>
+                <textarea
+                  class="personalizebox"
+                  id="personalize-box"
+                  type="text"
+                  name="properties[Personalize Box]"
+                  placeholder="Mention Your Personalization Size, Metal Color, etc. Here"
+                  spellcheck="false"
+                ></textarea>
+                {% comment %} <input  class="required" id="customization" name="properties[Personalization]" value="" /> {% endcomment %}
+              </div>
               <div class="variations_button in_flex column w__100">
                 <div class="flex wrap al_center">
                   {%- if ck_external -%}
@@ -649,6 +661,7 @@
                     </a>
                     {%- render 'nt_add_w', tooltip: 'ttip_nt tooltip_top_left' -%}
                   {%- else -%}
+                  
                     <div class="quantity_head">Quantity</div>
                     <div class="quantity pr mr__10 order-1 qty__{{block.settings.show_qty}}" id="sp_qty{{call_cl}}">
                       <input
@@ -759,18 +772,7 @@
           {%- render 'grouped_product', block: block, nav_up: nav_up, call_cl: call_cl, pid: pid -%}
         {%- endif -%}
       </div>
-      <div class="customize-properties mb__40">
-        <h4 for="customization" class="swatch__title">Personalize Box</h4>
-        <textarea
-          class="personalizebox"
-          id="personalize-box"
-          type="text"
-          name="properties[Personalize Box]"
-          placeholder="Mention Your Personalization Size, Metal Color, etc. Here"
-          spellcheck="false"
-        ></textarea>
-        {% comment %} <input  class="required" id="customization" name="properties[Personalization]" value="" /> {% endcomment %}
-      </div>
+    
       {% comment %} custom properties {% endcomment %}
     {%- when 'tab' -%}
       {% if product.metafields.custom.tabdescription != blank -%}
