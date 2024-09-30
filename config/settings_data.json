@@ -746,7 +746,7 @@
               "image": "shopify://shop_images/image_1-removebg-preview.png",
               "logo_width": 80,
               "title": "GET IN TOUCH",
-              "content": "<p>The Golden Corner has been working since 1987 and deals in different categories like Diamond Jewelry, Gold Jewelry, Hip Hop Jewelry, Diamond Watches Etc.\n</p><p>Store: 15482 NW 77TH CT, Miami Lakes, FL 33016\n</p><p><span> <a href=\"mailto:Alain@tgcjewelers.com\">Alain@tgcjewelers.com</a></span></p><p><a href=\"tel:+1%20(305)%20691-6175\">+1 (305) 691-6175</a></p>",
+              "content": "<p>The Golden Corner has been working since 1987 and deals in different categories like Diamond Jewelry, Gold Jewelry, Hip Hop Jewelry, Diamond Watches Etc.\n</p><p>Office: 12 Fake Street,New York</p><p><span> <a href=\"mailto:support.goaltheme.com\">Mail: support.goaltheme.com</a></span></p><p><a href=\"tel:(123)456789\">Phone: (123)456789</a></p>",
               "order": "1",
               "cl": "3",
               "cl_tb": "6",
@@ -3092,8 +3092,8 @@
             "settings": {
               "bgimg": "shopify://shop_images/342587617021ee081602e05b74b8191a.jpg",
               "bannerimg": "shopify://shop_images/3bdb28cae45602cb0ca9838da368d25a.png",
-              "heading": "Best Jewelry For The Best Occasion",
-              "paragraph": "Crafting unforgettable moments with jewelry that sparkles as bright as your memories.",
+              "heading": "Hip-Hop Diamond Jewelry",
+              "paragraph": "Unleash Your Style with Hip-Hop Diamond Jewelry!",
               "btntext": "Explore Now",
               "btnurl": "shopify://collections/tennis-bracelets",
               "fontawsome": "<i class=\"fa-solid fa-arrow-down arrow\"></i>"
@@ -3122,7 +3122,7 @@
       "featured_collection_JEbDzE": {
         "type": "featured_collection",
         "settings": {
-          "title": "Diamond Hip Hop Jewelry",
+          "title": "Wedding Bands",
           "sub_title": "",
           "sub_font": "2",
           "btn_title": "See all products",
@@ -3217,49 +3217,41 @@
           "collection_ztcxiB": {
             "type": "collection",
             "settings": {
-              "slide_image": "shopify://shop_images/ceb1426ece57a629314722980d02b97b.png",
+              "slide_image": "shopify://shop_images/6_cbfb0f5c-691c-463e-b85a-f55183e575c9.jpg",
               "heading": "Bracelets",
-              "img_heading_url": "shopify://collections/moissanite-rings"
+              "img_heading_url": "shopify://collections/chain-bracelets"
             }
           },
           "collection_bYz7gg": {
             "type": "collection",
             "settings": {
-              "slide_image": "shopify://shop_images/c9a4c9e8d13d5f557ab1611951682b7a.png",
-              "heading": "Ring",
-              "img_heading_url": "shopify://collections"
+              "slide_image": "shopify://shop_images/4_6ea68f7a-85e7-46cd-8e6b-ed97c1bd1b91.jpg",
+              "heading": "Rings",
+              "img_heading_url": "shopify://collections/moissanite-rings"
             }
           },
           "collection_WDygU3": {
             "type": "collection",
             "settings": {
-              "slide_image": "shopify://shop_images/b836910e76edbdd396710162f73372e2.png",
-              "heading": "Rudraksh Bracelets",
-              "img_heading_url": "shopify://collections"
+              "slide_image": "shopify://shop_images/1_977a4b45-03c4-4ad1-90f5-fdba5960f1e0.jpg",
+              "heading": "Earrings",
+              "img_heading_url": "shopify://collections/earrings"
             }
           },
           "collection_dFeTTx": {
             "type": "collection",
             "settings": {
-              "slide_image": "shopify://shop_images/6189bb197e5ea06591fb50f47a6a4bf9.png",
-              "heading": "Rudraksh Mala",
-              "img_heading_url": "shopify://collections/moissanite-rings"
+              "slide_image": "shopify://shop_images/3_3e88519c-37fe-4180-804f-eee0a31f6267.jpg",
+              "heading": "Wedding Bands",
+              "img_heading_url": "shopify://collections/delicate-bands"
             }
           },
           "collection_dqQ37a": {
             "type": "collection",
             "settings": {
-              "slide_image": "shopify://shop_images/ceb1426ece57a629314722980d02b97b.png",
-              "heading": "Bracelets",
-              "img_heading_url": "shopify://collections"
-            }
-          },
-          "collection_mUrJJm": {
-            "type": "collection",
-            "settings": {
-              "slide_image": "shopify://shop_images/c9a4c9e8d13d5f557ab1611951682b7a.png",
-              "heading": "Ring",
-              "img_heading_url": "shopify://collections"
+              "slide_image": "shopify://shop_images/2_0e0dc85b-fe54-4275-bb00-78d5889d9cfe.jpg",
+              "heading": "Tennis Bracelets",
+              "img_heading_url": "shopify://collections/tennis-bracelets"
             }
           }
         },
@@ -3268,8 +3260,7 @@
           "collection_bYz7gg",
           "collection_WDygU3",
           "collection_dFeTTx",
-          "collection_dqQ37a",
-          "collection_mUrJJm"
+          "collection_dqQ37a"
         ],
         "settings": {
           "main_title": "Our Collection",
@@ -3384,8 +3375,8 @@
         "type": "custom-img-with-text",
         "settings": {
           "watchimg": "shopify://shop_images/Rectangle_42.png",
-          "mainheading": "Sparkle with our unique jewelry",
-          "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+          "mainheading": "Custom Jewelry",
+          "subheading": "At TGC Jewelers, we turn your dream jewelry into reality with custom designs made just for you. Specializing in pendants, chains, watches, and rings, we craft pieces that are truly unique.",
           "buttontext": "View More",
           "buttonurl": ""
         }
@@ -3437,9 +3428,9 @@
           "video": "https://cdn.shopify.com/videos/c/o/v/adc8e1c26e024a2fb3d4d02d475763c4.mp4",
           "mainheading": "About Us",
           "titleimg": "shopify://shop_images/divider-min_3.png",
-          "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+          "paragraph": "At TGC jewelers, we believe in the power of exquisite craftsmanship and timeless design. Our mission is to bring you jewelry that tells a story—crafted with care, passion, and attention to detail. Every piece we offer is a reflection of our commitment to quality, elegance, and affordability. Whether it’s a gift for a loved one or a treat for yourself, we’re here to help you find the perfect jewelry that fits your unique style.",
           "btntext": "About Us",
-          "btnurl": ""
+          "btnurl": "shopify://pages/contact"
         }
       },
       "hip_hop_collection_BFmgbj": {
@@ -3447,9 +3438,9 @@
         "settings": {
           "backgroundimg": "shopify://shop_images/Rectangle_36_6.png",
           "hiphopimg": "shopify://shop_images/gold-dollar-symbol-golden-chain-jewellery-necklace-background-with-place-text-banner-fashion-accessories_1_1.png",
-          "mainheading": "Hip Hop Chains",
+          "mainheading": "Hip Hop Bracelets",
           "collectionlogo": "shopify://shop_images/6b7221cf8966784b3d4ddded1688d7dc_1_8a135a0d-b95a-4a93-b0d6-ff4237a29778.png",
-          "collection": "moissanite-rings",
+          "collection": "bracelet",
           "limit": 8,
           "space": 20,
           "use_pagination": "none",
@@ -3495,9 +3486,8 @@
             "type": "text",
             "settings": {
               "comaimg": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
-              "clientimg": "shopify://shop_images/Ellipse_2_2.png",
-              "review": "Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque.",
-              "clienname": "Rock -DAB los angeles, USA",
+              "review": "I’ve never owned a piece of jewelry that sparkles like this! The craftsmanship is exquisite, and I get compliments every time I wear it. Truly a timeless addition to my collection!",
+              "clienname": "Sarah K. -Los Angeles, USA.",
               "rating": 5
             }
           },
@@ -3505,9 +3495,8 @@
             "type": "text",
             "settings": {
               "comaimg": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
-              "clientimg": "shopify://shop_images/Ellipse_2_2.png",
-              "review": "Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque.",
-              "clienname": "Rock -DAB los angeles, USA",
+              "review": "From the moment I unboxed it, I knew I’d made the right choice. The quality is impeccable, and the customer service was just as stellar. This is now my go-to jewelry shop!",
+              "clienname": "Jonathan P. - London, UK",
               "rating": 5
             }
           },
@@ -3515,9 +3504,8 @@
             "type": "text",
             "settings": {
               "comaimg": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
-              "clientimg": "shopify://shop_images/Ellipse_2_2.png",
-              "review": "Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque.",
-              "clienname": "Rock -DAB los angeles, USA",
+              "review": "Thrilled with my purchase! The piece is even more stunning in person, beautifully crafted, and truly unique. You can feel the love and care in every detail. Awesome and unique  designs",
+              "clienname": "Aisha R. -Toronto, Canada",
               "rating": 5
             }
           },
@@ -3525,9 +3513,8 @@
             "type": "text",
             "settings": {
               "comaimg": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
-              "clientimg": "shopify://shop_images/Ellipse_2_2.png",
-              "review": "Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque.",
-              "clienname": "Rock -DAB los angeles, USA",
+              "review": "My watch exceeded all expectations. The attention to detail is unbelievable, and the moissanite diamonds look just as brilliant as natural ones! Worth every penny.",
+              "clienname": "Mark T.- Sydney, Australia",
               "rating": 5
             }
           },
@@ -3535,9 +3522,8 @@
             "type": "text",
             "settings": {
               "comaimg": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a.png",
-              "clientimg": "shopify://shop_images/Ellipse_2_2.png",
-              "review": "Praesent faucibus, lorem ut sollicitudin dapibus, quam ligula pretium magna, eu congue ex quam ut neque.",
-              "clienname": "Rock -DAB los angeles, USA",
+              "review": "This is my third purchase from here, and I’m still blown away by the consistency in quality. The designs are so elegant yet modern, and I love how each piece feels special.",
+              "clienname": "Emily V. -New York, NY",
               "rating": 5
             }
           }
