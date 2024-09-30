@@ -3092,10 +3092,10 @@
             "settings": {
               "bgimg": "shopify://shop_images/342587617021ee081602e05b74b8191a.jpg",
               "bannerimg": "shopify://shop_images/3bdb28cae45602cb0ca9838da368d25a.png",
-              "heading": "Good Jewelry for the Best Occasion",
-              "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras maximus, dolor nec placerat scelerisque urna libero lacinia.",
+              "heading": "Best Jewelry For The Best Occasion",
+              "paragraph": "Crafting unforgettable moments with jewelry that sparkles as bright as your memories.",
               "btntext": "Explore Now",
-              "btnurl": "",
+              "btnurl": "shopify://collections/tennis-bracelets",
               "fontawsome": "<i class=\"fa-solid fa-arrow-down arrow\"></i>"
             }
           },
