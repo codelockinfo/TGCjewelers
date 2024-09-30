@@ -3219,7 +3219,7 @@
             "settings": {
               "slide_image": "shopify://shop_images/5_7eb4859e-fe4e-4cf8-b17d-dc1ed7c41d88.jpg",
               "heading": "Bracelets",
-              "img_heading_url": "shopify://collections/moissanite-rings"
+              "img_heading_url": "shopify://collections/chain-bracelets"
             }
           },
           "collection_bYz7gg": {
@@ -3227,7 +3227,7 @@
             "settings": {
               "slide_image": "shopify://shop_images/4_6ea68f7a-85e7-46cd-8e6b-ed97c1bd1b91.jpg",
               "heading": "Rings",
-              "img_heading_url": "shopify://collections"
+              "img_heading_url": "shopify://collections/moissanite-rings"
             }
           },
           "collection_WDygU3": {
@@ -3235,7 +3235,7 @@
             "settings": {
               "slide_image": "shopify://shop_images/1_977a4b45-03c4-4ad1-90f5-fdba5960f1e0.jpg",
               "heading": "Earrings",
-              "img_heading_url": "shopify://collections"
+              "img_heading_url": "shopify://collections/earrings"
             }
           },
           "collection_dFeTTx": {
@@ -3243,7 +3243,7 @@
             "settings": {
               "slide_image": "shopify://shop_images/3_3e88519c-37fe-4180-804f-eee0a31f6267.jpg",
               "heading": "Wedding Bands",
-              "img_heading_url": "shopify://collections/moissanite-rings"
+              "img_heading_url": "shopify://collections/delicate-bands"
             }
           },
           "collection_dqQ37a": {
@@ -3251,7 +3251,7 @@
             "settings": {
               "slide_image": "shopify://shop_images/2_0e0dc85b-fe54-4275-bb00-78d5889d9cfe.jpg",
               "heading": "Tennis Bracelets",
-              "img_heading_url": "shopify://collections"
+              "img_heading_url": "shopify://collections/tennis-bracelets"
             }
           }
         },
