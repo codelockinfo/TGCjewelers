@@ -3214,14 +3214,6 @@
       "custom_collection_slider_BLdNEm": {
         "type": "custom_collection_slider",
         "blocks": {
-          "collection_ztcxiB": {
-            "type": "collection",
-            "settings": {
-              "slide_image": "shopify://shop_images/6_cbfb0f5c-691c-463e-b85a-f55183e575c9.jpg",
-              "heading": "Bracelets",
-              "img_heading_url": "shopify://collections/chain-bracelets"
-            }
-          },
           "collection_bYz7gg": {
             "type": "collection",
             "settings": {
@@ -3253,14 +3245,22 @@
               "heading": "Tennis Bracelets",
               "img_heading_url": "shopify://collections/tennis-bracelets"
             }
+          },
+          "collection_ztcxiB": {
+            "type": "collection",
+            "settings": {
+              "slide_image": "shopify://shop_images/6_cbfb0f5c-691c-463e-b85a-f55183e575c9.jpg",
+              "heading": "Bracelets",
+              "img_heading_url": "shopify://collections/chain-bracelets"
+            }
           }
         },
         "block_order": [
-          "collection_ztcxiB",
           "collection_bYz7gg",
           "collection_WDygU3",
           "collection_dFeTTx",
-          "collection_dqQ37a"
+          "collection_dqQ37a",
+          "collection_ztcxiB"
         ],
         "settings": {
           "main_title": "Our Collection",
