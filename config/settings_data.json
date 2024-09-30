@@ -3384,8 +3384,8 @@
         "type": "custom-img-with-text",
         "settings": {
           "watchimg": "shopify://shop_images/Rectangle_42.png",
-          "mainheading": "Sparkle with our unique jewelry",
-          "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+          "mainheading": "Custom Jewelry",
+          "subheading": "At TGC Jewelers, we turn your dream jewelry into reality with custom designs made just for you. Specializing in pendants, chains, watches, and rings, we craft pieces that are truly unique.",
           "buttontext": "View More",
           "buttonurl": ""
         }
