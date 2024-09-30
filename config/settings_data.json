@@ -3090,6 +3090,7 @@
           "img_dkwNfD": {
             "type": "img",
             "settings": {
+              "bgimg": "shopify://shop_images/60.jpg",
               "bannerimg": "shopify://shop_images/60.jpg",
               "heading": "Moissanite Watches",
               "paragraph": "Elegant Moissanite Watches: Timeless Sparkle",
