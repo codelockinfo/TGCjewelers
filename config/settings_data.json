@@ -3226,39 +3226,31 @@
             "type": "collection",
             "settings": {
               "slide_image": "shopify://shop_images/c9a4c9e8d13d5f557ab1611951682b7a.png",
-              "heading": "Ring",
+              "heading": "Rings",
               "img_heading_url": "shopify://collections"
             }
           },
           "collection_WDygU3": {
             "type": "collection",
             "settings": {
-              "slide_image": "shopify://shop_images/b836910e76edbdd396710162f73372e2.png",
-              "heading": "Rudraksh Bracelets",
+              "slide_image": "shopify://shop_images/DSC02479.jpg",
+              "heading": "Earrings",
               "img_heading_url": "shopify://collections"
             }
           },
           "collection_dFeTTx": {
             "type": "collection",
             "settings": {
-              "slide_image": "shopify://shop_images/6189bb197e5ea06591fb50f47a6a4bf9.png",
-              "heading": "Rudraksh Mala",
+              "slide_image": "shopify://shop_images/DSC00009-Copy.jpg",
+              "heading": "Wedding Bands",
               "img_heading_url": "shopify://collections/moissanite-rings"
             }
           },
           "collection_dqQ37a": {
             "type": "collection",
             "settings": {
-              "slide_image": "shopify://shop_images/ceb1426ece57a629314722980d02b97b.png",
-              "heading": "Bracelets",
-              "img_heading_url": "shopify://collections"
-            }
-          },
-          "collection_mUrJJm": {
-            "type": "collection",
-            "settings": {
-              "slide_image": "shopify://shop_images/c9a4c9e8d13d5f557ab1611951682b7a.png",
-              "heading": "Ring",
+              "slide_image": "shopify://shop_images/DSC02532.jpg",
+              "heading": "Tennis Bracelets",
               "img_heading_url": "shopify://collections"
             }
           }
@@ -3268,8 +3260,7 @@
           "collection_bYz7gg",
           "collection_WDygU3",
           "collection_dFeTTx",
-          "collection_dqQ37a",
-          "collection_mUrJJm"
+          "collection_dqQ37a"
         ],
         "settings": {
           "main_title": "Our Collection",
@@ -3449,7 +3440,7 @@
           "hiphopimg": "shopify://shop_images/gold-dollar-symbol-golden-chain-jewellery-necklace-background-with-place-text-banner-fashion-accessories_1_1.png",
           "mainheading": "Hip Hop Bracelets",
           "collectionlogo": "shopify://shop_images/6b7221cf8966784b3d4ddded1688d7dc_1_8a135a0d-b95a-4a93-b0d6-ff4237a29778.png",
-          "collection": "chain-bracelets",
+          "collection": "bracelet",
           "limit": 8,
           "space": 20,
           "use_pagination": "none",
