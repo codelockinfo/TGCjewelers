@@ -2918,11 +2918,24 @@
               "lb_cl": ""
             }
           },
+          "simple_HE4ncp": {
+            "type": "simple",
+            "settings": {
+              "title": "Rings",
+              "url": "shopify://collections/rings",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
           "simple_QgEiKQ": {
             "type": "simple",
             "settings": {
-              "title": "men's",
-              "url": "/",
+              "title": "Earrings",
+              "url": "shopify://collections/earrings",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -2934,8 +2947,8 @@
           "simple_FxLhEf": {
             "type": "simple",
             "settings": {
-              "title": "women's",
-              "url": "shopify://collections/delicate-bands",
+              "title": "Chains",
+              "url": "shopify://collections/chains",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -2947,21 +2960,8 @@
           "simple_CmmWCz": {
             "type": "simple",
             "settings": {
-              "title": "gold chain",
-              "url": "/",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "simple_HE4ncp": {
-            "type": "simple",
-            "settings": {
-              "title": "Engagement Rings",
-              "url": "/",
+              "title": "Bracelets",
+              "url": "shopify://collections/bracelet",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3016,10 +3016,10 @@
         },
         "block_order": [
           "header_2-0",
+          "simple_HE4ncp",
           "simple_QgEiKQ",
           "simple_FxLhEf",
           "simple_CmmWCz",
-          "simple_HE4ncp",
           "header_2-1",
           "header_2-2",
           "simple_zBYnVn",
