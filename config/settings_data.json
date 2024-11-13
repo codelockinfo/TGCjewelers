@@ -2960,7 +2960,7 @@
           "simple_HE4ncp": {
             "type": "simple",
             "settings": {
-              "title": "engagement",
+              "title": "Engagement Rings",
               "url": "/",
               "open_link": "_self",
               "icon": "",
@@ -2977,8 +2977,8 @@
           "header_2-2": {
             "type": "simple",
             "settings": {
-              "title": "watchs",
-              "url": "#",
+              "title": "watches",
+              "url": "shopify://collections/frontpage",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
