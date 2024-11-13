@@ -3000,6 +3000,19 @@
               "lb_cl": ""
             }
           },
+          "simple_YLzk67": {
+            "type": "simple",
+            "settings": {
+              "title": "Blogs",
+              "url": "shopify://pages/blogs",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
           "simple_tFgLbk": {
             "type": "simple",
             "disabled": true,
@@ -3024,6 +3037,7 @@
           "simple_CmmWCz",
           "header_2-2",
           "simple_zBYnVn",
+          "simple_YLzk67",
           "simple_tFgLbk"
         ],
         "settings": {
