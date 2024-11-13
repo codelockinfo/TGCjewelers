@@ -31,7 +31,7 @@
       {%- assign arr_sub = 'link,link2,banner,html,pr,cat' -%}
       {%- for block in se_blocks %}<div {% if arr_sub contains block.type %}{% assign id_data = block.id %} {{ block.shopify_attributes }}{% else %}{% assign id_data2 = block.id %}{% endif %}id="bkjs_{{id_data}}" data-id='{{id_data2}}'></div>{% endfor -%}
   {%- endif -%}
-  <style>.header__mid .css_h_se {min-height: {{section.settings.height}}px}.nt_menu >li>a{height:{{section.settings.height}}px}</style>
+  <style>ul#nt_menu_id.menu-1{justify-content:center;}.header__mid .css_h_se {min-height: {{section.settings.height}}px}.nt_menu >li>a{height:{{section.settings.height}}px}</style>
 {%- endif -%}
 
 
