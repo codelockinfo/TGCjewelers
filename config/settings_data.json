@@ -2236,9 +2236,8 @@
           "pages_heading-0"
         ],
         "settings": {
-          "image": "",
           "parallax": false,
-          "color": "#000",
+          "color": "#000000",
           "overlay": 54,
           "padding": 50,
           "bg_pos": "center center",
@@ -3004,7 +3003,7 @@
             "type": "simple",
             "settings": {
               "title": "custom",
-              "url": "/",
+              "url": "shopify://pages/custom-jewelry",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
