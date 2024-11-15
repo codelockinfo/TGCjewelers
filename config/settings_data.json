@@ -2990,7 +2990,7 @@
             "type": "simple",
             "settings": {
               "title": "watches",
-              "url": "shopify://collections/frontpage",
+              "url": "shopify://collections/watches",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
