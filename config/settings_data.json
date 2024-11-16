@@ -2907,8 +2907,8 @@
           "simple_HE4ncp": {
             "type": "simple",
             "settings": {
-              "title": "Home",
-              "url": "shopify://collections/frontpage",
+              "title": "Jewelry Accessories",
+              "url": "shopify://collections/jewelry-accessories",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
