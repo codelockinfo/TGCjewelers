@@ -2969,10 +2969,6 @@
               "lb_cl": ""
             }
           },
-          "header_2-1": {
-            "type": "logo",
-            "settings": {}
-          },
           "header_2-2": {
             "type": "simple",
             "settings": {
@@ -2985,6 +2981,10 @@
               "lb": "",
               "lb_cl": ""
             }
+          },
+          "header_2-1": {
+            "type": "logo",
+            "settings": {}
           },
           "simple_zBYnVn": {
             "type": "simple",
@@ -3046,8 +3046,8 @@
           "header_2-0",
           "simple_FxLhEf",
           "simple_CmmWCz",
-          "header_2-1",
           "header_2-2",
+          "header_2-1",
           "simple_zBYnVn",
           "simple_HE4ncp",
           "simple_YLzk67",
