@@ -2904,19 +2904,6 @@
       "header_2": {
         "type": "header_2",
         "blocks": {
-          "simple_HE4ncp": {
-            "type": "simple",
-            "settings": {
-              "title": "Jewelry Accessories",
-              "url": "shopify://collections/jewelry-accessories",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
           "simple_8zmDbq": {
             "type": "simple",
             "settings": {
@@ -2969,10 +2956,6 @@
               "lb_cl": ""
             }
           },
-          "header_2-1": {
-            "type": "logo",
-            "settings": {}
-          },
           "simple_CmmWCz": {
             "type": "simple",
             "settings": {
@@ -2985,6 +2968,10 @@
               "lb": "",
               "lb_cl": ""
             }
+          },
+          "header_2-1": {
+            "type": "logo",
+            "settings": {}
           },
           "header_2-2": {
             "type": "simple",
@@ -3004,6 +2991,19 @@
             "settings": {
               "title": "custom",
               "url": "shopify://pages/custom-jewelry",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
+          "simple_HE4ncp": {
+            "type": "simple",
+            "settings": {
+              "title": "Jewelry Accessories",
+              "url": "shopify://collections/jewelry-accessories",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3041,15 +3041,15 @@
           }
         },
         "block_order": [
-          "simple_HE4ncp",
           "simple_8zmDbq",
           "simple_QgEiKQ",
           "header_2-0",
           "simple_FxLhEf",
-          "header_2-1",
           "simple_CmmWCz",
+          "header_2-1",
           "header_2-2",
           "simple_zBYnVn",
+          "simple_HE4ncp",
           "simple_YLzk67",
           "simple_tFgLbk"
         ],
