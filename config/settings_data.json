@@ -3025,6 +3025,19 @@
               "lb_cl": ""
             }
           },
+          "simple_fmtzUn": {
+            "type": "simple",
+            "settings": {
+              "title": "Travel Cases",
+              "url": "shopify://pages/blogs",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": ""
+            }
+          },
           "simple_tFgLbk": {
             "type": "simple",
             "disabled": true,
@@ -3051,6 +3064,7 @@
           "simple_zBYnVn",
           "simple_HE4ncp",
           "simple_YLzk67",
+          "simple_fmtzUn",
           "simple_tFgLbk"
         ],
         "settings": {
@@ -3680,6 +3694,30 @@
           "hidden": false,
           "cp_code": false,
           "layout": "wrap",
+          "cl_bg": "",
+          "mg": "50px,,50px,",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
+      },
+      "image_text": {
+        "type": "image_text",
+        "settings": {
+          "image": "shopify://shop_images/towne-east-square-01_720x_9f8f3ad1-7149-4aa4-9a86-919ec13717ea.webp",
+          "img_align": "center",
+          "img_position": "1",
+          "image_ratio": "auto",
+          "text_size": "60,18",
+          "title": "Miami Lakes, United States",
+          "text": "<p>15482 NW 77th Ct, Miami Lakes,<br/>FL 33016, United States</p>",
+          "button_label": "",
+          "button_link": "",
+          "open_link": "_blank",
+          "txt_align": "tl",
+          "use_shadow": false,
+          "cl_txt": "dark",
+          "layout": "container",
           "cl_bg": "",
           "mg": "50px,,50px,",
           "pd": "",
