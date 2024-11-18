@@ -3028,6 +3028,7 @@
           },
           "simple_fmtzUn": {
             "type": "simple",
+            "disabled": true,
             "settings": {
               "title": "Travel Cases",
               "url": "shopify://pages/our-stores",
