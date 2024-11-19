@@ -3845,6 +3845,7 @@
             "type": "img",
             "settings": {
               "image": "shopify://shop_images/02_Blackfriday_2.jpg",
+              "image_mb": "shopify://shop_images/02_Blackfriday_2_M.jpg",
               "pos_img": "center center",
               "cl_img": "",
               "link_img1": "",
