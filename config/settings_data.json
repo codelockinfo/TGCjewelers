@@ -448,7 +448,7 @@
             "type": "text2",
             "settings": {
               "text": "<p>Black Friday Mega Sale!!! | Get 15% Off</p>",
-              "effect": "1",
+              "effect": "0",
               "au_time": 2.5,
               "hide": false,
               "col": "12"
