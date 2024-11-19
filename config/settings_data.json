@@ -3793,7 +3793,7 @@
             "type": "space",
             "settings": {
               "sp": 42,
-              "sp_mb": 10
+              "sp_mb": 30
             }
           },
           "subhd_yPWGRX": {
@@ -3816,7 +3816,7 @@
             "type": "space",
             "settings": {
               "sp": 42,
-              "sp_mb": 15
+              "sp_mb": 30
             }
           },
           "btn_P7KGr6": {
@@ -3912,7 +3912,7 @@
             "type": "space",
             "settings": {
               "sp": 42,
-              "sp_mb": 10
+              "sp_mb": 30
             }
           },
           "btn_adj36r": {
