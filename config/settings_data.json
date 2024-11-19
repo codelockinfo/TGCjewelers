@@ -3744,6 +3744,38 @@
       "slideshow_nAmb3j": {
         "type": "slideshow",
         "blocks": {
+          "img_jMKh9H": {
+            "type": "img",
+            "settings": {
+              "image": "shopify://shop_images/02_Blackfriday_2_2cf66393-15f7-416f-b95f-0629851d6fd6.jpg",
+              "image_mb": "shopify://shop_images/02_Blackfriday_2_M.jpg",
+              "pos_img": "center center",
+              "cl_img": "",
+              "link_img1": "",
+              "open_link": "_blank",
+              "caption_w": "2",
+              "cap_v_pos": 50,
+              "cap_h_pos": 5,
+              "txt_align": "tl_md",
+              "cap_v_pos_mb": 90,
+              "cap_h_pos_mb": 10,
+              "txt_align_mb": "tc",
+              "cl_overlay": "#000000",
+              "cl_opacity": 0,
+              "ani_img": "none",
+              "ani_txt": "none",
+              "bg_content_bl": false,
+              "bg_content_cl": "#ffffff",
+              "bg_content_op": 50,
+              "content_pd": "40px 80px",
+              "content_pd_mb": "10px 20px",
+              "border_bl": false,
+              "br_color": "#222222",
+              "br_style": "solid",
+              "br_pd": 20,
+              "br_pd_mb": 10
+            }
+          },
           "img_DanA4W": {
             "type": "img",
             "settings": {
@@ -3855,7 +3887,7 @@
               "cap_h_pos": 5,
               "txt_align": "tl_md",
               "cap_v_pos_mb": 90,
-              "cap_h_pos_mb": 10,
+              "cap_h_pos_mb": 50,
               "txt_align_mb": "tc",
               "cl_overlay": "#000000",
               "cl_opacity": 8,
@@ -3937,41 +3969,10 @@
               "h_mb": 40,
               "ls_mb_text": 0
             }
-          },
-          "img_jMKh9H": {
-            "type": "img",
-            "settings": {
-              "image": "shopify://shop_images/02_Blackfriday_2.jpg",
-              "image_mb": "shopify://shop_images/02_Blackfriday_2_M.jpg",
-              "pos_img": "center center",
-              "cl_img": "",
-              "link_img1": "",
-              "open_link": "_blank",
-              "caption_w": "2",
-              "cap_v_pos": 50,
-              "cap_h_pos": 5,
-              "txt_align": "tl_md",
-              "cap_v_pos_mb": 90,
-              "cap_h_pos_mb": 10,
-              "txt_align_mb": "tc",
-              "cl_overlay": "#000000",
-              "cl_opacity": 0,
-              "ani_img": "none",
-              "ani_txt": "none",
-              "bg_content_bl": false,
-              "bg_content_cl": "#ffffff",
-              "bg_content_op": 50,
-              "content_pd": "40px 80px",
-              "content_pd_mb": "10px 20px",
-              "border_bl": false,
-              "br_color": "#222222",
-              "br_style": "solid",
-              "br_pd": 20,
-              "br_pd_mb": 10
-            }
           }
         },
         "block_order": [
+          "img_jMKh9H",
           "img_DanA4W",
           "hd_3GgQxw",
           "space_C4dxPm",
@@ -3983,8 +3984,7 @@
           "space_4CFegm",
           "subhd_pAqeLA",
           "space_mRXVtG",
-          "btn_adj36r",
-          "img_jMKh9H"
+          "btn_adj36r"
         ],
         "settings": {
           "se_height": "cus_h",
