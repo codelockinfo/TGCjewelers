@@ -3880,7 +3880,7 @@
               "fs_text": 70,
               "lh_text": 0,
               "ls_text": 0,
-              "fs_mb_text": 15,
+              "fs_mb_text": 24,
               "lh_mb_text": 0,
               "ls_mb_text": 0
             }
@@ -3959,7 +3959,7 @@
           "h_mb": "350px",
           "effect": "1",
           "loop": true,
-          "autoplay": false,
+          "autoplay": true,
           "au_time": 6,
           "au_hover": true,
           "button": false,
