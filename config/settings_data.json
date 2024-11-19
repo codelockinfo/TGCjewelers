@@ -3956,7 +3956,7 @@
           "use_custom_h": "1",
           "h_des": "700",
           "h_tb": "500px",
-          "h_mb": "350px",
+          "h_mb": "500",
           "effect": "1",
           "loop": true,
           "autoplay": true,
