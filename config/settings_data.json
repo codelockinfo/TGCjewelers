@@ -3105,11 +3105,23 @@
               "btnurl": "shopify://collections/bracelet",
               "fontawsome": "<i class=\"fa-solid fa-arrow-down arrow\"></i>"
             }
+          },
+          "img_LJUwwg": {
+            "type": "img",
+            "settings": {
+              "bannerimg": "shopify://shop_images/02_Blackfriday.jpg",
+              "heading": "",
+              "paragraph": "",
+              "btntext": "",
+              "btnurl": "",
+              "fontawsome": ""
+            }
           }
         },
         "block_order": [
           "img_dkwNfD",
-          "img_GrrB7d"
+          "img_GrrB7d",
+          "img_LJUwwg"
         ],
         "settings": {}
       },
