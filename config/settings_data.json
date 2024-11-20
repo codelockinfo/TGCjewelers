@@ -447,7 +447,7 @@
           "1596007070336": {
             "type": "text2",
             "settings": {
-              "text": "<p>Black Friday | Hundreds of brands, up to 50% off!</p>",
+              "text": "<p>Black Friday Mega Sale!!! | Get 15% Off</p>",
               "effect": "1",
               "au_time": 2.5,
               "hide": false,
@@ -3028,6 +3028,7 @@
           },
           "simple_fmtzUn": {
             "type": "simple",
+            "disabled": true,
             "settings": {
               "title": "Travel Cases",
               "url": "shopify://pages/our-stores",
@@ -3104,12 +3105,26 @@
               "btnurl": "shopify://collections/bracelet",
               "fontawsome": "<i class=\"fa-solid fa-arrow-down arrow\"></i>"
             }
+          },
+          "img_Dzi9RH": {
+            "type": "img",
+            "settings": {
+              "bgimg": "shopify://shop_images/342587617021ee081602e05b74b8191a.jpg",
+              "bannerimg": "shopify://shop_images/02_Blackfriday.jpg",
+              "heading": "",
+              "paragraph": "",
+              "btntext": "",
+              "btnurl": "shopify://collections/bracelet",
+              "fontawsome": "<i class=\"fa-solid fa-arrow-down arrow\"></i>"
+            }
           }
         },
         "block_order": [
           "img_dkwNfD",
-          "img_GrrB7d"
+          "img_GrrB7d",
+          "img_Dzi9RH"
         ],
+        "disabled": true,
         "settings": {}
       },
       "featured_collection_JEbDzE": {
@@ -3705,7 +3720,7 @@
       "image_text": {
         "type": "image_text",
         "settings": {
-          "image": "shopify://shop_images/towne-east-square-01_720x_9f8f3ad1-7149-4aa4-9a86-919ec13717ea.webp",
+          "image": "shopify://shop_images/20190714_103458.jpg",
           "img_align": "center",
           "img_position": "1",
           "image_ratio": "auto",
@@ -3725,9 +3740,281 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "slideshow_nAmb3j": {
+        "type": "slideshow",
+        "blocks": {
+          "img_jMKh9H": {
+            "type": "img",
+            "settings": {
+              "image": "shopify://shop_images/02_Blackfriday_2_4d7d8682-3e23-4c80-9fa7-66d9636cc8a2.jpg",
+              "image_mb": "shopify://shop_images/02_Blackfriday_2_M_ea4a1cc7-25c4-4cd0-8f9d-ca27b59760e3.jpg",
+              "pos_img": "center center",
+              "cl_img": "",
+              "link_img1": "",
+              "open_link": "_blank",
+              "caption_w": "2",
+              "cap_v_pos": 50,
+              "cap_h_pos": 5,
+              "txt_align": "tl_md",
+              "cap_v_pos_mb": 90,
+              "cap_h_pos_mb": 10,
+              "txt_align_mb": "tc",
+              "cl_overlay": "#000000",
+              "cl_opacity": 0,
+              "ani_img": "none",
+              "ani_txt": "none",
+              "bg_content_bl": false,
+              "bg_content_cl": "#ffffff",
+              "bg_content_op": 50,
+              "content_pd": "40px 80px",
+              "content_pd_mb": "10px 20px",
+              "border_bl": false,
+              "br_color": "#222222",
+              "br_style": "solid",
+              "br_pd": 20,
+              "br_pd_mb": 10
+            }
+          },
+          "img_DanA4W": {
+            "type": "img",
+            "settings": {
+              "image": "shopify://shop_images/01_Watch.jpg",
+              "image_mb": "shopify://shop_images/01_Watch_M.jpg",
+              "pos_img": "center center",
+              "cl_img": "",
+              "link_img1": "",
+              "open_link": "_blank",
+              "caption_w": "2",
+              "cap_v_pos": 50,
+              "cap_h_pos": 5,
+              "txt_align": "tl_md",
+              "cap_v_pos_mb": 90,
+              "cap_h_pos_mb": 50,
+              "txt_align_mb": "tc",
+              "cl_overlay": "#000000",
+              "cl_opacity": 34,
+              "ani_img": "none",
+              "ani_txt": "none",
+              "bg_content_bl": false,
+              "bg_content_cl": "#ffffff",
+              "bg_content_op": 50,
+              "content_pd": "40px 80px",
+              "content_pd_mb": "10px 20px",
+              "border_bl": false,
+              "br_color": "#222222",
+              "br_style": "solid",
+              "br_pd": 20,
+              "br_pd_mb": 10
+            }
+          },
+          "hd_3GgQxw": {
+            "type": "hd",
+            "settings": {
+              "title": "Moissanite<br> Watches",
+              "color": "#ffffff",
+              "fw_text": 600,
+              "fs_text": 70,
+              "lh_text": 0,
+              "ls_text": 0,
+              "fs_mb_text": 24,
+              "lh_mb_text": 0,
+              "ls_mb_text": 0
+            }
+          },
+          "space_C4dxPm": {
+            "type": "space",
+            "settings": {
+              "sp": 42,
+              "sp_mb": 30
+            }
+          },
+          "subhd_yPWGRX": {
+            "type": "subhd",
+            "settings": {
+              "font": "f__libre",
+              "title": "Elegant Moissanite Watches: Timeless Sparkle",
+              "color": "#ffffff",
+              "fw_text": 400,
+              "fs_text": 20,
+              "lh_text": 0,
+              "ls_text": 0,
+              "fs_mb_text": 14,
+              "lh_mb_text": 0,
+              "ls_mb_text": 0,
+              "hide": false
+            }
+          },
+          "space_W9JDYb": {
+            "type": "space",
+            "settings": {
+              "sp": 42,
+              "sp_mb": 30
+            }
+          },
+          "btn_P7KGr6": {
+            "type": "btn",
+            "settings": {
+              "title": "Explore Now",
+              "btn_link": "shopify://collections/watches",
+              "title2": "Shop Now",
+              "btn_link2": "",
+              "btn_round": true,
+              "btn_icon": false,
+              "cl_txt": "#000000",
+              "cl_bg": "#ffffff",
+              "cl_bd": "#ffffff",
+              "fs_text": 14,
+              "fw_text": 600,
+              "h": 40,
+              "ls_text": 0,
+              "fs_mb_text": 14,
+              "h_mb": 40,
+              "ls_mb_text": 0
+            }
+          },
+          "img_d3PDFF": {
+            "type": "img",
+            "settings": {
+              "image": "shopify://shop_images/02_model.jpg",
+              "image_mb": "shopify://shop_images/02_model_M.jpg",
+              "pos_img": "center center",
+              "cl_img": "",
+              "link_img1": "",
+              "open_link": "_blank",
+              "caption_w": "2",
+              "cap_v_pos": 50,
+              "cap_h_pos": 5,
+              "txt_align": "tl_md",
+              "cap_v_pos_mb": 90,
+              "cap_h_pos_mb": 50,
+              "txt_align_mb": "tc",
+              "cl_overlay": "#000000",
+              "cl_opacity": 8,
+              "ani_img": "none",
+              "ani_txt": "none",
+              "bg_content_bl": false,
+              "bg_content_cl": "#ffffff",
+              "bg_content_op": 50,
+              "content_pd": "40px 80px",
+              "content_pd_mb": "10px 20px",
+              "border_bl": false,
+              "br_color": "#222222",
+              "br_style": "solid",
+              "br_pd": 20,
+              "br_pd_mb": 10
+            }
+          },
+          "hd_LLxqb4": {
+            "type": "hd",
+            "settings": {
+              "title": "Hip-Hop <br> Diamond Jewelry",
+              "color": "#ffffff",
+              "fw_text": 600,
+              "fs_text": 70,
+              "lh_text": 0,
+              "ls_text": 0,
+              "fs_mb_text": 24,
+              "lh_mb_text": 0,
+              "ls_mb_text": 0
+            }
+          },
+          "space_4CFegm": {
+            "type": "space",
+            "settings": {
+              "sp": 42,
+              "sp_mb": 10
+            }
+          },
+          "subhd_pAqeLA": {
+            "type": "subhd",
+            "settings": {
+              "font": "f__libre",
+              "title": "Unleash Your Style with Hip-Hop Diamond Jewelry!",
+              "color": "#ffffff",
+              "fw_text": 400,
+              "fs_text": 20,
+              "lh_text": 0,
+              "ls_text": 0,
+              "fs_mb_text": 14,
+              "lh_mb_text": 0,
+              "ls_mb_text": 0,
+              "hide": false
+            }
+          },
+          "space_mRXVtG": {
+            "type": "space",
+            "settings": {
+              "sp": 42,
+              "sp_mb": 30
+            }
+          },
+          "btn_adj36r": {
+            "type": "btn",
+            "settings": {
+              "title": "Explore Now",
+              "btn_link": "shopify://collections/hip-hop-pendants",
+              "title2": "Shop Now",
+              "btn_link2": "",
+              "btn_round": true,
+              "btn_icon": false,
+              "cl_txt": "#000000",
+              "cl_bg": "#ffffff",
+              "cl_bd": "#ffffff",
+              "fs_text": 14,
+              "fw_text": 600,
+              "h": 40,
+              "ls_text": 0,
+              "fs_mb_text": 14,
+              "h_mb": 40,
+              "ls_mb_text": 0
+            }
+          }
+        },
+        "block_order": [
+          "img_jMKh9H",
+          "img_DanA4W",
+          "hd_3GgQxw",
+          "space_C4dxPm",
+          "subhd_yPWGRX",
+          "space_W9JDYb",
+          "btn_P7KGr6",
+          "img_d3PDFF",
+          "hd_LLxqb4",
+          "space_4CFegm",
+          "subhd_pAqeLA",
+          "space_mRXVtG",
+          "btn_adj36r"
+        ],
+        "settings": {
+          "se_height": "cus_h",
+          "use_custom_h": "1",
+          "h_des": "700",
+          "h_tb": "500px",
+          "h_mb": "500",
+          "effect": "1",
+          "loop": true,
+          "autoplay": true,
+          "au_time": 6,
+          "au_hover": true,
+          "button": false,
+          "btn_vi": "1",
+          "btn_owl": "1",
+          "btn_color": "0",
+          "dot": true,
+          "dot_owl": "1",
+          "dot_color": "1",
+          "layout": "nt_full",
+          "cl_bg": "",
+          "mg": "",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
       }
     },
     "content_for_index": [
+      "slideshow_nAmb3j",
       "custom_banner_phtfjm",
       "custom_collection_slider_BLdNEm",
       "featured_collection_JEbDzE",
@@ -3750,6 +4037,11 @@
         "disabled": false,
         "settings": {}
       },
+      "13768625480086291342": {
+        "type": "shopify://apps/forms/blocks/forms/8744a304-fcb1-4347-b211-bb6b4759a76a",
+        "disabled": false,
+        "settings": {}
+      },
       "15683396631634586217": {
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
@@ -3760,7 +4052,7 @@
           "button_icon": "chat_bubble",
           "button_text": "chat_with_us",
           "button_horizontal_position": "bottom_right",
-          "button_vertical_position": "lowest",
+          "button_vertical_position": "higher",
           "greeting_message": ""
         }
       }
