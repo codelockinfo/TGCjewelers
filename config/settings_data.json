@@ -2961,7 +2961,7 @@
             "type": "simple",
             "settings": {
               "title": "Bracelets",
-              "url": "shopify://collections/bracelet",
+              "url": "shopify://collections/bracelets",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
