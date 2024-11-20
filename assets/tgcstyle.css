@@ -318,7 +318,7 @@
     height: 100%;
 }
 
-.about_video_box {
+.about_video_box .about_video{
     border: 6px solid #ffffff;
     border-radius: 50px;
     overflow: hidden;
