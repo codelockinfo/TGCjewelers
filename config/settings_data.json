@@ -2905,8 +2905,47 @@
       "header_2": {
         "type": "header_2",
         "blocks": {
+          "mega_pqxfRN": {
+            "type": "mega",
+            "settings": {
+              "title": "Rings",
+              "url": "",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "lazy_mn": true,
+              "pos": "default",
+              "wid": "cus",
+              "cus_wid": 600
+            }
+          },
+          "link_ngBXxQ": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Rings",
+              "url": "",
+              "open_link": "_self",
+              "menu": "rings-mega-menu",
+              "col": "6"
+            }
+          },
+          "cat_nx7WtR": {
+            "type": "cat",
+            "settings": {
+              "image": "shopify://shop_images/DSC03925.jpg",
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "hip-hop-ring",
+              "title": "",
+              "col": "6"
+            }
+          },
           "simple_8zmDbq": {
             "type": "simple",
+            "disabled": true,
             "settings": {
               "title": "Rings",
               "url": "shopify://collections/diamond-rings",
@@ -3095,6 +3134,9 @@
           }
         },
         "block_order": [
+          "mega_pqxfRN",
+          "link_ngBXxQ",
+          "cat_nx7WtR",
           "simple_8zmDbq",
           "simple_QgEiKQ",
           "mega_8TtG8P",
