@@ -1372,4 +1372,8 @@ ul.nt_filter_styleck>li.active>a:before{
     display: flex;
     justify-content: space-between;
   }
-  
+  .type_mega a{
+      font-family: Poppins !important;
+       font-size: 16px !important ;
+    font-weight: 500 !important;
+  }
