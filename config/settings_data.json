@@ -2905,27 +2905,6 @@
       "header_2": {
         "type": "header_2",
         "blocks": {
-          "link_Y69GQB": {
-            "type": "link",
-            "settings": {
-              "tt_hd": "Pendants",
-              "url": "",
-              "open_link": "_self",
-              "menu": "pendants",
-              "col": "6"
-            }
-          },
-          "cat_FhKn9e": {
-            "type": "cat",
-            "settings": {
-              "image": "shopify://shop_images/FMP18794_1.jpg",
-              "cat_design": "1",
-              "hoverz": true,
-              "collection": "pendant",
-              "title": "",
-              "col": "6"
-            }
-          },
           "simple_8zmDbq": {
             "type": "simple",
             "settings": {
@@ -2967,6 +2946,27 @@
               "pos": "default",
               "wid": "cus",
               "cus_wid": 600
+            }
+          },
+          "link_Y69GQB": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Pendants",
+              "url": "",
+              "open_link": "_self",
+              "menu": "pendants",
+              "col": "6"
+            }
+          },
+          "cat_FhKn9e": {
+            "type": "cat",
+            "settings": {
+              "image": "shopify://shop_images/FMP18794_1.jpg",
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "pendant",
+              "title": "",
+              "col": "6"
             }
           },
           "header_2-0": {
@@ -3095,11 +3095,11 @@
           }
         },
         "block_order": [
-          "link_Y69GQB",
-          "cat_FhKn9e",
           "simple_8zmDbq",
           "simple_QgEiKQ",
           "mega_8TtG8P",
+          "link_Y69GQB",
+          "cat_FhKn9e",
           "header_2-0",
           "simple_FxLhEf",
           "simple_CmmWCz",
