@@ -2905,8 +2905,47 @@
       "header_2": {
         "type": "header_2",
         "blocks": {
+          "mega_8TtG8P": {
+            "type": "mega",
+            "settings": {
+              "title": "Rings",
+              "url": "",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "lazy_mn": true,
+              "pos": "default",
+              "wid": "cus",
+              "cus_wid": 600
+            }
+          },
+          "link_Y69GQB": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Pendants",
+              "url": "",
+              "open_link": "_self",
+              "menu": "pendants",
+              "col": "6"
+            }
+          },
+          "cat_FhKn9e": {
+            "type": "cat",
+            "settings": {
+              "image": "shopify://shop_images/FMP18794_1.jpg",
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "pendant",
+              "title": "",
+              "col": "6"
+            }
+          },
           "simple_8zmDbq": {
             "type": "simple",
+            "disabled": true,
             "settings": {
               "title": "Rings",
               "url": "shopify://collections/diamond-rings",
@@ -3056,6 +3095,9 @@
           }
         },
         "block_order": [
+          "mega_8TtG8P",
+          "link_Y69GQB",
+          "cat_FhKn9e",
           "simple_8zmDbq",
           "simple_QgEiKQ",
           "header_2-0",
