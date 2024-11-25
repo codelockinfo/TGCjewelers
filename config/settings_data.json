@@ -2991,7 +2991,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Pendants",
-              "url": "",
+              "url": "shopify://collections/pendant",
               "open_link": "_self",
               "menu": "pendants",
               "col": "6"
