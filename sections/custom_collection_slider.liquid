@@ -1,6 +1,5 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 
 <section class="image_section"> 
   <div class="width-container">
@@ -22,7 +21,7 @@
             <div class="swiper-slide">
               {% if block.settings.img_heading_url %}
                 <a href="{{ block.settings.img_heading_url }}">
-                  <img src="{{ block.settings.slide_image | img_url: 'master' }}" alt="Rudraksh Mala" class="collection_img lazyload">
+                  <img src="{{ block.settings.slide_image | img_url: 'master' }}" alt="Rudraksh Mala" class="collection_img lazyload" loading="lazy"> 
                 </a>
               {% endif %}
               {% if block.settings.img_heading_url %}
