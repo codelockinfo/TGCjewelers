@@ -1,5 +1,5 @@
 {% if section.settings.backgroundimg != blank %}
-<div class="hiphopsection" style="background-image: url({{ section.settings.backgroundimg | img_url: 'master' }});">
+<div class="hiphopsection" style="background-image: url({{ section.settings.backgroundimg | img_url: 'master' }});" loading="lazy">
   <div class="width-container">
     <div class="hiphop_main_box">
       {% if section.settings.hiphopimg != blank %}
