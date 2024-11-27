@@ -4,14 +4,14 @@
     <div class="hiphop_main_box">
       {% if section.settings.hiphopimg != blank %}
         <div class="hiphopimg_box">
-          <img src="{{section.settings.hiphopimg | img_url: 'master'}}" class="hiphop_img" alt="">
+          <img src="{{section.settings.hiphopimg | img_url: 'master'}}" class="hiphop_img lazyload" alt="" loading="lazy">
         </div>
       {% endif %}
       <div class="hiphopcollectionbox">
         <div class="hiphop_heading">{{ section.settings.mainheading }}</div>
         {% if section.settings.collectionlogo != blank %}
           <div class="hiphoptitleimg">
-            <img src="{{ section.settings.collectionlogo | img_url: 'master' }}" class="collection_logo" alt="">
+            <img src="{{ section.settings.collectionlogo | img_url: 'master' }}" class="collection_logo lazyload" alt="" loading="lazy">
           </div>
         {% endif %}
         <div class="collection_main_box">
