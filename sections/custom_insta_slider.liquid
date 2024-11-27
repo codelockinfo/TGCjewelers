@@ -6,7 +6,7 @@
           <div class="swiper-slide">
             {% if block.settings.sectionhead != blank %}
             {% endif %} 
-            <img src="{{ block.settings.image | img_url: 'master' }}" alt="" class="collection_img lazyload">
+            <img src="{{ block.settings.image | img_url: 'master' }}" alt="" class="collection_img lazyload" loading="lazy">
             {% if block.settings.smallimg != blank %}
               <a href="{{block.settings.product.url }}">
               <div class="jewel_img_box">
@@ -14,6 +14,7 @@
                   src="{{ block.settings.smallimg | img_url: 'master' }}"
                   class="j_img lazyload"
                   alt=""
+                  loading="lazy"
                 >
               </div>
               </a>
@@ -192,7 +193,6 @@
     background-position: center right;
     background-repeat: no-repeat;
   }
-
   .custom_insta .collection_image {
     width: 100%;
     display: flex;
@@ -201,9 +201,9 @@
     align-items: center;
     justify-content: center;
   }
- .celeb-container{
-  margin-top: 30px;
- }
+  .celeb-container{
+    margin-top: 30px;
+  }
   .custom_insta .name_text {
     font-family: IBM Plex Sans;
     font-size: 24px;
@@ -218,16 +218,12 @@
   }
   .custom_insta .heading_icons {
     margin-bottom: 20px;
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* align-items: center; */
   }
   .custom_insta .heading_icons .slider_heading {
     font-family: Ivy Mode;
     font-size: 64px;
     font-weight: 600;
     line-height: 94.95px;
-    /* letter-spacing: 0.05em; */
     text-align: left;
     color: #0A1229;
   }
@@ -249,14 +245,10 @@
     height: 100%;
     padding: 80px 0px 100px;
   }
-
   .custom_insta .collection_img {
     width: 100%;
     height: 100%;
   }
-
-
-
   @media (max-width: 1440px) {
     .custom_insta  .swiper-container {
       padding: 30px 0px;
@@ -285,7 +277,6 @@
       left: 10vw;
     }
   }
-
   @media (min-width: 769px) {
     .custom_insta .next-prev-btn {
       display: none;
@@ -294,20 +285,17 @@
       padding-bottom: 100px;
     }
   }
-
   @media (max-width: 768px) {
     .custom_insta .collection_logo {
       width: 15%;
       margin-bottom: 20px;
     }
-    
     .custom_insta .jewel_img_box {
       left: 9vw;
     }
     .custom_insta .heading_icons .slider_heading {
       font-size: 64px;
     }
-    
   }
   @media (max-width: 576px) {
     .custom_insta .jewel_img_box {
@@ -317,14 +305,12 @@
       font-size: 40px;
     }
   }
-
   @media (max-width: 500px) {
     .custom_insta .jewel_img_box {
       left: 31vw;
       top: 90%;
     }
   }
-
   @media (max-width: 425px) {
     .custom_insta .collection_logo {
       width: 20%;
@@ -341,11 +327,7 @@
 
 <script>
   $(document).ready(function () {
-    // Initialize Swiper for the main container
     new Swiper('.celeb-container', {
-      // loop: true,
-    //   nextButton: '.button-next',
-    //   prevButton: '.button-prev',
       slidesPerView: 5,
       spaceBetween: 15,
       breakpoints: {
