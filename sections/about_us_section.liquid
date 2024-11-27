@@ -9,7 +9,7 @@
                 <div class="about_info">
                   {% if block.settings.svgimg != blank %}
                   <div class="icon_img">
-                    <img src="{{ block.settings.svgimg | img_url: 'master' }}" class="svgimg_about lazyload" alt="">
+                    <img src="{{ block.settings.svgimg | img_url: 'master' }}" class="svgimg_about lazyload" alt="" loading="lazy">
                   </div>
                   {% endif %}
                   <div class="icon_content">
@@ -35,7 +35,7 @@
               <div class="about_info">
                 {% if block.settings.svgimg != blank %}
                 <div class="icon_img">
-                  <img src="{{ block.settings.svgimg | img_url: 'master' }}" class="svgimg_about lazyload" alt="">
+                  <img src="{{ block.settings.svgimg | img_url: 'master' }}" class="svgimg_about lazyload" alt="" loading="lazy">
                 </div>
               {% endif %}
                 <div class="icon_content">
