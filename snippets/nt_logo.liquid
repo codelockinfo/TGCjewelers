@@ -23,12 +23,12 @@
 <{{nt_logo}} class="{{class}} branding ts__05 lh__1"><a class="{{class2 |default:'dib' }}" href="{{ routes.root_url }}" {{ block.shopify_attributes }}>
 
   {%- if svg != blank -%}
-     <img class="w__100 logo_normal dn db_lg" src="{{ svg | file_url }}" alt="{{ s_name }}" style="width: {{ settings.logo_width }}px">
+     <img class="svg w__100 logo_normal dn db_lg" src="{{ svg | file_url }}" alt="{{ s_name }}" style="width: {{ settings.logo_width }}px">
      <img class="w__100 logo_sticky dn" src="{{ svg_df|default:svg | file_url }}" alt="{{ s_name }}" style="width: {{ settings.logos_width }}px">
      <img class="w__100 logo_mobile dn_lg" src="{{ svg | file_url }}" alt="{{ s_name }}" style="width: {{ settings.logo_mb_width }}px">
   {%- elsif logo != blannk -%}
      
-    <img class="w__100 logo_normal dn db_lg" src="{{ logo  | img_url: lg_w_1 }}" srcset="{{ logo | img_url:lg_w_1 }} 1x,{{ logo_retina | img_url:lg_w_1, scale: 2 }} 2x" alt="{{ logo.alt | default: s_name | escape }}" style="width: {{ lg_w }}px">
+    <img class="logo w__100 logo_normal dn db_lg lazyload" loading="lazy" src="{{ logo  | img_url: lg_w_1 }}" srcset="{{ logo | img_url:lg_w_1 }} 1x,{{ logo_retina | img_url:lg_w_1, scale: 2 }} 2x" alt="{{ logo.alt | default: s_name | escape }}" style="width: {{ lg_w }}px">
 
   {%- assign lg_w = settings.logos_width -%}{%- assign lg_w_1 = lg_w | plus:40 | append:'x'-%}
     {%- assign logos = settings.logos | default:logo -%}{%- assign logos_retina = settings.logos_retina | default:logos -%}

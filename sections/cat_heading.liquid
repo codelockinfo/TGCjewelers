@@ -28,7 +28,7 @@
 
     {%- if image != blank -%}
       <div class="page-head tc pr oh cat_bg_img page_head_{{se_id}}">
-         <div class="collection-head parallax-inner nt_parallax_{{parallax}} lazyload nt_bg_lz pa t__0 l__0 r__0 b__0" data-bgset="{{ image | img_url: '1x1' }}" data-ratio="{{image.aspect_ratio}}" data-sizes="auto" data-parent-fit="cover"></div>
+         <div class="collection-head parallax-inner nt_parallax_{{parallax}} lazyload nt_bg_lz pa t__0 l__0 r__0 b__0" data-bgset="{{ image | img_url: '1x1' }}" data-ratio="{{image.aspect_ratio}}" data-sizes="auto" data-parent-fit="cover" loading="lazy"></div>
          {{-bk_contents-}}
          {%- if ck_next_pr or settings.breadcrumb_pr -%}
           <div class="bgbl pt__20 pb__20 lh__1">
