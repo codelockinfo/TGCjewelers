@@ -3098,7 +3098,7 @@
               "lazy_mn": true,
               "pos": "default",
               "wid": "cus",
-              "cus_wid": 600
+              "cus_wid": 900
             }
           },
           "link_rtHhg6": {
@@ -3108,7 +3108,7 @@
               "url": "",
               "open_link": "_self",
               "menu": "bracelets-megamenu",
-              "col": "6"
+              "col": "4"
             }
           },
           "link_gLw4ck": {
@@ -3129,7 +3129,7 @@
               "hoverz": true,
               "collection": "bracelets",
               "title": "",
-              "col": "6"
+              "col": "4"
             }
           },
           "simple_CmmWCz": {
