@@ -3024,6 +3024,7 @@
           },
           "simple_FxLhEf": {
             "type": "simple",
+            "disabled": true,
             "settings": {
               "title": "Chains",
               "url": "shopify://collections/chains",
@@ -3033,6 +3034,54 @@
               "cl": "#ec0101",
               "lb": "",
               "lb_cl": ""
+            }
+          },
+          "mega_3WrjGw": {
+            "type": "mega",
+            "settings": {
+              "title": "Chains",
+              "url": "",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "lazy_mn": true,
+              "pos": "default",
+              "wid": "cus",
+              "cus_wid": 900
+            }
+          },
+          "link_cbhkWa": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Mossanite chains",
+              "url": "",
+              "open_link": "_self",
+              "menu": "chain-megamenu",
+              "col": "4"
+            }
+          },
+          "link_Nk9DmP": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Lab-grown and Natural Diamond",
+              "url": "",
+              "open_link": "_self",
+              "menu": "lab-grown",
+              "col": "4"
+            }
+          },
+          "cat_9ChrBr": {
+            "type": "cat",
+            "settings": {
+              "image": "shopify://shop_images/DSC04618.jpg",
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "chains",
+              "title": "",
+              "col": "4"
             }
           },
           "mega_n4DAkm": {
@@ -3183,6 +3232,10 @@
           "cat_FhKn9e",
           "header_2-0",
           "simple_FxLhEf",
+          "mega_3WrjGw",
+          "link_cbhkWa",
+          "link_Nk9DmP",
+          "cat_9ChrBr",
           "mega_n4DAkm",
           "link_rtHhg6",
           "cat_Vr3aL4",
