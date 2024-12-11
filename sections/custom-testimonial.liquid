@@ -8,7 +8,7 @@
         <div class="testi-heading">{{section.settings.mainheading}}</div>
         {% if section.settings.titleimg != blank %}
           <div class="about_img_box">
-            <img src="{{section.settings.titleimg  | img_url:'master' }}" class="about_title lazyload" alt="">
+            <img src="{{section.settings.titleimg  | img_url:'master' }}" class="about_title lazyload" alt="" loading="lazy">
           </div>
         {% endif %}
         <div class="testi-paragraph">
@@ -20,7 +20,7 @@
           {% for block in section.blocks %}
             <div class="slidermain-box">
               <div class="coma-img-box">
-                  {% if block.settings.comaimg  != blank %}<img src="{{ block.settings.comaimg | img_url:'master' }}" class="coma-img" alt="">{% endif %}
+                  {% if block.settings.comaimg  != blank %}<img src="{{ block.settings.comaimg | img_url:'master' }}" class="coma-img lazyload" alt="" loading="lazy">{% endif %}
               </div>
               <div class="testi-content">
                 {{block.settings.review}}
@@ -30,7 +30,7 @@
 
               <div class="client-img-box">
                   {% if block.settings.clientimg  != blank %}
-                  <img src="{{ block.settings.clientimg | img_url:'master' }}" class="client-img" alt="">{% endif %}
+                  <img src="{{ block.settings.clientimg | img_url:'master' }}" class="client-img lazyload" alt="" loading="lazy">{% endif %}
               </div>
               <div class="client-name">{{block.settings.clienname}}</div>
             </div>
