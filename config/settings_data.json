@@ -2945,6 +2945,7 @@
           },
           "simple_QgEiKQ": {
             "type": "simple",
+            "disabled": true,
             "settings": {
               "title": "Earrings",
               "url": "shopify://collections/earrings",
@@ -2954,6 +2955,44 @@
               "cl": "#ec0101",
               "lb": "",
               "lb_cl": ""
+            }
+          },
+          "mega_CJhTWJ": {
+            "type": "mega",
+            "settings": {
+              "title": "Earrings",
+              "url": "",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "",
+              "lb_cl": "",
+              "lazy_mn": true,
+              "pos": "default",
+              "wid": "cus",
+              "cus_wid": 600
+            }
+          },
+          "link_PXKi7W": {
+            "type": "link",
+            "settings": {
+              "tt_hd": "Moissanite Earrings",
+              "url": "",
+              "open_link": "_self",
+              "menu": "earrings-megamenu",
+              "col": "6"
+            }
+          },
+          "cat_mUmqrj": {
+            "type": "cat",
+            "settings": {
+              "image": "shopify://shop_images/DSC04822.jpg",
+              "cat_design": "1",
+              "hoverz": true,
+              "collection": "earrings",
+              "title": "",
+              "col": "6"
             }
           },
           "mega_8TtG8P": {
@@ -3154,6 +3193,9 @@
           "link_ngBXxQ",
           "cat_nx7WtR",
           "simple_QgEiKQ",
+          "mega_CJhTWJ",
+          "link_PXKi7W",
+          "cat_mUmqrj",
           "mega_8TtG8P",
           "link_Y69GQB",
           "cat_FhKn9e",
