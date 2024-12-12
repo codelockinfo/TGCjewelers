@@ -2999,7 +2999,7 @@
             "type": "mega",
             "settings": {
               "title": "Pendants",
-              "url": "shopify://collections/pendant",
+              "url": "shopify://collections/pendants",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3028,7 +3028,7 @@
               "image": "shopify://shop_images/FMP18794_1.jpg",
               "cat_design": "1",
               "hoverz": true,
-              "collection": "pendant",
+              "collection": "pendants",
               "title": "",
               "col": "6"
             }
