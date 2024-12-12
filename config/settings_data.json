@@ -3108,12 +3108,13 @@
               "tt_hd": "Moissanite Bracelets",
               "url": "shopify://collections/moissanite-bracelets",
               "open_link": "_self",
-              "menu": "footer",
+              "menu": "bracelets-megamenu",
               "col": "4"
             }
           },
           "link_gLw4ck": {
             "type": "link",
+            "disabled": true,
             "settings": {
               "tt_hd": "Lab-grown and Natural Diamond  Bracelets",
               "url": "",
