@@ -3106,9 +3106,9 @@
             "type": "link",
             "settings": {
               "tt_hd": "Moissanite Bracelets",
-              "url": "",
+              "url": "shopify://collections/moissanite-bracelets",
               "open_link": "_self",
-              "menu": "bracelets-megamenu",
+              "menu": "footer",
               "col": "4"
             }
           },
