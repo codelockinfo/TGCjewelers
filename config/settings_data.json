@@ -2943,20 +2943,6 @@
               "col": "6"
             }
           },
-          "simple_8zmDbq": {
-            "type": "simple",
-            "disabled": true,
-            "settings": {
-              "title": "Rings",
-              "url": "shopify://collections/diamond-rings",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
           "simple_QgEiKQ": {
             "type": "simple",
             "settings": {
@@ -3006,34 +2992,6 @@
               "collection": "pendant",
               "title": "",
               "col": "6"
-            }
-          },
-          "header_2-0": {
-            "type": "simple",
-            "disabled": true,
-            "settings": {
-              "title": "Pendants",
-              "url": "shopify://collections/pendant",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
-          "simple_FxLhEf": {
-            "type": "simple",
-            "disabled": true,
-            "settings": {
-              "title": "Chains",
-              "url": "shopify://collections/chains",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": ""
             }
           },
           "mega_3WrjGw": {
@@ -3134,20 +3092,6 @@
               "col": "4"
             }
           },
-          "simple_CmmWCz": {
-            "type": "simple",
-            "disabled": true,
-            "settings": {
-              "title": "Bracelets",
-              "url": "shopify://collections/bracelets",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": ""
-            }
-          },
           "header_2-2": {
             "type": "simple",
             "settings": {
@@ -3209,13 +3153,10 @@
           "mega_pqxfRN",
           "link_ngBXxQ",
           "cat_nx7WtR",
-          "simple_8zmDbq",
           "simple_QgEiKQ",
           "mega_8TtG8P",
           "link_Y69GQB",
           "cat_FhKn9e",
-          "header_2-0",
-          "simple_FxLhEf",
           "mega_3WrjGw",
           "link_cbhkWa",
           "link_Nk9DmP",
@@ -3224,7 +3165,6 @@
           "link_rtHhg6",
           "link_gLw4ck",
           "cat_Vr3aL4",
-          "simple_CmmWCz",
           "header_2-2",
           "header_2-1",
           "simple_zBYnVn",
