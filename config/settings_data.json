@@ -2926,7 +2926,7 @@
             "type": "link",
             "settings": {
               "tt_hd": "Moissanite Rings",
-              "url": "",
+              "url": "shopify://collections/moissanite-rings",
               "open_link": "_self",
               "menu": "rings-mega-menu",
               "col": "6"
