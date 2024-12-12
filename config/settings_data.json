@@ -3329,7 +3329,7 @@
           "style_title": "title_1",
           "ic_tt": "gem",
           "show_clpr": false,
-          "collection": "delicate-bands",
+          "collection": "wedding-bands",
           "limit": 8,
           "space": 30,
           "use_pagination": "view-all",
@@ -3371,7 +3371,7 @@
           "style_title": "title_1",
           "ic_tt": "gem",
           "show_clpr": false,
-          "collection": "delicate-bands",
+          "collection": "wedding-bands",
           "limit": 4,
           "space": 30,
           "use_pagination": "none",
@@ -3434,7 +3434,7 @@
             "settings": {
               "slide_image": "shopify://shop_images/3_3e88519c-37fe-4180-804f-eee0a31f6267.jpg",
               "heading": "Wedding Bands",
-              "img_heading_url": "shopify://collections/delicate-bands"
+              "img_heading_url": "shopify://collections/wedding-bands"
             }
           },
           "collection_dqQ37a": {
@@ -3549,7 +3549,7 @@
           "style_title": "title_1",
           "ic_tt": "gem",
           "show_clpr": false,
-          "collection": "delicate-bands",
+          "collection": "wedding-bands",
           "limit": 4,
           "space": 30,
           "use_pagination": "none",
