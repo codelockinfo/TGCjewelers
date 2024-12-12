@@ -3217,20 +3217,6 @@
               "lb": "",
               "lb_cl": ""
             }
-          },
-          "simple_tFgLbk": {
-            "type": "simple",
-            "disabled": true,
-            "settings": {
-              "title": "made to order",
-              "url": "/",
-              "open_link": "_self",
-              "icon": "",
-              "cus_cl": false,
-              "cl": "#ec0101",
-              "lb": "",
-              "lb_cl": ""
-            }
           }
         },
         "block_order": [
@@ -3258,8 +3244,7 @@
           "simple_zBYnVn",
           "simple_HE4ncp",
           "simple_YLzk67",
-          "simple_fmtzUn",
-          "simple_tFgLbk"
+          "simple_fmtzUn"
         ],
         "settings": {
           "height": 62,
