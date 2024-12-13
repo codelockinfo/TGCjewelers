@@ -994,7 +994,7 @@
             "type": "menu",
             "settings": {
               "title": "Watchs",
-              "url": "",
+              "url": "shopify://collections/watches",
               "open_link": "_self",
               "menu": "",
               "icon": "",
