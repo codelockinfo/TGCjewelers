@@ -933,10 +933,10 @@
           "mb_nav-0": {
             "type": "menu",
             "settings": {
-              "title": "Home",
+              "title": "Rings",
               "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "rings-mega-menu",
               "icon": "",
               "lb": "",
               "lb_cl": ""
