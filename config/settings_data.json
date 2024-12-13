@@ -994,7 +994,7 @@
             "type": "menu",
             "settings": {
               "title": "Watchs",
-              "url": "shopify://collections/watches",
+              "url": "shopify://collections/moissanite-watches",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -3148,7 +3148,7 @@
             "type": "simple",
             "settings": {
               "title": "watches",
-              "url": "shopify://collections/watches",
+              "url": "shopify://collections/moissanite-watches",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -4013,7 +4013,7 @@
             "type": "btn",
             "settings": {
               "title": "Explore Now",
-              "btn_link": "shopify://collections/watches",
+              "btn_link": "shopify://collections/moissanite-watches",
               "title2": "Shop Now",
               "btn_link2": "",
               "btn_round": true,
