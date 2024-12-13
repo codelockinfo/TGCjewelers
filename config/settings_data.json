@@ -3099,7 +3099,7 @@
             "type": "mega",
             "settings": {
               "title": "Bracelets",
-              "url": "shopify://collections/bracelets",
+              "url": "shopify://collections/diamond-bracelets",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3139,7 +3139,7 @@
               "image": "shopify://shop_images/DSC02405_5d6fb31f-932c-485a-b034-8fbf5c2c2018.jpg",
               "cat_design": "1",
               "hoverz": true,
-              "collection": "bracelets",
+              "collection": "diamond-bracelets",
               "title": "",
               "col": "4"
             }
@@ -3614,7 +3614,7 @@
           "hiphopimg": "shopify://shop_images/gold-dollar-symbol-golden-chain-jewellery-necklace-background-with-place-text-banner-fashion-accessories_1_1.png",
           "mainheading": "Hip Hop Bracelets",
           "collectionlogo": "shopify://shop_images/6b7221cf8966784b3d4ddded1688d7dc_1_8a135a0d-b95a-4a93-b0d6-ff4237a29778.png",
-          "collection": "bracelets",
+          "collection": "diamond-bracelets",
           "limit": 8,
           "space": 20,
           "use_pagination": "none",
