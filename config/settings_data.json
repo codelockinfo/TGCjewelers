@@ -945,10 +945,10 @@
           "menu_VHUMDE": {
             "type": "menu",
             "settings": {
-              "title": "Men's",
+              "title": "Earrings",
               "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "earrings-megamenu",
               "icon": "",
               "lb": "",
               "lb_cl": ""
