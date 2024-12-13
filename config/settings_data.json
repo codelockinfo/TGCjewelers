@@ -3012,7 +3012,7 @@
             "type": "mega",
             "settings": {
               "title": "Pendants",
-              "url": "shopify://collections/pendants",
+              "url": "shopify://collections/diamond-pendants",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3041,7 +3041,7 @@
               "image": "shopify://shop_images/FMP18794_1.jpg",
               "cat_design": "1",
               "hoverz": true,
-              "collection": "pendants",
+              "collection": "diamond-pendants",
               "title": "",
               "col": "6"
             }
