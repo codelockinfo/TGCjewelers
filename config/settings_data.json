@@ -1006,7 +1006,7 @@
             "type": "menu",
             "settings": {
               "title": "Custom",
-              "url": "",
+              "url": "shopify://pages/custom-jewelry",
               "open_link": "_self",
               "menu": "",
               "icon": "",
