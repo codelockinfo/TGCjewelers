@@ -957,10 +957,10 @@
           "menu_ceyBEf": {
             "type": "menu",
             "settings": {
-              "title": "Women's",
+              "title": "Pendants",
               "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "pendants",
               "icon": "",
               "lb": "",
               "lb_cl": ""
