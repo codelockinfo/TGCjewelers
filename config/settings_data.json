@@ -969,10 +969,10 @@
           "menu_3bCLyz": {
             "type": "menu",
             "settings": {
-              "title": "Gold Chain",
+              "title": "Chain",
               "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "chain-megamenu",
               "icon": "",
               "lb": "",
               "lb_cl": ""
