@@ -1017,8 +1017,8 @@
           "menu_7zF87b": {
             "type": "menu",
             "settings": {
-              "title": "Made to Order",
-              "url": "",
+              "title": "Jewelry Accessories",
+              "url": "shopify://pages/custom-jewelry",
               "open_link": "_self",
               "menu": "",
               "icon": "",
