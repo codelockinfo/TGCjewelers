@@ -1018,7 +1018,7 @@
             "type": "menu",
             "settings": {
               "title": "Jewelry Accessories",
-              "url": "shopify://pages/custom-jewelry",
+              "url": "shopify://collections/jewelry-accessories",
               "open_link": "_self",
               "menu": "",
               "icon": "",
