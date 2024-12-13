@@ -3050,7 +3050,7 @@
             "type": "mega",
             "settings": {
               "title": "Chains",
-              "url": "shopify://collections/chains",
+              "url": "shopify://collections/diamond-chains",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -3090,7 +3090,7 @@
               "image": "shopify://shop_images/DSC04618.jpg",
               "cat_design": "1",
               "hoverz": true,
-              "collection": "chains",
+              "collection": "diamond-chains",
               "title": "",
               "col": "4"
             }
