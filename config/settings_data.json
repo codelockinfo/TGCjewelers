@@ -981,10 +981,10 @@
           "menu_hwNGh6": {
             "type": "menu",
             "settings": {
-              "title": "Engagement",
+              "title": "Bracelets",
               "url": "",
               "open_link": "_self",
-              "menu": "",
+              "menu": "bracelets-megamenu",
               "icon": "",
               "lb": "",
               "lb_cl": ""
