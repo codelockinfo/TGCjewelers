@@ -3384,7 +3384,7 @@
             "settings": {
               "slide_image": "shopify://shop_images/4_6ea68f7a-85e7-46cd-8e6b-ed97c1bd1b91.jpg",
               "heading": "Rings",
-              "img_heading_url": "shopify://collections/moissanite-rings"
+              "img_heading_url": "shopify://collections/diamond-rings"
             }
           },
           "collection_WDygU3": {
@@ -3392,7 +3392,7 @@
             "settings": {
               "slide_image": "shopify://shop_images/1_977a4b45-03c4-4ad1-90f5-fdba5960f1e0.jpg",
               "heading": "Earrings",
-              "img_heading_url": "shopify://collections/earrings"
+              "img_heading_url": "shopify://collections/diamond-earrings"
             }
           },
           "collection_dFeTTx": {
@@ -3400,7 +3400,7 @@
             "settings": {
               "slide_image": "shopify://shop_images/3_3e88519c-37fe-4180-804f-eee0a31f6267.jpg",
               "heading": "Wedding Bands",
-              "img_heading_url": "shopify://collections/delicate-bands"
+              "img_heading_url": "shopify://collections/wedding-bands"
             }
           },
           "collection_dqQ37a": {
@@ -3424,7 +3424,7 @@
             "settings": {
               "slide_image": "shopify://shop_images/Pendant_Necklace.jpg",
               "heading": "Pendant Necklace",
-              "img_heading_url": "shopify://collections/pendant-necklace"
+              "img_heading_url": "shopify://collections/delicate-pendants"
             }
           }
         },
