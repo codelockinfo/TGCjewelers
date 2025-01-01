@@ -3711,8 +3711,8 @@
         ],
         "settings": {
           "bgimg": "shopify://shop_images/0e671863283fdd05f4703464f27445a4.jpg",
-          "mainheading": "What they say about us",
-          "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+          "mainheading": "Testimonials",
+          "paragraph": ""
         }
       },
       "wis_heading": {
